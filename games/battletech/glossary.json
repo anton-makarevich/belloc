@@ -1,6 +1,6 @@
 {
-  "_about": "Гласарый BATTLETECH. bel — наш варыянт, de — афіцыйны нямецкі (падказка; для 26–40 % радкоў — крыніца), ru — афіцыйны рускі (падказка), gender: м/ж/н/мн. Рашэнне 2026-11-18: мехі і іншая тэхніка — лацінкай, без перакладу; планеты і сістэмы — транслітарацыя ў беларускім пісьме; фракцыі — апісальныя назвы перакладаюцца, імёны роду ці кіраўніка транслітаруюцца, брэнды — лацінкай; галіна рашэння — у note. Запоўнены G1 (тэрміны, інтэрфейс, скарачэнні, караблі, каманда кампаніі), лацінскія радкі G2a (мехі, названая тэхніка) і планеты G2b (places); фракцыі G2c і персанажы G3 — па пачках з вычыткай. Рашэнні, дзе ключ або заўвага — цытата тэксту гульні, — у local/battletech/glossary.local.json. Правілы транслітарацыі і фракцый — у STYLE.md.",
-  "_памер": "G1 — каля 150 запісаў; G2a — мехі і названая тэхніка лацінкай; G2b — 219 планет (унесеныя ў places); G2c — фракцыі і зброя: аснова ўнесеная (буйныя фракцыі, базавыя тэрміны, AC/2–AC/20), рэшта (наёмніцкія каманды, мадэлі зброі і боекомплект) — у чарнавых спісах local/battletech/build/ (glossary-candidates.csv, glossary-draft.json) да вычыткі.",
+  "_about": "Гласарый BATTLETECH. bel — наш варыянт, de — афіцыйны нямецкі (падказка; для 26–40 % радкоў — крыніца), ru — афіцыйны рускі (падказка), gender: м/ж/н/мн. Рашэнне 2026-11-18: мехі і іншая тэхніка — лацінкай, без перакладу; планеты і сістэмы — транслітарацыя ў беларускім пісьме; фракцыі — апісальныя назвы перакладаюцца, імёны роду ці кіраўніка транслітаруюцца, брэнды — лацінкай; галіна рашэння — у note. Запоўнены G1 (тэрміны, інтэрфейс, скарачэнні, караблі, каманда кампаніі), лацінскія радкі G2a (мехі, названая тэхніка), планеты G2b (places) і фракцыі/зброя G2c; персанажы G3 — па пачках з вычыткай. Рашэнні, дзе ключ або заўвага — цытата тэксту гульні, — у local/battletech/glossary.local.json. Правілы транслітарацыі і фракцый — у STYLE.md.",
+  "_памер": "G1 — каля 150 запісаў; G2a — мехі і названая тэхніка лацінкай; G2b — 219 планет (унесеныя ў places); G2c — фракцыі і зброя (унесеныя; чарнавыя спісы застаюцца ў local/battletech/build/ для зверкі).",
   "characters": {
     "Kamea Arano": {
       "bel": "Камея Арана",
@@ -86,6 +86,41 @@
       "gender": "м",
       "ru": "Верховный лорд Тамати Арано II",
       "de": "High Lord Tamati Arano II."
+    },
+    "Darius": {
+      "bel": "Дарыус",
+      "gender": "м",
+      "note": "скарочаная форма; гл. Darius Oliveira",
+      "ru": "Дариус",
+      "de": "Darius"
+    },
+    "Dr. Murad": {
+      "bel": "доктар Мурад",
+      "gender": "ж",
+      "note": "скарочаная форма; гл. Dr. Farah Murad",
+      "ru": "Доктор Мурад",
+      "de": "Dr. Murad"
+    },
+    "Farah": {
+      "bel": "Фара",
+      "gender": "ж",
+      "note": "скарочаная форма; гл. Dr. Farah Murad",
+      "ru": "Фара",
+      "de": "farah"
+    },
+    "Sumire": {
+      "bel": "Сумірэ",
+      "gender": "ж",
+      "note": "скарочаная форма; гл. Sumire Meyer",
+      "ru": "Сумирэ",
+      "de": "Sumire"
+    },
+    "Yang": {
+      "bel": "Ян",
+      "gender": "м",
+      "note": "скарочаная форма; гл. Yang Virtanen",
+      "ru": "Ян",
+      "de": "Yang"
     }
   },
   "places": {
@@ -240,7 +275,7 @@
       "de": "Brixtana"
     },
     "Brockway": {
-      "bel": "Брокуэй",
+      "bel": "Броквэй",
       "ru": "Броквей",
       "de": "Brockway"
     },
@@ -1469,6 +1504,386 @@
       "note": "скарочаная назва: пераклад",
       "ru": "Лоялисты",
       "de": "Restauration"
+    },
+    "Abandoned": {
+      "bel": "Пакінутыя",
+      "gender": "мн",
+      "note": "агульная пазнака",
+      "ru": "Заброшенные",
+      "de": "Aufgegeben"
+    },
+    "Andurien": {
+      "bel": "Андурыен",
+      "gender": "м",
+      "note": "скарочаная назва; транслітарацыя",
+      "ru": "Андурьен",
+      "de": "Andurien"
+    },
+    "Baumann": {
+      "bel": "Бауман",
+      "gender": "м",
+      "note": "лацінкай; дэманім Baumann Group",
+      "ru": "Бауманн",
+      "de": "Baumann"
+    },
+    "BCD": {
+      "bel": "BCD",
+      "gender": "ж",
+      "note": "скарачэнне Black Caldera Defense; лацінкай",
+      "ru": "ЗЧВ",
+      "de": "BCD"
+    },
+    "Betrayers": {
+      "bel": "Здраднікі",
+      "gender": "мн",
+      "note": "апісальная назва: пераклад",
+      "ru": "Предатели",
+      "de": "Verräter"
+    },
+    "Bounty Hunter": {
+      "bel": "Bounty Hunter",
+      "gender": "м",
+      "note": "апісальная назва: пераклад",
+      "ru": "Охотник за головами",
+      "de": "Kopfgeldjäger"
+    },
+    "Bounty Hunter Associates": {
+      "bel": "Паплечнікі Bounty Hunter'а",
+      "gender": "мн",
+      "note": "апісальная назва: пераклад",
+      "ru": "Партнёры Охотника за головами",
+      "de": "Partner des Kopfgeldjägers"
+    },
+    "Brockway refugees": {
+      "bel": "Уцекачы з Броквэя",
+      "gender": "мн",
+      "note": "апісанне перакладзена, Brockway — транслітарацыя",
+      "ru": "Беженцы из Броквея",
+      "de": "Brockway-Flüchtlinge"
+    },
+    "Canopian": {
+      "bel": "канопскі",
+      "note": "дэманім ад Magistracy of Canopus",
+      "ru": "Магистрат Канопуса",
+      "de": "Canopus"
+    },
+    "Capellan": {
+      "bel": "капеланскі",
+      "note": "дэманім ад Capellan Confederation",
+      "ru": "Капелланская конфедерация",
+      "de": "Capella"
+    },
+    "Dawn": {
+      "bel": "Dawn",
+      "gender": "ж",
+      "note": "лацінкай; дэманім Emerald Dawn",
+      "ru": "Рассвет",
+      "de": "Dawn"
+    },
+    "Duchy of Andurien": {
+      "bel": "Герцагства Андурыена",
+      "gender": "н",
+      "note": "апісанне перакладзена, Andurien — транслітарацыя",
+      "ru": "Герцогство Андурьен",
+      "de": "Herzogtum von Andurien"
+    },
+    "Ed Corbu": {
+      "bel": "Эд Корбу",
+      "gender": "м",
+      "note": "імя: транслітарацыя",
+      "ru": "Эд Корбу",
+      "de": "Ed Corbu"
+    },
+    "Ed's": {
+      "bel": "Эд",
+      "gender": "м",
+      "note": "дэманім ад Ed Corbu; у ru — Эд",
+      "ru": "Эд",
+      "de": "Eds"
+    },
+    "Emerald Dawn": {
+      "bel": "Emerald Dawn",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "«Изумрудный рассвет»",
+      "de": "Emerald Dawn"
+    },
+    "Flak Jackals": {
+      "bel": "Flak Jackals",
+      "gender": "мн",
+      "note": "лацінкай",
+      "ru": "Шакалы",
+      "de": "Flak Jackals"
+    },
+    "Gray Death": {
+      "bel": "Gray Death",
+      "gender": "м",
+      "note": "лацінкай; дэманім Gray Death Legion",
+      "ru": "Серая смерть",
+      "de": "von Gray Death"
+    },
+    "Horvat": {
+      "bel": "Горват",
+      "gender": "м",
+      "note": "скарочаная назва; імя: транслітарацыя",
+      "ru": "Хорват",
+      "de": "Horvat"
+    },
+    "Hostile Mercenaries": {
+      "bel": "Варожыя наёмнікі",
+      "gender": "мн",
+      "note": "апісальная назва: пераклад",
+      "ru": "Враждебные наёмники",
+      "de": "Feindselige Söldner"
+    },
+    "Hostile Mercs": {
+      "bel": "Варожыя наёмнікі",
+      "gender": "мн",
+      "note": "скарочаная назва: пераклад",
+      "ru": "Враждебные наёмники",
+      "de": "Feindselige Söldner"
+    },
+    "House Khulan": {
+      "bel": "Дом Хуланаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Хулан",
+      "de": "Haus Khulan"
+    },
+    "House Nakano": {
+      "bel": "Дом Накана",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя; яп.",
+      "ru": "Дом Накано",
+      "de": "Haus Nakano"
+    },
+    "House Nakano's": {
+      "bel": "Дом Накана",
+      "gender": "м",
+      "note": "прыналежная форма; гл. House Nakano",
+      "ru": "Дом Накано",
+      "de": "von Haus Nakano"
+    },
+    "KellHounds": {
+      "bel": "Kell Hounds",
+      "gender": "мн",
+      "note": "лацінкай; тое ж, што Kell Hounds",
+      "ru": "«Гончие Келла»",
+      "de": "Kell Hounds"
+    },
+    "Khulan": {
+      "bel": "Хулан",
+      "gender": "м",
+      "note": "скарочаная назва; транслітарацыя",
+      "ru": "Хулан",
+      "de": "Khulan"
+    },
+    "Kuritan": {
+      "bel": "курытанскі",
+      "note": "дэманім ад House Kurita",
+      "ru": "Курита",
+      "de": "Kurita"
+    },
+    "local government": {
+      "bel": "Мясцовая ўлада",
+      "gender": "ж",
+      "note": "апісальная назва: пераклад",
+      "ru": "Местное правительство",
+      "de": "Lokale Regierung"
+    },
+    "Locals": {
+      "bel": "Тутэйшыя",
+      "gender": "мн",
+      "note": "апісальная назва: пераклад",
+      "ru": "Местные жители",
+      "de": "Einheimische"
+    },
+    "Lyran": {
+      "bel": "ліранскі",
+      "note": "дэманім ад Lyran Commonwealth",
+      "ru": "Лиранское содружество",
+      "de": "Lyra"
+    },
+    "Majesty": {
+      "bel": "Majesty",
+      "gender": "ж",
+      "note": "лацінкай; дэманім Majesty Metals & Manufacturing",
+      "ru": "Majesty",
+      "de": "Majesty"
+    },
+    "Majesty Metals & Manufacturing": {
+      "bel": "Majesty Metals & Manufacturing",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "Majesty Metals & Manufacturing",
+      "de": "Majesty Metals & Manufacturing"
+    },
+    "Marauders": {
+      "bel": "Marauders",
+      "gender": "мн",
+      "note": "лацінкай; дэманім Mason's Marauders",
+      "ru": "«Мародёры»",
+      "de": "Marauders"
+    },
+    "Mason's Marauders": {
+      "bel": "Mason's Marauders",
+      "gender": "мн",
+      "note": "лацінкай",
+      "ru": "Мародёры Мэйсона",
+      "de": "Masons Marodeure"
+    },
+    "Moderbjorn": {
+      "bel": "Moderbjorn",
+      "gender": "м",
+      "note": "лацінкай",
+      "ru": "Медведица",
+      "de": "Moderbjörn"
+    },
+    "Moderbjörn": {
+      "bel": "Moderbjörn",
+      "gender": "м",
+      "note": "лацінкай; дэманім Moderbjorn",
+      "ru": "Медведица",
+      "de": "Moderbjörn"
+    },
+    "Nautilus": {
+      "bel": "Nautilus",
+      "gender": "м",
+      "note": "лацінкай; дэманім Nautilus Base Defenses",
+      "ru": "«Наутилус»",
+      "de": "Nautilus"
+    },
+    "Nautilus Base Defenses": {
+      "bel": "Nautilus Base Defenses",
+      "gender": "мн",
+      "note": "лацінкай",
+      "ru": "Оборона базы «Наутилус»",
+      "de": "Verteidigung der Nautilus-Basis"
+    },
+    "Paladin Protection": {
+      "bel": "Paladin Protection",
+      "gender": "ж",
+      "note": "лацінкай; скарочаная назва Paladin Protection, LLC",
+      "ru": "«Паладин»",
+      "de": "Paladin Protection"
+    },
+    "Paladin Protection, LLC": {
+      "bel": "Paladin Protection, LLC",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "Охрана «Паладин»",
+      "de": "Paladin Protection, LLC"
+    },
+    "pirate": {
+      "bel": "Пірат",
+      "gender": "м",
+      "note": "апісальная назва: пераклад",
+      "ru": "Пират",
+      "de": "Pirat"
+    },
+    "pirates": {
+      "bel": "Піраты",
+      "gender": "мн",
+      "note": "апісальная назва: пераклад",
+      "ru": "Пираты",
+      "de": "Piraten"
+    },
+    "Razorback Company": {
+      "bel": "Razorback Company",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "Рота «Вепрь»",
+      "de": "Razorback Company"
+    },
+    "Razorbacks": {
+      "bel": "Razorbacks",
+      "gender": "мн",
+      "note": "лацінкай; дэманім Razorback Company",
+      "ru": "«Вепри»",
+      "de": "Razorbacks"
+    },
+    "Red Hare": {
+      "bel": "Red Hare",
+      "gender": "м",
+      "note": "лацінкай; дэманім Red Hare Irregulars",
+      "ru": "Красный заяц",
+      "de": "Red Hare"
+    },
+    "Red Hare Irregulars": {
+      "bel": "Red Hare Irregulars",
+      "gender": "мн",
+      "note": "лацінкай",
+      "ru": "«Красный заяц»",
+      "de": "Red Hare Irregulars"
+    },
+    "Security Solutions": {
+      "bel": "Security Solutions",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "«Охранные решения»",
+      "de": "von Security Solutions"
+    },
+    "Security Solutions, Inc.": {
+      "bel": "Security Solutions, Inc.",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "«Охранные решения»",
+      "de": "Security Solutions, Inc."
+    },
+    "Sian": {
+      "bel": "Сіань",
+      "gender": "м",
+      "note": "дэманім Sian Triumphant; транслітарацыя",
+      "ru": "Сиан",
+      "de": "Sian"
+    },
+    "Sian Triumphant": {
+      "bel": "Sian Triumphant",
+      "gender": "м",
+      "note": "лацінкай",
+      "ru": "Сианский победитель",
+      "de": "Sian siegreich"
+    },
+    "Steel Beast": {
+      "bel": "Steel Beast",
+      "gender": "м",
+      "note": "лацінкай",
+      "ru": "Стальной Зверь",
+      "de": "Steel Beast"
+    },
+    "Taurian": {
+      "bel": "таўрыянскі",
+      "note": "дэманім ад Taurian Concordat",
+      "ru": "Конкордат",
+      "de": "Taurus"
+    },
+    "Taurians": {
+      "bel": "Таўрыяне",
+      "gender": "мн",
+      "note": "назва жыхароў Taurian Concordat",
+      "ru": "Таурианцы",
+      "de": "Taurianer"
+    },
+    "Tournament of Champions": {
+      "bel": "Турнір чэмпіёнаў",
+      "gender": "м",
+      "note": "апісальная назва: пераклад",
+      "ru": "Турнир чемпионов",
+      "de": "Turnier der Champions"
+    },
+    "Trustworthy Client": {
+      "bel": "Надзейны кліент",
+      "gender": "м",
+      "note": "апісальная назва: пераклад",
+      "ru": "Надёжный клиент",
+      "de": "Vertrauenswürdiger Kunde"
+    },
+    "Unknown": {
+      "bel": "Невядома",
+      "gender": "н",
+      "note": "агульная пазнака",
+      "ru": "неизвестно",
+      "de": "UNBEKANNT"
     }
   },
   "mechs": {
@@ -1818,6 +2233,478 @@
       "note": "код узбраення лацінкай",
       "ru": "АП-20",
       "de": "AK/20"
+    },
+    "AC/2 +": {
+      "bel": "AC/2 +",
+      "note": "код узбраення лацінкай; «+» — лепшая якасць",
+      "ru": "АП-2 +",
+      "de": "AK/2 +"
+    },
+    "AC/2 + +": {
+      "bel": "AC/2 + +",
+      "note": "код узбраення лацінкай; «+ +» — найлепшая якасць",
+      "ru": "АП-2 + +",
+      "de": "AK/2 + +"
+    },
+    "AC/2 Ammo": {
+      "bel": "боепрыпасы AC/2",
+      "gender": "мн",
+      "ru": "Боеприпасы АП/2",
+      "de": "AK/2-Munition"
+    },
+    "AC/5 +": {
+      "bel": "AC/5 +",
+      "note": "код узбраення лацінкай; «+» — лепшая якасць",
+      "ru": "АП-5 +",
+      "de": "AK/5 +"
+    },
+    "AC/5 + +": {
+      "bel": "AC/5 + +",
+      "note": "код узбраення лацінкай; «+ +» — найлепшая якасць",
+      "ru": "AП-5 + +",
+      "de": "AK/5 + +"
+    },
+    "AC/5 Ammo": {
+      "bel": "боепрыпасы AC/5",
+      "gender": "мн",
+      "ru": "Боеприпасы АП/5",
+      "de": "AK/5-Munition"
+    },
+    "AC/10 +": {
+      "bel": "AC/10 +",
+      "note": "код узбраення лацінкай; «+» — лепшая якасць",
+      "ru": "АП-10 +",
+      "de": "AK/10 +"
+    },
+    "AC/10 + +": {
+      "bel": "AC/10 + +",
+      "note": "код узбраення лацінкай; «+ +» — найлепшая якасць",
+      "ru": "АП-10 + +",
+      "de": "AK/10 + +"
+    },
+    "AC/10 Ammo": {
+      "bel": "боепрыпасы AC/10",
+      "gender": "мн",
+      "ru": "Боеприпасы АП/10",
+      "de": "AK/10-Munition"
+    },
+    "AC/20 +": {
+      "bel": "AC/20 +",
+      "note": "код узбраення лацінкай; «+» — лепшая якасць",
+      "ru": "АП-20 +",
+      "de": "AK/20 +"
+    },
+    "AC/20 + +": {
+      "bel": "AC/20 + +",
+      "note": "код узбраення лацінкай; «+ +» — найлепшая якасць",
+      "ru": "АП-20 + +",
+      "de": "AK/20 + +"
+    },
+    "AC/20 Ammo": {
+      "bel": "боепрыпасы AC/20",
+      "gender": "мн",
+      "ru": "Боеприпасы АП/20",
+      "de": "AK/20-Munition"
+    },
+    "ER PPC": {
+      "bel": "ER PPC",
+      "note": "ER = павышаная далёкасць; лацінкай",
+      "ru": "ПИЧ УД",
+      "de": "ER PPK"
+    },
+    "ER PPC +": {
+      "bel": "ER PPC +",
+      "note": "«+» — лепшая якасць",
+      "ru": "ПИЧ УД +",
+      "de": "ER-PPK +"
+    },
+    "PPC +": {
+      "bel": "PPC +",
+      "note": "«+» — лепшая якасць",
+      "ru": "ПИЧ +",
+      "de": "PPK +"
+    },
+    "L Laser": {
+      "bel": "вялікі лазер",
+      "gender": "м",
+      "note": "L = large (вялікі)",
+      "ru": "Б. лазер",
+      "de": "S-Laser"
+    },
+    "L Laser +": {
+      "bel": "вялікі лазер +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "Б. лазер +",
+      "de": "S-Laser +"
+    },
+    "L Laser + +": {
+      "bel": "вялікі лазер + +",
+      "gender": "м",
+      "note": "«+ +» — найлепшая якасць",
+      "ru": "Б. лазер + +",
+      "de": "S-Laser + +"
+    },
+    "M Laser": {
+      "bel": "сярэдні лазер",
+      "gender": "м",
+      "note": "M = medium (сярэдні)",
+      "ru": "С. лазер",
+      "de": "M-Laser"
+    },
+    "M Laser +": {
+      "bel": "сярэдні лазер +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "С. лазер +",
+      "de": "M-Laser +"
+    },
+    "M Laser + +": {
+      "bel": "сярэдні лазер + +",
+      "gender": "м",
+      "note": "«+ +» — найлепшая якасць",
+      "ru": "С. лазер + +",
+      "de": "M-Laser + +"
+    },
+    "S Laser": {
+      "bel": "малы лазер",
+      "gender": "м",
+      "note": "S = small (малы)",
+      "ru": "М. лазер",
+      "de": "L-Laser"
+    },
+    "S Laser +": {
+      "bel": "малы лазер +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "М. лазер +",
+      "de": "L-Laser +"
+    },
+    "S Laser + +": {
+      "bel": "малы лазер + +",
+      "gender": "м",
+      "note": "«+ +» — найлепшая якасць",
+      "ru": "М. лазер + +",
+      "de": "L-Laser + +"
+    },
+    "ER L Laser": {
+      "bel": "ER вялікі лазер",
+      "gender": "м",
+      "note": "ER = павышаная далёкасць; лацінкай",
+      "ru": "Б. лазер УД",
+      "de": "ER-S-Laser"
+    },
+    "ER L Laser +": {
+      "bel": "ER вялікі лазер +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "Б. лазер УД +",
+      "de": "ER-S-Laser +"
+    },
+    "ER M Laser": {
+      "bel": "ER сярэдні лазер",
+      "gender": "м",
+      "note": "ER = павышаная далёкасць; лацінкай",
+      "ru": "С. лазер УД",
+      "de": "ER-M-Laser"
+    },
+    "ER M Laser +": {
+      "bel": "ER сярэдні лазер +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "С. лазер УД +",
+      "de": "ER-M-Laser +"
+    },
+    "ER S Laser": {
+      "bel": "ER малы лазер",
+      "gender": "м",
+      "note": "ER = павышаная далёкасць; лацінкай",
+      "ru": "М. лазер УД",
+      "de": "ER-L-Laser"
+    },
+    "ER S Laser +": {
+      "bel": "ER малы лазер +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "М. лазер УД +",
+      "de": "ER-L-Laser +"
+    },
+    "L Pulse": {
+      "bel": "вялікі імпульсны лазер",
+      "gender": "м",
+      "note": "Pulse = імпульсны",
+      "ru": "Б. имп. лазер",
+      "de": "S-Impuls"
+    },
+    "L Pulse +": {
+      "bel": "вялікі імпульсны лазер +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "Б. имп. лазер +",
+      "de": "S-Impuls +"
+    },
+    "M Pulse": {
+      "bel": "сярэдні імпульсны лазер",
+      "gender": "м",
+      "note": "Pulse = імпульсны",
+      "ru": "С. имп. лазер",
+      "de": "M-Impuls"
+    },
+    "M Pulse +": {
+      "bel": "сярэдні імпульсны лазер +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "С. имп. лазер +",
+      "de": "M-Impuls +"
+    },
+    "S Pulse": {
+      "bel": "малы імпульсны лазер",
+      "gender": "м",
+      "note": "Pulse = імпульсны",
+      "ru": "М. имп. лазер",
+      "de": "L-Impuls"
+    },
+    "S Pulse +": {
+      "bel": "малы імпульсны лазер +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "М. имп. лазер +",
+      "de": "L-Impuls +"
+    },
+    "AI Laser": {
+      "bel": "ШІ-лазер",
+      "gender": "м",
+      "note": "AI = штучны інтэлект",
+      "ru": "ИИ-лазер",
+      "de": "KI-Laser"
+    },
+    "LRM5": {
+      "bel": "LRM5",
+      "gender": "мн",
+      "note": "лацінкай; LRM — ракеты далёкага бою",
+      "ru": "РБД-5",
+      "de": "LSR-5"
+    },
+    "LRM5 +": {
+      "bel": "LRM5 +",
+      "gender": "мн",
+      "note": "лацінкай; «+» — лепшая якасць",
+      "ru": "РБД-5 +",
+      "de": "LSR-5 +"
+    },
+    "LRM5 + +": {
+      "bel": "LRM5 + +",
+      "gender": "мн",
+      "note": "лацінкай; «+ +» — найлепшая якасць",
+      "ru": "РБД-5 + +",
+      "de": "LSR-5 + +"
+    },
+    "LRM10": {
+      "bel": "LRM10",
+      "gender": "мн",
+      "note": "лацінкай; LRM — ракеты далёкага бою",
+      "ru": "РБД-10",
+      "de": "LSR-10"
+    },
+    "LRM10 +": {
+      "bel": "LRM10 +",
+      "gender": "мн",
+      "note": "лацінкай; «+» — лепшая якасць",
+      "ru": "РБД-10 +",
+      "de": "LSR-10 +"
+    },
+    "LRM10 + +": {
+      "bel": "LRM10 + +",
+      "gender": "мн",
+      "note": "лацінкай; «+ +» — найлепшая якасць",
+      "ru": "РБД-10 + +",
+      "de": "LSR-10 + +"
+    },
+    "LRM15": {
+      "bel": "LRM15",
+      "gender": "мн",
+      "note": "лацінкай; LRM — ракеты далёкага бою",
+      "ru": "РБД-15",
+      "de": "LSR-15"
+    },
+    "LRM15 +": {
+      "bel": "LRM15 +",
+      "gender": "мн",
+      "note": "лацінкай; «+» — лепшая якасць",
+      "ru": "РБД-15 +",
+      "de": "LSR-15 +"
+    },
+    "LRM15 + +": {
+      "bel": "LRM15 + +",
+      "gender": "мн",
+      "note": "лацінкай; «+ +» — найлепшая якасць",
+      "ru": "РБД-15 + +",
+      "de": "LSR-15 + +"
+    },
+    "LRM20": {
+      "bel": "LRM20",
+      "gender": "мн",
+      "note": "лацінкай; LRM — ракеты далёкага бою",
+      "ru": "РБД-20",
+      "de": "LSR-20"
+    },
+    "LRM20 +": {
+      "bel": "LRM20 +",
+      "gender": "мн",
+      "note": "лацінкай; «+» — лепшая якасць",
+      "ru": "РБД-20 +",
+      "de": "LSR-20 +"
+    },
+    "LRM20 + +": {
+      "bel": "LRM20 + +",
+      "gender": "мн",
+      "note": "лацінкай; «+ +» — найлепшая якасць",
+      "ru": "РБД-20 + +",
+      "de": "LSR-20 + +"
+    },
+    "LRM Ammo": {
+      "bel": "боепрыпасы LRM",
+      "gender": "мн",
+      "note": "лацінкай",
+      "ru": "Боеприпасы РБД",
+      "de": "LSR-Munition"
+    },
+    "SRM2": {
+      "bel": "SRM2",
+      "gender": "мн",
+      "note": "лацінкай; SRM — ракеты блізкага бою",
+      "ru": "РМД-2",
+      "de": "KSR-2"
+    },
+    "SRM2 +": {
+      "bel": "SRM2 +",
+      "gender": "мн",
+      "note": "лацінкай; «+» — лепшая якасць",
+      "ru": "РМД-2 +",
+      "de": "KSR-2 +"
+    },
+    "SRM2 + +": {
+      "bel": "SRM2 + +",
+      "gender": "мн",
+      "note": "лацінкай; «+ +» — найлепшая якасць",
+      "ru": "РМД-2 + +",
+      "de": "KSR-2 + +"
+    },
+    "SRM4": {
+      "bel": "SRM4",
+      "gender": "мн",
+      "note": "лацінкай; SRM — ракеты блізкага бою",
+      "ru": "РМД-4",
+      "de": "KSR-4"
+    },
+    "SRM4 +": {
+      "bel": "SRM4 +",
+      "gender": "мн",
+      "note": "лацінкай; «+» — лепшая якасць",
+      "ru": "РМД-4 +",
+      "de": "KSR-4 +"
+    },
+    "SRM4 + +": {
+      "bel": "SRM4 + +",
+      "gender": "мн",
+      "note": "лацінкай; «+ +» — найлепшая якасць",
+      "ru": "РМД-4 + +",
+      "de": "KSR-4 + +"
+    },
+    "SRM6": {
+      "bel": "SRM6",
+      "gender": "мн",
+      "note": "лацінкай; SRM — ракеты блізкага бою",
+      "ru": "РМД-6",
+      "de": "KSR-6"
+    },
+    "SRM6 +": {
+      "bel": "SRM6 +",
+      "gender": "мн",
+      "note": "лацінкай; «+» — лепшая якасць",
+      "ru": "РМД-6 +",
+      "de": "KSR-6 +"
+    },
+    "SRM6 + +": {
+      "bel": "SRM6 + +",
+      "gender": "мн",
+      "note": "лацінкай; «+ +» — найлепшая якасць",
+      "ru": "РМД-6 + +",
+      "de": "KSR-6 + +"
+    },
+    "SRM Ammo": {
+      "bel": "боепрыпасы SRM",
+      "gender": "мн",
+      "note": "лацінкай",
+      "ru": "Боеприпасы РМД",
+      "de": "KSR-Munition"
+    },
+    "MG +": {
+      "bel": "кулямёт +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "Пулемёт +",
+      "de": "MG +"
+    },
+    "MG Ammo": {
+      "bel": "боепрыпасы да кулямёта",
+      "gender": "мн",
+      "ru": "Пулем. патроны",
+      "de": "MG-Munition"
+    },
+    "Flamer +": {
+      "bel": "агнямёт +",
+      "gender": "м",
+      "note": "«+» — лепшая якасць",
+      "ru": "Огнемёт +",
+      "de": "Flammer +"
+    },
+    "Flamer Ammo": {
+      "bel": "паліва для агнямёта",
+      "gender": "н",
+      "note": "паліва, не боепрыпасы",
+      "ru": "Огнемётное топливо",
+      "de": "Flammermunition"
+    },
+    "Gauss Ammo": {
+      "bel": "боепрыпасы да гарматы Гауса",
+      "gender": "мн",
+      "ru": "Боеприпасы Гаусса",
+      "de": "Gaußmunition"
+    },
+    "AMS Ammo": {
+      "bel": "боепрыпасы AMS",
+      "gender": "мн",
+      "note": "AMS — лацінкай",
+      "ru": "Боеприпасы ПРС",
+      "de": "RAS-Munition"
+    },
+    "AUTOPILOT": {
+      "bel": "аўтапілот",
+      "gender": "м",
+      "ru": "Автопилот",
+      "de": "AUTOPILOT"
+    },
+    "Assault Jump Jet (A)": {
+      "bel": "Assault Jump Jet (A)",
+      "gender": "м",
+      "note": "лацінкай",
+      "ru": "Штурмовой прыжковый двигатель (Ш)",
+      "de": "Überschwere Sprungdüse (Ü)"
+    },
+    "Heavy Jump Jet (H)": {
+      "bel": "Heavy Jump Jet (H)",
+      "gender": "м",
+      "note": "лацінкай",
+      "ru": "Тяжёлый прыжковый двигатель (Т)",
+      "de": "Schwere Sprungdüse (S)"
+    },
+    "Standard Jump Jet (S)": {
+      "bel": "Standard Jump Jet (S)",
+      "gender": "м",
+      "note": "лацінкай",
+      "ru": "Стандартный прыжковый двигатель (С)",
+      "de": "Standard-Sprungdüse (St)"
     }
   },
   "terms": {
