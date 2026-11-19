@@ -1,6 +1,6 @@
 {
-  "_about": "Гласарый BATTLETECH. bel — наш варыянт, de — афіцыйны нямецкі (падказка; для 26–40 % радкоў — крыніца), ru — афіцыйны рускі (падказка), gender: м/ж/н/мн. Рашэнне 2026-11-18: мехі і іншая тэхніка — лацінкай, без перакладу; планеты і сістэмы — транслітарацыя ў беларускім пісьме; фракцыі — апісальныя назвы перакладаюцца, імёны роду ці кіраўніка транслітаруюцца, брэнды — лацінкай; галіна рашэння — у note. Запоўнены G1 (тэрміны, інтэрфейс, скарачэнні, караблі, каманда кампаніі) і лацінскія радкі G2a (мехі, названая тэхніка); планеты (G2b), фракцыі G2c і персанажы G3 — па пачках з вычыткай. Рашэнні, дзе ключ або заўвага — цытата тэксту гульні, — у local/battletech/glossary.local.json. Правілы транслітарацыі і фракцый — у STYLE.md.",
-  "_памер": "G1 — каля 150 запісаў; G2a — мехі і названая тэхніка лацінкай; G2b — 219 планет, G2c — фракцыі і зброя: чарнавыя спісы ў local/battletech/build/ (glossary-candidates.csv, glossary-draft.json), у публічны файл — пасля вычыткі.",
+  "_about": "Гласарый BATTLETECH. bel — наш варыянт, de — афіцыйны нямецкі (падказка; для 26–40 % радкоў — крыніца), ru — афіцыйны рускі (падказка), gender: м/ж/н/мн. Рашэнне 2026-11-18: мехі і іншая тэхніка — лацінкай, без перакладу; планеты і сістэмы — транслітарацыя ў беларускім пісьме; фракцыі — апісальныя назвы перакладаюцца, імёны роду ці кіраўніка транслітаруюцца, брэнды — лацінкай; галіна рашэння — у note. Запоўнены G1 (тэрміны, інтэрфейс, скарачэнні, караблі, каманда кампаніі), лацінскія радкі G2a (мехі, названая тэхніка) і планеты G2b (places); фракцыі G2c і персанажы G3 — па пачках з вычыткай. Рашэнні, дзе ключ або заўвага — цытата тэксту гульні, — у local/battletech/glossary.local.json. Правілы транслітарацыі і фракцый — у STYLE.md.",
+  "_памер": "G1 — каля 150 запісаў; G2a — мехі і названая тэхніка лацінкай; G2b — 219 планет (унесеныя ў places), G2c — фракцыі і зброя: чарнавыя спісы ў local/battletech/build/ (glossary-candidates.csv, glossary-draft.json), у публічны файл — пасля вычыткі.",
   "characters": {
     "Kamea Arano": {
       "bel": "Камея Арана",
@@ -88,7 +88,1103 @@
       "de": "High Lord Tamati Arano II."
     }
   },
-  "places": {},
+  "places": {
+    "Addasar": {
+      "bel": "Адасар",
+      "ru": "Аддасар",
+      "de": "Addasar"
+    },
+    "Adrar": {
+      "bel": "Адрар",
+      "ru": "Адрар",
+      "de": "Adrar"
+    },
+    "Aea": {
+      "bel": "Эа",
+      "ru": "Эа",
+      "de": "Aea"
+    },
+    "Ahlat": {
+      "bel": "Аглат",
+      "ru": "Ахлат",
+      "de": "Ahlat"
+    },
+    "Alamagordo": {
+      "bel": "Аламагорда",
+      "ru": "Аламогордо",
+      "de": "Alamagordo"
+    },
+    "Alexandria": {
+      "bel": "Александрыя",
+      "ru": "Александрия",
+      "de": "Alexandria"
+    },
+    "Alloway": {
+      "bel": "Алоўэй",
+      "ru": "Эллоуэй",
+      "de": "Alloway"
+    },
+    "Amu Darya": {
+      "bel": "Амудар’я",
+      "ru": "Амударья",
+      "de": "Amu Darya"
+    },
+    "Andarmax": {
+      "bel": "Андармакс",
+      "ru": "Андармакс",
+      "de": "Andarmax"
+    },
+    "Antias": {
+      "bel": "Анціас",
+      "ru": "Антиас",
+      "de": "Antias"
+    },
+    "Aomen": {
+      "bel": "Аомен",
+      "ru": "Аомынь",
+      "de": "Aomen"
+    },
+    "Appian": {
+      "bel": "Апіан",
+      "ru": "Аппиан",
+      "de": "Appian"
+    },
+    "Aquagea": {
+      "bel": "Аквагі",
+      "ru": "Аквагея",
+      "de": "Aquagea"
+    },
+    "Argos": {
+      "bel": "Аргос",
+      "ru": "Аргос",
+      "de": "Argos"
+    },
+    "Arn": {
+      "bel": "Арн",
+      "ru": "Арн",
+      "de": "Arn"
+    },
+    "Artru": {
+      "bel": "Артру",
+      "ru": "Артру",
+      "de": "Artru"
+    },
+    "Athna": {
+      "bel": "Атна",
+      "ru": "Атна",
+      "de": "Athna"
+    },
+    "Atreus Prime": {
+      "bel": "Атрэус Прым",
+      "ru": "Атрей Прайм",
+      "de": "Atreus Prime"
+    },
+    "Balawat": {
+      "bel": "Балават",
+      "ru": "Балават",
+      "de": "Balawat"
+    },
+    "Barras": {
+      "bel": "Барас",
+      "ru": "Баррас",
+      "de": "Barras"
+    },
+    "Bellatrix": {
+      "bel": "Белатрыкс",
+      "ru": "Беллатрикс",
+      "de": "Bellatrix"
+    },
+    "Bellerophon": {
+      "bel": "Белерафон",
+      "ru": "Беллерофон",
+      "de": "Bellerophon"
+    },
+    "Bergtatt": {
+      "bel": "Бергтат",
+      "ru": "Бергтатт",
+      "de": "Bergtatt"
+    },
+    "Bonavista": {
+      "bel": "Бонавіста",
+      "ru": "Бонависта",
+      "de": "Bonavista"
+    },
+    "Borden": {
+      "bel": "Бордэн",
+      "ru": "Борден",
+      "de": "Borden"
+    },
+    "Borka": {
+      "bel": "Борка",
+      "ru": "Борка",
+      "de": "Borka"
+    },
+    "Bringdam": {
+      "bel": "Брынгдам",
+      "ru": "Брингдам",
+      "de": "Bringdam"
+    },
+    "Brinton": {
+      "bel": "Брынтан",
+      "ru": "Бринтон",
+      "de": "Brinton"
+    },
+    "Brisbane": {
+      "bel": "Брысбан",
+      "ru": "Брисбен",
+      "de": "Brisbane"
+    },
+    "Brixtana": {
+      "bel": "Брыкстана",
+      "ru": "Брикстана",
+      "de": "Brixtana"
+    },
+    "Brockway": {
+      "bel": "Брокуэй",
+      "ru": "Броквей",
+      "de": "Brockway"
+    },
+    "Bromhead": {
+      "bel": "Бромгід",
+      "ru": "Бромхед",
+      "de": "Bromhead"
+    },
+    "Buenos Aires": {
+      "bel": "Буэнас-Айрэс",
+      "ru": "Буэнос-Айрес",
+      "de": "Buenos Aires"
+    },
+    "Burton": {
+      "bel": "Буртан",
+      "ru": "Бертон",
+      "de": "Burton"
+    },
+    "Calseraigne": {
+      "bel": "Калсерэйн",
+      "ru": "Кальсерень",
+      "de": "Calseraigne"
+    },
+    "Camadeirre": {
+      "bel": "Камадэйр",
+      "ru": "Камадир",
+      "de": "Camadeirre"
+    },
+    "Carmichael": {
+      "bel": "Кармічэл",
+      "ru": "Кармайкл",
+      "de": "Carmichael"
+    },
+    "Carthage": {
+      "bel": "Картаг",
+      "ru": "Карфаген",
+      "de": "Carthage"
+    },
+    "Cassilda": {
+      "bel": "Касільда",
+      "ru": "Кассильда",
+      "de": "Cassilda"
+    },
+    "Cate's Hold": {
+      "bel": "Кэйтс Холд",
+      "ru": "Крепость Кейта",
+      "de": "Cate's Hold"
+    },
+    "Cavalor": {
+      "bel": "Кавалор",
+      "ru": "Кавалор",
+      "de": "Cavalor"
+    },
+    "Chandan": {
+      "bel": "Чандан",
+      "ru": "Чандан",
+      "de": "Chandan"
+    },
+    "Chennai": {
+      "bel": "Чэнай",
+      "ru": "Ченнаи",
+      "de": "Chennai"
+    },
+    "Claybrooke": {
+      "bel": "Клэйбрук",
+      "ru": "Клейбрук",
+      "de": "Claybrooke"
+    },
+    "Cluff's Stand": {
+      "bel": "Клуфс Стэнд",
+      "ru": "Опора Клаффа",
+      "de": "Cluff's Stand"
+    },
+    "Columbine": {
+      "bel": "Калумбін",
+      "ru": "Коломбина",
+      "de": "Columbine"
+    },
+    "Corodiz": {
+      "bel": "Кародзіз",
+      "ru": "Кородиз",
+      "de": "Corodiz"
+    },
+    "Coromodir": {
+      "bel": "Карамадзір",
+      "ru": "Коромодир",
+      "de": "Coromodir"
+    },
+    "Cursa": {
+      "bel": "Курса",
+      "ru": "Курса",
+      "de": "Cursa"
+    },
+    "Cygnus": {
+      "bel": "Сігнус",
+      "ru": "Лебедь",
+      "de": "Cygnus"
+    },
+    "Dainmar Majoris": {
+      "bel": "Дэйнмар Маджорыс",
+      "ru": "Дейнмар Майорис",
+      "de": "Dainmar Majoris"
+    },
+    "Daol": {
+      "bel": "Даол",
+      "ru": "Даол",
+      "de": "Daol"
+    },
+    "Decatur": {
+      "bel": "Дэкатур",
+      "ru": "Декатур",
+      "de": "Decatur"
+    },
+    "Desolate Plains": {
+      "bel": "Дэсолэйт Плэйнс",
+      "ru": "Безлюдные равнины",
+      "de": "Trostlose Ebene"
+    },
+    "Detroit": {
+      "bel": "Дэтройт",
+      "ru": "Детройт",
+      "de": "Detroit"
+    },
+    "Dicon": {
+      "bel": "Дзікон",
+      "ru": "Дикон",
+      "de": "Dicon"
+    },
+    "Diefenbaker": {
+      "bel": "Дзіфенбакер",
+      "ru": "Дифенбакер",
+      "de": "Diefenbaker"
+    },
+    "Drozan": {
+      "bel": "Дрозан",
+      "ru": "Дрозен",
+      "de": "Drozan"
+    },
+    "Dunianshire": {
+      "bel": "Дуніаншыр",
+      "ru": "Дунианшир",
+      "de": "Dunianshire"
+    },
+    "Early Dawn": {
+      "bel": "Эрлі Даўн",
+      "ru": "Ранний рассвет",
+      "de": "Early Dawn"
+    },
+    "Egress": {
+      "bel": "Эгрэс",
+      "ru": "Исток",
+      "de": "Egress"
+    },
+    "Electra": {
+      "bel": "Электра",
+      "ru": "Электра",
+      "de": "Electra"
+    },
+    "Enkra": {
+      "bel": "Энкра",
+      "ru": "Энкра",
+      "de": "Enkra"
+    },
+    "Espia": {
+      "bel": "Эспіа",
+      "ru": "Эспия",
+      "de": "Espia"
+    },
+    "Fagerholm": {
+      "bel": "Фагерголм",
+      "ru": "Фагерхольм",
+      "de": "Fagerholm"
+    },
+    "Fjaldr": {
+      "bel": "Ф’ялдр",
+      "ru": "Фьялдр",
+      "de": "Fjaldr"
+    },
+    "Flannagan's Nebulea": {
+      "bel": "Фланаганс Небула",
+      "ru": "Туманность Фланнагана",
+      "de": "Flannagans Nebel"
+    },
+    "Flaum": {
+      "bel": "Флаум",
+      "ru": "Флаум",
+      "de": "Flaum"
+    },
+    "Flintoft": {
+      "bel": "Флінтофт",
+      "ru": "Флинтофт",
+      "de": "Flintoft"
+    },
+    "Frazer": {
+      "bel": "Фразер",
+      "ru": "Фрейзер",
+      "de": "Frazer"
+    },
+    "Fronc": {
+      "bel": "Фронс",
+      "ru": "Фронк",
+      "de": "Fronc"
+    },
+    "Gangtok": {
+      "bel": "Гангток",
+      "ru": "Гангток",
+      "de": "Gangtok"
+    },
+    "Gardnaus": {
+      "bel": "Гарднаўс",
+      "ru": "Гарднаус",
+      "de": "Gardnaus"
+    },
+    "Gaucin": {
+      "bel": "Гаўчын",
+      "ru": "Гаусин",
+      "de": "Gaucin"
+    },
+    "Ghorepani": {
+      "bel": "Горапані",
+      "ru": "Горепани",
+      "de": "Ghorepani"
+    },
+    "Girondas": {
+      "bel": "Гірондас",
+      "ru": "Жиронда",
+      "de": "Girondas"
+    },
+    "Glentworth": {
+      "bel": "Глентуорт",
+      "ru": "Глентворт",
+      "de": "Glentworth"
+    },
+    "Granera": {
+      "bel": "Гранера",
+      "ru": "Гранера",
+      "de": "Granera"
+    },
+    "Guldra": {
+      "bel": "Гулдра",
+      "ru": "Гульдра",
+      "de": "Guldra"
+    },
+    "Gunthar": {
+      "bel": "Гунтар",
+      "ru": "Гюнтер",
+      "de": "Gunthar"
+    },
+    "Hastur": {
+      "bel": "Гастур",
+      "ru": "Хастур",
+      "de": "Hastur"
+    },
+    "Heliat": {
+      "bel": "Геліат",
+      "ru": "Гелиат",
+      "de": "Heliat"
+    },
+    "Hellespont": {
+      "bel": "Гелеспонт",
+      "ru": "Геллеспонт",
+      "de": "Hellespont"
+    },
+    "Herotitus": {
+      "bel": "Героцітус",
+      "ru": "Геротитус",
+      "de": "Herotitus"
+    },
+    "Hibuarius": {
+      "bel": "Гібуарыус",
+      "ru": "Гибуариус",
+      "de": "Hibuarius"
+    },
+    "Horsham": {
+      "bel": "Горшам",
+      "ru": "Хоршем",
+      "de": "Horsham"
+    },
+    "Hurik": {
+      "bel": "Гурык",
+      "ru": "Гурик",
+      "de": "Hurik"
+    },
+    "Ichlangis": {
+      "bel": "Ічлангіс",
+      "ru": "Ихлангис",
+      "de": "Ichlangis"
+    },
+    "Illiushin": {
+      "bel": "Ільюшын",
+      "ru": "Ильюшин",
+      "de": "Illiushin"
+    },
+    "Independence": {
+      "bel": "Індэпэндэнс",
+      "ru": "Индепенденс",
+      "de": "Independence"
+    },
+    "Ingonish": {
+      "bel": "Інгоніш",
+      "ru": "Ингониш",
+      "de": "Ingonish"
+    },
+    "Ishtar": {
+      "bel": "Іштар",
+      "ru": "Иштар",
+      "de": "Ishtar"
+    },
+    "Itica": {
+      "bel": "Іціка",
+      "ru": "Итика",
+      "de": "Itica"
+    },
+    "Itrom": {
+      "bel": "Ітром",
+      "ru": "Итром",
+      "de": "Itrom"
+    },
+    "Itsbur": {
+      "bel": "Ітсбур",
+      "ru": "Итсбур",
+      "de": "Itsbur"
+    },
+    "Jacomarle": {
+      "bel": "Джакомарл",
+      "ru": "Жакомарль",
+      "de": "Jacomarle"
+    },
+    "Jacson": {
+      "bel": "Джаксан",
+      "ru": "Яксон",
+      "de": "Jacson"
+    },
+    "Jamestown": {
+      "bel": "Джэймстаўн",
+      "ru": "Джеймстаун",
+      "de": "Jamestown"
+    },
+    "Jansen's Hold": {
+      "bel": "Янсенс Холд",
+      "ru": "Крепость Янсена",
+      "de": "Jansen's Hold"
+    },
+    "Joppa": {
+      "bel": "Ёппа",
+      "ru": "Иоппа",
+      "de": "Joppa"
+    },
+    "Katinka": {
+      "bel": "Кацінка",
+      "ru": "Катинка",
+      "de": "Katinka"
+    },
+    "Katla": {
+      "bel": "Катла",
+      "ru": "Катла",
+      "de": "Katla"
+    },
+    "Kazu": {
+      "bel": "Казу",
+      "ru": "Кадзу",
+      "de": "Kazu"
+    },
+    "Kern": {
+      "bel": "Керн",
+      "ru": "Керн",
+      "de": "Kern"
+    },
+    "Kimi": {
+      "bel": "Кімі",
+      "ru": "Кими",
+      "de": "Kimi"
+    },
+    "Krakatau": {
+      "bel": "Кракатау",
+      "ru": "Кракатау",
+      "de": "Krakatau"
+    },
+    "Kurvasa": {
+      "bel": "Курваша",
+      "ru": "Курваса",
+      "de": "Kurvasa"
+    },
+    "Laconis": {
+      "bel": "Лаконіс",
+      "ru": "Лаконис",
+      "de": "Laconis"
+    },
+    "Landmark": {
+      "bel": "Лэндмарк",
+      "ru": "Ландмарк",
+      "de": "Landmark"
+    },
+    "Larsha": {
+      "bel": "Ларша",
+      "ru": "Ларша",
+      "de": "Larsha"
+    },
+    "Leyda": {
+      "bel": "Лэіда",
+      "ru": "Лейда",
+      "de": "Leyda"
+    },
+    "Lindsay": {
+      "bel": "Ліндсэй",
+      "ru": "Линдзи",
+      "de": "Lindsay"
+    },
+    "Linhauiguan": {
+      "bel": "Лінуайгуань",
+      "ru": "Линуайгуань",
+      "de": "Linhauiguan"
+    },
+    "Liu's Memory": {
+      "bel": "Ліу Мэморы",
+      "ru": "Воспоминания Лю",
+      "de": "Lius Erinnerung"
+    },
+    "Lochmantle": {
+      "bel": "Лочмантл",
+      "ru": "Лохмантл",
+      "de": "Lochmantle"
+    },
+    "Lopez": {
+      "bel": "Лопез",
+      "ru": "Лопез",
+      "de": "Lopez"
+    },
+    "Lucknow": {
+      "bel": "Лукноў",
+      "ru": "Лакно",
+      "de": "Lucknow"
+    },
+    "Lurgatan": {
+      "bel": "Лургатан",
+      "ru": "Ларгатан",
+      "de": "Lurgatan"
+    },
+    "Lyreton": {
+      "bel": "Лірэтан",
+      "ru": "Лиретон",
+      "de": "Lyreton"
+    },
+    "MacLeod's Land": {
+      "bel": "Маклеодс Лэнд",
+      "ru": "Земля Маклауда",
+      "de": "MacLeods Land"
+    },
+    "Madras": {
+      "bel": "Мадрас",
+      "ru": "Мадрас",
+      "de": "Madras"
+    },
+    "Maia": {
+      "bel": "Мая",
+      "ru": "Майя",
+      "de": "Maia"
+    },
+    "Maldive": {
+      "bel": "Малдзівы",
+      "ru": "Мальдивы",
+      "de": "Maldive"
+    },
+    "Mandalas": {
+      "bel": "Мандалас",
+      "ru": "Мандалас",
+      "de": "Mandalas"
+    },
+    "Mangzhangdian": {
+      "bel": "Мангзгангдзіан",
+      "ru": "Манчжандянь",
+      "de": "Mangzhangdian"
+    },
+    "Mantharaka": {
+      "bel": "Мантарака",
+      "ru": "Мантарака",
+      "de": "Mantharaka"
+    },
+    "Mattisskogen": {
+      "bel": "Маціскоген",
+      "ru": "Маттисскоген",
+      "de": "Mattisskogen"
+    },
+    "Mazdru": {
+      "bel": "Маздру",
+      "ru": "Маздру",
+      "de": "Mazdru"
+    },
+    "McEvans' Sacrifice": {
+      "bel": "Макэванс Сакрыфайс",
+      "ru": "Жертва Макэванс",
+      "de": "McEvans' Sacrifice"
+    },
+    "Mechdur": {
+      "bel": "Мечдур",
+      "ru": "Мешдур",
+      "de": "Mechdur"
+    },
+    "Mendham": {
+      "bel": "Мендгам",
+      "ru": "Мендэм",
+      "de": "Mendham"
+    },
+    "Menke": {
+      "bel": "Менка",
+      "ru": "Менке",
+      "de": "Menke"
+    },
+    "Merdal": {
+      "bel": "Мердал",
+      "ru": "Мердал",
+      "de": "Merdal"
+    },
+    "Merlin": {
+      "bel": "Мерлін",
+      "ru": "Мерлин",
+      "de": "Merlin"
+    },
+    "Merope": {
+      "bel": "Мероп",
+      "ru": "Меропа",
+      "de": "Merope"
+    },
+    "Midale": {
+      "bel": "Мідал",
+      "ru": "Мидейл",
+      "de": "Midale"
+    },
+    "Midthun": {
+      "bel": "Мідтун",
+      "ru": "Мидтун",
+      "de": "Midthun"
+    },
+    "Mitchel": {
+      "bel": "Мічэл",
+      "ru": "Митчел",
+      "de": "Mitchel"
+    },
+    "Mithron": {
+      "bel": "Мітрон",
+      "ru": "Митрон",
+      "de": "Mithron"
+    },
+    "Muridox": {
+      "bel": "Мурыдокс",
+      "ru": "Муридокс",
+      "de": "Muridox"
+    },
+    "Murris": {
+      "bel": "Мурыс",
+      "ru": "Муррис",
+      "de": "Murris"
+    },
+    "Mystras": {
+      "bel": "Містрас",
+      "ru": "Мистра",
+      "de": "Mystras"
+    },
+    "Naryn": {
+      "bel": "Нарын",
+      "ru": "Нарын",
+      "de": "Naryn"
+    },
+    "New Abilene": {
+      "bel": "Нью-Абілен",
+      "ru": "Нью-Абилин",
+      "de": "New Abilene"
+    },
+    "New Ganymede": {
+      "bel": "Нью-Ганімед",
+      "ru": "Новый Ганимед",
+      "de": "New Ganymede"
+    },
+    "New Roland": {
+      "bel": "Нью-Роланд",
+      "ru": "Нью-Роланд",
+      "de": "New Roland"
+    },
+    "New Vallis": {
+      "bel": "Нью-Валіс",
+      "ru": "Нью-Вале",
+      "de": "New Vallis"
+    },
+    "New Vandenburg": {
+      "bel": "Нью-Вандэнбург",
+      "ru": "Нью-Вандербург",
+      "de": "New Vandenburg"
+    },
+    "Niomede": {
+      "bel": "Ніомед",
+      "ru": "Ниомед",
+      "de": "Niomede"
+    },
+    "Non Diz": {
+      "bel": "Нон Дзіз",
+      "ru": "Нон Диз",
+      "de": "Non Diz"
+    },
+    "Nukus": {
+      "bel": "Нукус",
+      "ru": "Нукус",
+      "de": "Nukus"
+    },
+    "Ordino": {
+      "bel": "Ордзіна",
+      "ru": "Ордино",
+      "de": "Ordino"
+    },
+    "Paf": {
+      "bel": "Паф",
+      "ru": "Паф",
+      "de": "Paf"
+    },
+    "Panzyr": {
+      "bel": "Панцыр",
+      "ru": "Панцирь",
+      "de": "Panzyr"
+    },
+    "Payia": {
+      "bel": "Пая",
+      "ru": "Пайя",
+      "de": "Payia"
+    },
+    "Pell": {
+      "bel": "Пел",
+      "ru": "Пелл",
+      "de": "Pell"
+    },
+    "Peratallada": {
+      "bel": "Ператалада",
+      "ru": "Ператаллада",
+      "de": "Peratallada"
+    },
+    "Pernik": {
+      "bel": "Пернік",
+      "ru": "Перник",
+      "de": "Pernik"
+    },
+    "Pilpala": {
+      "bel": "Пілпала",
+      "ru": "Пилпала",
+      "de": "Pilpala"
+    },
+    "Pinard": {
+      "bel": "Пінард",
+      "ru": "Пинар",
+      "de": "Pinard"
+    },
+    "Piriapolis": {
+      "bel": "Пірыаполіс",
+      "ru": "Пириаполис",
+      "de": "Piriapolis"
+    },
+    "Pojos": {
+      "bel": "Похас",
+      "ru": "Поджос",
+      "de": "Pojos"
+    },
+    "Portland": {
+      "bel": "Портланд",
+      "ru": "Портленд",
+      "de": "Portland"
+    },
+    "Primus": {
+      "bel": "Прымус",
+      "ru": "Примус",
+      "de": "Primus"
+    },
+    "Principia": {
+      "bel": "Прынцыпія",
+      "ru": "Принципия",
+      "de": "Principia"
+    },
+    "Prix": {
+      "bel": "Прыкс",
+      "ru": "При",
+      "de": "Prix"
+    },
+    "Pyrrhus": {
+      "bel": "Пір",
+      "ru": "Пирр",
+      "de": "Pyrrhus"
+    },
+    "Qalzi": {
+      "bel": "Калзі",
+      "ru": "Кельзи",
+      "de": "Qalzi"
+    },
+    "Quimberton": {
+      "bel": "Квімбертан",
+      "ru": "Куимбертон",
+      "de": "Quimberton"
+    },
+    "Regis Roost": {
+      "bel": "Рэгіс Руст",
+      "ru": "Насест Региса",
+      "de": "Regis Roost"
+    },
+    "Renfield": {
+      "bel": "Рэнфілд",
+      "ru": "Ренфилд",
+      "de": "Renfield"
+    },
+    "Renown": {
+      "bel": "Рэнаўн",
+      "ru": "Ренаун",
+      "de": "Renown"
+    },
+    "Repulse": {
+      "bel": "Рэпулс",
+      "ru": "Репалс",
+      "de": "Repulse"
+    },
+    "Ridgebrook": {
+      "bel": "Рыджбрук",
+      "ru": "Риджбрук",
+      "de": "Ridgebrook"
+    },
+    "Robsart": {
+      "bel": "Робсарт",
+      "ru": "Робсарт",
+      "de": "Robsart"
+    },
+    "Rockwellawan": {
+      "bel": "Раквэлаван",
+      "ru": "Роквеллаван",
+      "de": "Rockwellawan"
+    },
+    "Rollis": {
+      "bel": "Роліс",
+      "ru": "Роллис",
+      "de": "Rollis"
+    },
+    "Rosendal": {
+      "bel": "Розэндал",
+      "ru": "Розендаль",
+      "de": "Rosendal"
+    },
+    "Ryans Fate": {
+      "bel": "Раянс Фэйт",
+      "ru": "Жребий Райана",
+      "de": "Ryans Fate"
+    },
+    "Ryerson": {
+      "bel": "Райерсан",
+      "ru": "Райерсон",
+      "de": "Ryerson"
+    },
+    "Sacromonte": {
+      "bel": "Сакромонт",
+      "ru": "Сакромонте",
+      "de": "Sacromonte"
+    },
+    "Sadurni": {
+      "bel": "Садурні",
+      "ru": "Садурни",
+      "de": "Sadurni"
+    },
+    "Salardion": {
+      "bel": "Салардзіон",
+      "ru": "Салардион",
+      "de": "Salardion"
+    },
+    "Samantha": {
+      "bel": "Саманта",
+      "ru": "Саманта",
+      "de": "Samantha"
+    },
+    "Sax": {
+      "bel": "Сакс",
+      "ru": "Сакс",
+      "de": "Sax"
+    },
+    "Segerica": {
+      "bel": "Сегерыка",
+      "ru": "Седжерика",
+      "de": "Segerica"
+    },
+    "Shaun": {
+      "bel": "Шон",
+      "ru": "Шон",
+      "de": "Shaun"
+    },
+    "Shaunavon": {
+      "bel": "Шаўнавон",
+      "ru": "Шонавон",
+      "de": "Shaunavon"
+    },
+    "Shiba": {
+      "bel": "Шыба",
+      "ru": "Сиба",
+      "de": "Shiba"
+    },
+    "Sindalin": {
+      "bel": "Сіндалін",
+      "ru": "Синдалин",
+      "de": "Sindalin"
+    },
+    "Smithon": {
+      "bel": "Смітан",
+      "ru": "Смиттон",
+      "de": "Smithon"
+    },
+    "Spencer": {
+      "bel": "Спэнсар",
+      "ru": "Спенсер",
+      "de": "Spencer"
+    },
+    "Spitz": {
+      "bel": "Шпіц",
+      "ru": "Шпиц",
+      "de": "Spitz"
+    },
+    "Sunnywood": {
+      "bel": "Саннівуд",
+      "ru": "Саннивуд",
+      "de": "Sunnywood"
+    },
+    "Tarragona": {
+      "bel": "Тарагона",
+      "ru": "Таррагона",
+      "de": "Tarragona"
+    },
+    "Taurus": {
+      "bel": "Таўрус",
+      "ru": "Таурус",
+      "de": "Taurus"
+    },
+    "Thurrock": {
+      "bel": "Турок",
+      "ru": "Таррок",
+      "de": "Thurrock"
+    },
+    "Tincalunas": {
+      "bel": "Цінкалунас",
+      "ru": "Тинкалунас",
+      "de": "Tincalunas"
+    },
+    "Tiverton": {
+      "bel": "Цівертан",
+      "ru": "Тивертон",
+      "de": "Tiverton"
+    },
+    "Turin": {
+      "bel": "Турын",
+      "ru": "Турин",
+      "de": "Turin"
+    },
+    "Tyrlon": {
+      "bel": "Цірлан",
+      "ru": "Тирлон",
+      "de": "Tyrlon"
+    },
+    "Umgard": {
+      "bel": "Умгард",
+      "ru": "Умгард",
+      "de": "Umgard"
+    },
+    "Untran": {
+      "bel": "Унтран",
+      "ru": "Унтран",
+      "de": "Untran"
+    },
+    "Valdives": {
+      "bel": "Валдзівы",
+      "ru": "Вальдивы",
+      "de": "Valdives"
+    },
+    "Vard": {
+      "bel": "Вард",
+      "ru": "Вард",
+      "de": "Vard"
+    },
+    "Victoria": {
+      "bel": "Вікторыя",
+      "ru": "Виктория",
+      "de": "Victoria"
+    },
+    "Villanueva": {
+      "bel": "Віланува",
+      "ru": "Виллануева",
+      "de": "Villanueva"
+    },
+    "Viribium": {
+      "bel": "Вірыбіум",
+      "ru": "Вирибиум",
+      "de": "Viribium"
+    },
+    "Ward": {
+      "bel": "Уард",
+      "ru": "Уорд",
+      "de": "Ward"
+    },
+    "Weitinger": {
+      "bel": "Уэйцінгер",
+      "ru": "Вайтингер",
+      "de": "Weitinger"
+    },
+    "Weldry": {
+      "bel": "Уэлдры",
+      "ru": "Велдри",
+      "de": "Weldry"
+    },
+    "Wrentham": {
+      "bel": "Урэнтам",
+      "ru": "Рэнтем",
+      "de": "Wrentham"
+    },
+    "Wyeth's Glory": {
+      "bel": "Уйетс Глоры",
+      "ru": "Слава Уайета",
+      "de": "Wyeth's Glory"
+    },
+    "Xanthe III": {
+      "bel": "Ксант-ІІІ",
+      "ru": "Ксант-III",
+      "de": "Xanthe III"
+    },
+    "Yuris": {
+      "bel": "Юрыс",
+      "ru": "Юрис",
+      "de": "Yuris"
+    },
+    "Zangul": {
+      "bel": "Жангул",
+      "ru": "Жангуль",
+      "de": "Zangul"
+    },
+    "Zanzibar": {
+      "bel": "Занзібар",
+      "ru": "Занзибар",
+      "de": "Zanzibar"
+    },
+    "Zathras": {
+      "bel": "Затрас",
+      "ru": "Затрас",
+      "de": "Zathras"
+    },
+    "Úr Cruinne": {
+      "bel": "Ур-Круін",
+      "ru": "Ур-Круинн",
+      "de": "Úr Cruinne"
+    }
+  },
   "factions": {
     "Federated Suns": {
       "bel": "Федэратыўныя Сонцы",
