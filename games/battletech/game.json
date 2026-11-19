@@ -5,10 +5,11 @@
  "steam_appid": 637090,
  "source_lang": "en",
  "fallback_lang": "de",
+ "last_resort": "ru",
  "hint_lang": "ru",
  "credits": "Нейрапераклад: мадэль Claude (Anthropic). Кіраўнік праекта: Віталь Аляхновіч.",
  "battletech_csv": {
-  "_about": "Палі рухавіка (дакументацыя — у docstring core/belloc/engines/battletech_csv/__init__.py, калі рухавік з'явіцца). Шляхі — адносна папкі гульні. Маніфест правіць не трэба: для CSV у ім ёсць запіс strings_ru-RU без хэша і бандла.",
+  "_about": "Палі рухавіка (дакументацыя — у docstring core/belloc/engines/battletech_csv/__init__.py). Шляхі — адносна папкі гульні. Маніфест правіць не трэба: для CSV у ім ёсць запіс strings_ru-RU без хэша і бандла. extract/apply напісаныя; праўка шрыфтоў TMP 1.x — наступны крок (пакуль лакальны прататып).",
   "data_dir": "BattleTech_Data",
   "csv_dir": "BattleTech_Data/StreamingAssets/data/localization",
   "manifest": "BattleTech_Data/StreamingAssets/data/VersionManifest.csv",

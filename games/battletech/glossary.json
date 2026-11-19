@@ -1,12 +1,1206 @@
 {
-  "_about": "Гласарый BATTLETECH. bel — наш варыянт, de — афіцыйны нямецкі (падказка; для 26–40 % радкоў — крыніца), ru — афіцыйны рускі (падказка), gender: м/ж/н/мн. Секцыі пакуль пустыя: тэкст яшчэ не перакладаўся, назвы дадаюцца па меры рашэнняў. Рашэнне 2026-11-18: мехі і іншая тэхніка (у тым ліку турэлі) — лацінкай, без перакладу; планеты і сістэмы — транслітарацыя ў беларускім пісьме; фракцыі — апісальныя назвы перакладаюцца (Federated Suns), імёны роду ці кіраўніка (Steiner, Davion) — транслітаруюцца, брэнды (ComStar) — лацінкай; рашэнне па кожнай — у note. Рашэнні, дзе ключ або заўвага — цытата тэксту гульні, — у local/battletech/glossary.local.json.",
-  "_памер": "Назваў тут будзе шмат: папярэдне 700–900 запісаў — мехі, тэхніка, фракцыі, планеты, зброя, персанажы кампаніі. Правіла адно: новую назву спачатку ўпісаць сюды, потым ужываць.",
-  "characters": {},
+  "_about": "Гласарый BATTLETECH. bel — наш варыянт, de — афіцыйны нямецкі (падказка; для 26–40 % радкоў — крыніца), ru — афіцыйны рускі (падказка), gender: м/ж/н/мн. Рашэнне 2026-11-18: мехі і іншая тэхніка — лацінкай, без перакладу; планеты і сістэмы — транслітарацыя ў беларускім пісьме; фракцыі — апісальныя назвы перакладаюцца, імёны роду ці кіраўніка транслітаруюцца, брэнды — лацінкай; галіна рашэння — у note. Запоўнены G1 (тэрміны, інтэрфейс, скарачэнні, караблі, каманда кампаніі) і лацінскія радкі G2a (мехі, названая тэхніка); планеты (G2b), фракцыі G2c і персанажы G3 — па пачках з вычыткай. Рашэнні, дзе ключ або заўвага — цытата тэксту гульні, — у local/battletech/glossary.local.json. Правілы транслітарацыі і фракцый — у STYLE.md.",
+  "_памер": "G1 — каля 150 запісаў; G2a — мехі і названая тэхніка лацінкай; G2b — 219 планет, G2c — фракцыі і зброя: чарнавыя спісы ў local/battletech/build/ (glossary-candidates.csv, glossary-draft.json), у публічны файл — пасля вычыткі.",
+  "characters": {
+    "Kamea Arano": {
+      "bel": "Камея Арана",
+      "gender": "ж",
+      "ru": "Леди Камея Арано",
+      "de": "Lady Kamea Arano"
+    },
+    "Alexander Madeira": {
+      "bel": "Аляксандр Мадэйра",
+      "gender": "м",
+      "ru": "Лорд Александр Мадейра",
+      "de": "Lord Alexander Madeira"
+    },
+    "Darius Oliveira": {
+      "bel": "Дарыус Алівейра",
+      "gender": "м",
+      "ru": "Дариус Оливейра",
+      "de": "Darius Oliveira"
+    },
+    "Dr. Farah Murad": {
+      "bel": "доктар Фара Мурад",
+      "gender": "ж",
+      "ru": "Доктор Фара Мурад",
+      "de": "Dr. Farah Murad"
+    },
+    "Sumire Meyer": {
+      "bel": "Сумірэ Майер",
+      "gender": "ж",
+      "ru": "Сумирэ Мейер",
+      "de": "Sumire Meyer"
+    },
+    "Yang Virtanen": {
+      "bel": "Ян Віртанен",
+      "gender": "м",
+      "ru": "Ян Виртанен",
+      "de": "Yang Virtanen"
+    },
+    "Raju Montgomery": {
+      "bel": "Раджу Мантгомеры",
+      "gender": "м",
+      "note": "пазыўны Mastiff — рашэнне па пазыўных адкрытае"
+    },
+    "Santiago Espinosa": {
+      "bel": "Сант’яга Эспіноза",
+      "gender": "м"
+    },
+    "Victoria Espinosa": {
+      "bel": "Вікторыя Эспіноза",
+      "gender": "ж"
+    },
+    "Ana Maria Centrella": {
+      "bel": "Ана Марыя Сэнтрэла",
+      "gender": "ж",
+      "ru": "Леди Анна-Мария Сентрелла",
+      "de": "Lady Ana Maria Centrella"
+    },
+    "Simon Karosas": {
+      "bel": "Сайман Каросас",
+      "gender": "м"
+    },
+    "Samantha Gallas": {
+      "bel": "Саманта Галас",
+      "gender": "ж"
+    },
+    "Lady Suiko Nakano": {
+      "bel": "Суіка Накана",
+      "gender": "ж",
+      "ru": "Леди Сюико Накано",
+      "de": "Lady Suiko Nakano"
+    },
+    "Lady Mariko Nakano": {
+      "bel": "Марыка Накана",
+      "gender": "ж"
+    },
+    "Dame Catherine Humphreys": {
+      "bel": "дама Кацярына Хамфрыс",
+      "gender": "ж",
+      "ru": "Госпожа Катерина Хамфрис",
+      "de": "Dame Catherine Humphreys"
+    },
+    "Tamati Arano II": {
+      "bel": "лорд Тамаці Арана II",
+      "gender": "м",
+      "ru": "Верховный лорд Тамати Арано II",
+      "de": "High Lord Tamati Arano II."
+    }
+  },
   "places": {},
-  "factions": {},
-  "mechs": {},
-  "vehicles": {},
-  "ships": {},
-  "items": {},
-  "terms": {}
+  "factions": {
+    "Federated Suns": {
+      "bel": "Федэратыўныя Сонцы",
+      "gender": "мн",
+      "note": "апісальная назва: пераклад",
+      "ru": "Федерация солнц",
+      "de": "Föderation der Vereinigten Sonnen"
+    },
+    "Lyran Commonwealth": {
+      "bel": "Ліранская Садружнасць",
+      "gender": "ж",
+      "note": "апісальная назва: пераклад",
+      "ru": "Лиранское содружество",
+      "de": "das Lyranische Commonwealth"
+    },
+    "Lyran Alliance": {
+      "bel": "Ліранскі Альянс",
+      "gender": "м",
+      "note": "апісальная назва: пераклад"
+    },
+    "Draconis Combine": {
+      "bel": "Аб’яднанне Дракона",
+      "gender": "н",
+      "note": "апісальная назва: пераклад»",
+      "ru": "СИНДИКАТ ДРАКОНА",
+      "de": "DRACONIS-KOMBINAT"
+    },
+    "Capellan Confederation": {
+      "bel": "Капеланская Канфедэрацыя",
+      "gender": "ж",
+      "note": "апісальная назва: пераклад; Capellan — ад Капелы",
+      "ru": "Капелланская конфедерация",
+      "de": "die Konföderation Capella"
+    },
+    "Free Worlds League": {
+      "bel": "Ліга Свабодных Светаў",
+      "gender": "ж",
+      "note": "апісальная назва: пераклад",
+      "ru": "Лига Свободных Миров",
+      "de": "Liga Freier Welten"
+    },
+    "Taurian Concordat": {
+      "bel": "Таўрыянскі Канкардат",
+      "gender": "м",
+      "note": "апісальная назва: пераклад; Taurian — ад Таўруса",
+      "ru": "Таурианский конкордат",
+      "de": "Taurus-Konkordat"
+    },
+    "Magistracy of Canopus": {
+      "bel": "Магістрат Канопуса",
+      "gender": "ж",
+      "note": "апісальная назва: пераклад",
+      "ru": "Магистрат Канопуса",
+      "de": "Magistrat Canopus"
+    },
+    "Aurigan Coalition": {
+      "bel": "Аўрыганская Кааліцыя",
+      "gender": "ж",
+      "note": "апісальная назва: пераклад",
+      "ru": "Ауриганская коалиция",
+      "de": "Auriga-Koalition"
+    },
+    "Aurigan Directorate": {
+      "bel": "Аўрыганскі Дырэктарат",
+      "gender": "м",
+      "note": "апісальная назва: пераклад",
+      "ru": "Ауриганский Директорат",
+      "de": "Auriga-Direktorat"
+    },
+    "Arano Restoration": {
+      "bel": "Рэстаўрацыя Арана",
+      "gender": "ж",
+      "note": "апісанне перакладзена, імя роду транслітаравана",
+      "ru": "лоялисты Арано",
+      "de": "die Arano-Restauration"
+    },
+    "ComStar": {
+      "bel": "ComStar",
+      "note": "брэнд: лацінкай",
+      "ru": "«КомСтар»",
+      "de": "ComStar"
+    },
+    "Kell Hounds": {
+      "bel": "Kell Hounds",
+      "gender": "мн",
+      "note": "лацінкай",
+      "ru": "«Гончие Келла»",
+      "de": "Kell Hounds"
+    },
+    "Gray Death Legion": {
+      "bel": "Gray Death Legion",
+      "gender": "м",
+      "note": "лацінкай",
+      "ru": "«Серый легион смерти»",
+      "de": "Gray Death Legion"
+    },
+    "Black Widow Company": {
+      "bel": "Black Widow Company",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "Рота Чёрной Вдовы",
+      "de": "Black-Widow-Kompanie"
+    },
+    "Baumann Group": {
+      "bel": "Baumann Group",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "«Бауманн Груп»",
+      "de": "Baumann Group"
+    },
+    "Black Caldera Defense": {
+      "bel": "Black Caldera Defense",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "Оборона Чёрной кальдеры",
+      "de": "Black Caldera Defense"
+    },
+    "House Davion": {
+      "bel": "Дом Дэвіянаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Давион",
+      "de": "Haus Davion"
+    },
+    "House Kurita": {
+      "bel": "Дом Курыта",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя; яп.",
+      "ru": "ДОМ КУРИТА",
+      "de": "Haus Kurita"
+    },
+    "House Liao": {
+      "bel": "Дом Ляо",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя; кіт.",
+      "ru": "Дом Ляо",
+      "de": "Haus Liao"
+    },
+    "House Steiner": {
+      "bel": "Дом Штайнераў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя; ням.",
+      "ru": "Дом Штайнер",
+      "de": "Haus Steiner"
+    },
+    "House Marik": {
+      "bel": "Дом Марыкаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Марик",
+      "de": "Haus Marik"
+    },
+    "House Arano": {
+      "bel": "Дом Арана",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Арано",
+      "de": "Haus Arano"
+    },
+    "House Calderon": {
+      "bel": "Дом Кальдэронаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Кальдерон",
+      "de": "Haus Calderon"
+    },
+    "House Centrella": {
+      "bel": "Дом Сэнтрэлаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Сентрелла",
+      "de": "Haus Centrella"
+    },
+    "House Espinosa": {
+      "bel": "Дом Эспінозаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Эспиноза",
+      "de": "Haus Espinosa"
+    },
+    "House Karosas": {
+      "bel": "Дом Каросасаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Каросас",
+      "de": "Haus Karosas"
+    },
+    "House Gallas": {
+      "bel": "Дом Галасаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Галлас",
+      "de": "Haus Gallas"
+    },
+    "House Decimis": {
+      "bel": "Дом Дэцымісаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Децимис",
+      "de": "Haus Decimis"
+    },
+    "House Parata": {
+      "bel": "Дом Паратаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Парата",
+      "de": "Haus Parata"
+    },
+    "House Madeira": {
+      "bel": "Дом Мадэйраў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Мадейра",
+      "de": "Haus Madeira"
+    },
+    "House Humphreys": {
+      "bel": "Дом Хамфрысаў",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Дом Хамфрис",
+      "de": "Haus Humphreys"
+    },
+    "Founding Houses": {
+      "bel": "Дамы-заснавальнікі",
+      "gender": "мн",
+      "note": "апісальная назва: пераклад",
+      "ru": "Великие дома Ауриганской коалиции",
+      "de": "Gründerhäuser"
+    },
+    "Davion": {
+      "bel": "Дэвіян",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Давион",
+      "de": "Davion"
+    },
+    "Steiner": {
+      "bel": "Штайнер",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя; ням. напісанне",
+      "ru": "Штайнер",
+      "de": "Steiner"
+    },
+    "Kurita": {
+      "bel": "Курыта",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя; яп.",
+      "ru": "Курита",
+      "de": "Kurita"
+    },
+    "Liao": {
+      "bel": "Ляо",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя; кіт.",
+      "ru": "Ляо",
+      "de": "Liao"
+    },
+    "Marik": {
+      "bel": "Марык",
+      "gender": "м",
+      "note": "імя роду: транслітарацыя",
+      "ru": "Марик",
+      "de": "Marik"
+    },
+    "Magistracy": {
+      "bel": "Магістрат",
+      "gender": "ж",
+      "note": "скарочаная назва: пераклад",
+      "ru": "Магистрат",
+      "de": "Magistrat"
+    },
+    "Directorate": {
+      "bel": "Дырэктарат",
+      "gender": "м",
+      "note": "скарочаная назва: пераклад",
+      "ru": "Директорат",
+      "de": "Direktorat"
+    },
+    "Restoration": {
+      "bel": "Рэстаўрацыя",
+      "gender": "ж",
+      "note": "скарочаная назва: пераклад",
+      "ru": "Лоялисты",
+      "de": "Restauration"
+    }
+  },
+  "mechs": {
+    "Atlas": {
+      "bel": "Atlas",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Atlas",
+      "de": "Atlas"
+    },
+    "Atlas II AS7-D-HT": {
+      "bel": "Atlas II AS7-D-HT",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Atlas II AS7-D-HT",
+      "de": "Atlas II AS7-D-HT"
+    },
+    "Blackjack": {
+      "bel": "Blackjack",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Blackjack",
+      "de": "Blackjack"
+    },
+    "BattleMaster": {
+      "bel": "BattleMaster",
+      "note": "лацінкай; не скланяецца",
+      "ru": "BattleMaster",
+      "de": "BattleMaster"
+    },
+    "Catapult": {
+      "bel": "Catapult",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Катапульта",
+      "de": "Der Catapult"
+    },
+    "Cataphract": {
+      "bel": "Cataphract",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Cataphract",
+      "de": "Cataphract"
+    },
+    "Centurion": {
+      "bel": "Centurion",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Centurion",
+      "de": "Centurion"
+    },
+    "Dragon": {
+      "bel": "Dragon",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Dragon",
+      "de": "Dragon"
+    },
+    "Enforcer": {
+      "bel": "Enforcer",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Enforcer",
+      "de": "Enforcer"
+    },
+    "Griffin": {
+      "bel": "Griffin",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Griffin",
+      "de": "Griffin"
+    },
+    "Highlander HGN-732B": {
+      "bel": "Highlander HGN-732B",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Highlander HGN-732b",
+      "de": "Highlander HGN-732b"
+    },
+    "JagerMech": {
+      "bel": "JagerMech",
+      "note": "лацінкай; не скланяецца",
+      "ru": "JagerMech",
+      "de": "JagerMech"
+    },
+    "Jenner": {
+      "bel": "Jenner",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Jenner",
+      "de": "Jenner"
+    },
+    "Locust": {
+      "bel": "Locust",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Locust",
+      "de": "Locust"
+    },
+    "Marauder": {
+      "bel": "Marauder",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Marauder",
+      "de": "Marauder"
+    },
+    "Orion": {
+      "bel": "Orion",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Orion",
+      "de": "Orion"
+    },
+    "Panther": {
+      "bel": "Panther",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Panther",
+      "de": "Panther"
+    },
+    "Shadow Hawk": {
+      "bel": "Shadow Hawk",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Shadow Hawk",
+      "de": "Shadow Hawk"
+    },
+    "Thunderbolt": {
+      "bel": "Thunderbolt",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Thunderbolt",
+      "de": "Thunderbolt"
+    },
+    "Trebuchet": {
+      "bel": "Trebuchet",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Trebuchet",
+      "de": "Trebuchet"
+    },
+    "UrbanMech": {
+      "bel": "UrbanMech",
+      "note": "лацінкай; не скланяецца",
+      "ru": "UrbanMech",
+      "de": "UrbanMech"
+    },
+    "Warhammer": {
+      "bel": "Warhammer",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Warhammer",
+      "de": "Warhammer"
+    },
+    "Wolverine": {
+      "bel": "Wolverine",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Wolverine",
+      "de": "Wolverine"
+    },
+    "Zeus": {
+      "bel": "Zeus",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Zeus",
+      "de": "Zeus"
+    }
+  },
+  "vehicles": {
+    "Demolisher": {
+      "bel": "Demolisher",
+      "note": "лацінкай; не скланяецца",
+      "ru": "«Крушитель»",
+      "de": "Demolisher"
+    },
+    "Striker": {
+      "bel": "Striker",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Штурмовик",
+      "de": "Striker"
+    },
+    "Bulldog": {
+      "bel": "Bulldog",
+      "note": "лацінкай; не скланяецца",
+      "ru": "«Бульдог»",
+      "de": "Bulldog"
+    },
+    "Galleon": {
+      "bel": "Galleon",
+      "note": "лацінкай; не скланяецца",
+      "ru": "«Галеон»",
+      "de": "Galleon"
+    },
+    "Schrek PPC Carrier": {
+      "bel": "Schrek PPC Carrier",
+      "note": "лацінкай; не скланяецца",
+      "ru": "ПИЧ-установка «Шрек»",
+      "de": "Schrek-PPK-Träger"
+    },
+    "Sleipnir": {
+      "bel": "Sleipnir",
+      "note": "лацінкай; не скланяецца",
+      "ru": "«Слейпнир»",
+      "de": "Sleipnir"
+    },
+    "Manticore": {
+      "bel": "Manticore",
+      "note": "лацінкай; не скланяецца",
+      "ru": "«Мантикора»",
+      "de": "Manticore"
+    },
+    "Swift Wind": {
+      "bel": "Swift Wind",
+      "note": "лацінкай; не скланяецца",
+      "ru": "«Быстроход»",
+      "de": "Swift Wind"
+    },
+    "Vargr": {
+      "bel": "Vargr",
+      "note": "лацінкай; не скланяецца",
+      "ru": "Варг",
+      "de": "Vargr"
+    },
+    "Sleipnir APC": {
+      "bel": "Sleipnir APC",
+      "note": "лацінкай; не скланяецца",
+      "ru": "БТР «Слейпнир»",
+      "de": "Sleipnir MTW"
+    },
+    "Vargr APC": {
+      "bel": "Vargr APC",
+      "note": "лацінкай; не скланяецца",
+      "ru": "БТР «Варг»",
+      "de": "Vargr MTW"
+    }
+  },
+  "ships": {
+    "Argo": {
+      "bel": "Argo",
+      "gender": "н",
+      "note": "лацінкай",
+      "ru": "«Арго»",
+      "de": "Argo"
+    },
+    "Hysteria": {
+      "bel": "Hysteria",
+      "gender": "ж",
+      "note": "лацінкай",
+      "ru": "Hysteria",
+      "de": "Hysteria"
+    },
+    "Leopard": {
+      "bel": "Leopard",
+      "gender": "м",
+      "note": "лацінкай",
+      "ru": "«Леопард»",
+      "de": "Leopard"
+    }
+  },
+  "items": {
+    "Autocannon": {
+      "bel": "гармата",
+      "gender": "ж",
+      "ru": "Автопушка",
+      "de": "Autokanone"
+    },
+    "Laser": {
+      "bel": "лазер",
+      "gender": "м",
+      "ru": "Лазер",
+      "de": "Laser"
+    },
+    "Missile": {
+      "bel": "ракета",
+      "gender": "ж",
+      "ru": "Ракетное",
+      "de": "Rakete"
+    },
+    "PPC": {
+      "bel": "PPC",
+      "note": "?: абрэвіятура лацінкай; поўная назва — пратонная гармата (не зацверджана)",
+      "ru": "ПИЧ",
+      "de": "PPK"
+    },
+    "LRM": {
+      "bel": "LRM",
+      "gender": "мн",
+      "note": "ракеты далёкага бою; скарачэнне — не зацверджана",
+      "ru": "РБД",
+      "de": "LSR"
+    },
+    "SRM": {
+      "bel": "SRM",
+      "gender": "мн",
+      "note": "ракеты блізкага бою; скарачэнне — не зацверджана",
+      "ru": "РМД",
+      "de": "KSR"
+    },
+    "Gauss Rifle": {
+      "bel": "гармата Гауса",
+      "gender": "ж",
+      "ru": "Гаусс",
+      "de": "Gaußgeschütz"
+    },
+    "Flamer": {
+      "bel": "агнямёт",
+      "gender": "м",
+      "ru": "Огнемёт",
+      "de": "Flammer"
+    },
+    "MG": {
+      "bel": "кулямёт",
+      "gender": "м",
+      "ru": "Пулемёт",
+      "de": "MG"
+    },
+    "Melee": {
+      "bel": "блізкі бой",
+      "gender": "м",
+      "ru": "Ближний бой",
+      "de": "Nahkampf"
+    },
+    "DFA": {
+      "bel": "смерць з неба",
+      "gender": "ж",
+      "note": "Death From Above; скарачэнне — не зацверджана",
+      "ru": "Смерть с небес",
+      "de": "TS"
+    },
+    "ECM": {
+      "bel": "ECM",
+      "gender": "ж",
+      "ru": "ECM",
+      "de": "EGM"
+    },
+    "Jump Jet": {
+      "bel": "Jump Jet",
+      "gender": "м",
+      "note": "лацінкай"
+    },
+    "Heat Sink": {
+      "bel": "цеплаадвод",
+      "gender": "м",
+      "ru": "Радиатор",
+      "de": "Wärmetauscher"
+    },
+    "AC/2": {
+      "bel": "AC/2",
+      "note": "код узбраення лацінкай",
+      "ru": "АП-2",
+      "de": "AK/2"
+    },
+    "AC/5": {
+      "bel": "AC/5",
+      "note": "код узбраення лацінкай",
+      "ru": "АП-5",
+      "de": "AK/5"
+    },
+    "AC/10": {
+      "bel": "AC/10",
+      "note": "код узбраення лацінкай",
+      "ru": "АП-10",
+      "de": "AK/10"
+    },
+    "AC/20": {
+      "bel": "AC/20",
+      "note": "код узбраення лацінкай",
+      "ru": "АП-20",
+      "de": "AK/20"
+    }
+  },
+  "terms": {
+    "BattleMech": {
+      "bel": "баявы мех",
+      "gender": "м",
+      "note": "?: 'Mech — мех",
+      "ru": "Боевой мех",
+      "de": "BattleMech"
+    },
+    "MechWarrior": {
+      "bel": "мехварыёр",
+      "gender": "м",
+      "note": "?: жаночая форма — мехварыёрка; рашэнне адкрытае",
+      "ru": "Мехвоин",
+      "de": "MechKrieger"
+    },
+    "AgroMech": {
+      "bel": "аграмех",
+      "gender": "м",
+      "ru": "Агромех",
+      "de": "AgroMech"
+    },
+    "DropShip": {
+      "bel": "шатл",
+      "gender": "м",
+      "ru": "Десантный корабль",
+      "de": "Landungsschiff"
+    },
+    "JumpShip": {
+      "bel": "джампшып",
+      "gender": "м",
+      "ru": "Транспорт",
+      "de": "Sprungsch."
+    },
+    "JumpShips": {
+      "bel": "джампшыпы",
+      "gender": "мн",
+      "ru": "Транспортные корабли",
+      "de": "Sprungschiffe"
+    },
+    "Inner Sphere": {
+      "bel": "Унутраная Сфера",
+      "gender": "ж",
+      "ru": "Внутренняя Сфера",
+      "de": "Innere Sphäre"
+    },
+    "Rimward Periphery": {
+      "bel": "Ускраінная Перыферыя",
+      "gender": "ж",
+      "ru": "ОКРАИННАЯ ПЕРИФЕРИЯ",
+      "de": "PERIPHERIE"
+    },
+    "Deep Periphery": {
+      "bel": "Глыбокая Перыферыя",
+      "gender": "ж",
+      "ru": "Дальняя Периферия",
+      "de": "Peripheriestaaten"
+    },
+    "Star League": {
+      "bel": "Зорная Ліга",
+      "gender": "ж",
+      "ru": "Звёздная лига",
+      "de": "Sternenbund"
+    },
+    "Succession Wars": {
+      "bel": "Войны за спадчыну",
+      "gender": "мн",
+      "ru": "Войны за престол",
+      "de": "Nachfolgekriege"
+    },
+    "First Succession War": {
+      "bel": "Першая вайна за спадчыну",
+      "gender": "ж",
+      "ru": "Первая война за престол",
+      "de": "Erster Nachfolgekrieg"
+    },
+    "Third Succession War": {
+      "bel": "Трэцяя вайна за спадчыну",
+      "gender": "ж",
+      "ru": "Третья война за престол",
+      "de": "Dritter Nachfolgekrieg"
+    },
+    "Amaris Civil War": {
+      "bel": "Грамадзянская вайна Амарыса",
+      "gender": "ж",
+      "ru": "Гражданская война Амариса",
+      "de": "Amaris-Bürgerkrieg"
+    },
+    "Aurigan Reach": {
+      "bel": "Аўрыганскі Край",
+      "gender": "м",
+      "ru": "Ауриганский Предел",
+      "de": "Auriga-Sektor"
+    },
+    "Mercenary Review Board": {
+      "bel": "Рада праверкі наёмнікаў",
+      "gender": "ж",
+      "ru": "Ревизионная комиссия наёмников",
+      "de": "Söldnerprüfungskommission"
+    },
+    "MRB": {
+      "bel": "РПН",
+      "gender": "ж",
+      "note": "?: скарачэнне ад «Рада праверкі наёмнікаў»",
+      "ru": "РКН",
+      "de": "SPK"
+    },
+    "C-Bill": {
+      "bel": "C-Bill",
+      "gender": "м",
+      "note": "валюта; лацінкай",
+      "ru": "Деньги",
+      "de": "C-Note"
+    },
+    "C-Bills": {
+      "bel": "C-Bills",
+      "gender": "мн",
+      "note": "валюта; лацінкай",
+      "ru": "Деньги",
+      "de": "C-Noten"
+    },
+    "LosTech": {
+      "bel": "страчаныя тэхналогіі",
+      "gender": "мн",
+      "ru": "Утерянные технологии",
+      "de": "LosTech"
+    },
+    "Memory Core": {
+      "bel": "Архіў памяці",
+      "gender": "м",
+      "ru": "Модуль памяти",
+      "de": "Kernspeicher"
+    },
+    "Hiring Hall": {
+      "bel": "біржа наёмнікаў",
+      "gender": "ж",
+      "ru": "Биржа труда",
+      "de": "Rekrutierungshalle"
+    },
+    "Black Market": {
+      "bel": "чорны рынак",
+      "gender": "м",
+      "ru": "Чёрный рынок",
+      "de": "Schwarzmarkt"
+    },
+    "Commander": {
+      "bel": "камандзір",
+      "gender": "м",
+      "ru": "Командир",
+      "de": "Commander"
+    },
+    "Morale": {
+      "bel": "баявы дух",
+      "gender": "м",
+      "ru": "Боевой дух",
+      "de": "Moral"
+    },
+    "Heat": {
+      "bel": "нагрэў",
+      "gender": "м",
+      "ru": "нгв",
+      "de": "Wär"
+    },
+    "Armor": {
+      "bel": "браня",
+      "gender": "ж",
+      "ru": "Броня",
+      "de": "Panzerung"
+    },
+    "Structure": {
+      "bel": "структура",
+      "gender": "ж",
+      "ru": "структура",
+      "de": "Struktur"
+    },
+    "Gunnery": {
+      "bel": "стральба",
+      "gender": "ж",
+      "ru": "Стрельба",
+      "de": "Waffen"
+    },
+    "Piloting": {
+      "bel": "пілатаванне",
+      "gender": "н",
+      "ru": "Пилотирование",
+      "de": "Steuerung"
+    },
+    "Guts": {
+      "bel": "стойкасць",
+      "gender": "ж",
+      "ru": "Стойкость",
+      "de": "Mut"
+    },
+    "Tactics": {
+      "bel": "тактыка",
+      "gender": "ж",
+      "ru": "Тактика",
+      "de": "Taktik"
+    },
+    "Health": {
+      "bel": "здароўе",
+      "gender": "н",
+      "ru": "Здоровье",
+      "de": "Gesundheit"
+    },
+    "Scout": {
+      "bel": "выведчык",
+      "gender": "м",
+      "note": "роля меха",
+      "ru": "Дозорный",
+      "de": "Späher"
+    },
+    "Skirmisher": {
+      "bel": "застрэльнік",
+      "gender": "м",
+      "note": "роля меха",
+      "ru": "Застрельщик",
+      "de": "Scharmützler"
+    },
+    "Recon": {
+      "bel": "выведка",
+      "gender": "ж",
+      "ru": "Разведчик",
+      "de": "Aufklärer"
+    },
+    "Gladiator": {
+      "bel": "гладыятар",
+      "gender": "м",
+      "note": "роля меха",
+      "ru": "Гладиатор",
+      "de": "Gladiator"
+    },
+    "Pilot": {
+      "bel": "пілот",
+      "gender": "м",
+      "ru": "Пилот",
+      "de": "Pilot"
+    },
+    "Drop Tonnage": {
+      "bel": "таннаж дэсанта",
+      "gender": "м",
+      "ru": "Масса десанта",
+      "de": "Einsatzgewicht"
+    },
+    "Difficulty Rating": {
+      "bel": "узровень складанасці",
+      "gender": "м",
+      "ru": "Уровень сложности",
+      "de": "Schwierigkeitsgrad"
+    },
+    "Medical Points": {
+      "bel": "медыцынскія ачкі",
+      "gender": "мн",
+      "ru": "Медицинские очки",
+      "de": "Med-Punkte"
+    },
+    "Tech Points": {
+      "bel": "тэхнічныя ачкі",
+      "gender": "мн",
+      "ru": "Технические очки",
+      "de": "Tech-Punkte"
+    },
+    "Priority Mission": {
+      "bel": "прыярытэтная місія",
+      "gender": "ж",
+      "ru": "Приоритетное",
+      "de": "Hauptmission"
+    },
+    "Restoration Mission": {
+      "bel": "місія Рэстаўрацыі",
+      "gender": "ж",
+      "ru": "Задание Реставрации",
+      "de": "Restaurationsmission"
+    },
+    "Contract Salvage": {
+      "bel": "трафеі па кантракце",
+      "gender": "мн",
+      "ru": "Контракт: добыча",
+      "de": "Auftragsschrottmenge"
+    },
+    "Consecutive Drops": {
+      "bel": "паслядоўныя высадкі",
+      "gender": "мн",
+      "ru": "Серия высадок",
+      "de": "Aufeinanderfolgende Landungen"
+    },
+    "High Spirits": {
+      "bel": "бадзёры настрой",
+      "gender": "м",
+      "ru": "хорошее настроение",
+      "de": "Gut gelaunt"
+    },
+    "Low Spirits": {
+      "bel": "дрэнны настрой",
+      "gender": "м",
+      "ru": "плохое настроение",
+      "de": "niedergeschlagen"
+    },
+    "In Orbit": {
+      "bel": "на арбіце",
+      "note": "прыслоўе",
+      "ru": "НА ОРБИТЕ",
+      "de": "Im Orbit"
+    },
+    "Ammunition Transport": {
+      "bel": "транспарт боепрыпасаў",
+      "gender": "м",
+      "note": "?: агульная назва, не пазначэнне (праверыць у гульні)",
+      "ru": "Транспорт с боеприпасами",
+      "de": "Munitionstransporter"
+    },
+    "Mobile HQ": {
+      "bel": "мабільны штаб",
+      "gender": "м",
+      "note": "?: агульная назва, не пазначэнне (праверыць у гульні)",
+      "ru": "Мобильный штаб",
+      "de": "Mobiles HQ"
+    },
+    "Armored Mobile HQ": {
+      "bel": "броніраваны мабільны штаб",
+      "gender": "м",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Бронированный мобильный штаб",
+      "de": "Gepanzertes mobiles HQ"
+    },
+    "LRM Carrier": {
+      "bel": "устаноўка LRM",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "РБД-установка",
+      "de": "LSR-Träger"
+    },
+    "SRM Carrier": {
+      "bel": "устаноўка SRM",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "РМД-установка",
+      "de": "KSR-Träger"
+    },
+    "LRM Turret": {
+      "bel": "турэль LRM",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "РБД-турель",
+      "de": "LSR-Geschützturm"
+    },
+    "Wheeled APC": {
+      "bel": "колавы БТР",
+      "gender": "м",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Колёсный БТР",
+      "de": "Bereifter MTW"
+    },
+    "Target Dummy": {
+      "bel": "вучэбная цэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Учебная цель",
+      "de": "Trainingspuppe"
+    },
+    "Test Turret": {
+      "bel": "тэставая турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Тестовая турель",
+      "de": "Testgeschützturm"
+    },
+    "Armored Swift Wind": {
+      "bel": "браніраваны Swift Wind",
+      "gender": "м",
+      "note": "апісанне перакладзена, назва лацінкай",
+      "ru": "Бронированный «Быстроход»",
+      "de": "Gepanzerter Swift Wind"
+    },
+    "SLDF Heavy Drone": {
+      "bel": "цяжкі дрон САЗЛ",
+      "gender": "м",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Тяжёлый дрон СОЗЛ",
+      "de": "Schwere SBVS-Drohne"
+    },
+    "SLDF Medium Drone": {
+      "bel": "сярэдні дрон САЗЛ",
+      "gender": "м",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Средний дрон СОЗЛ",
+      "de": "Mittlere SBVS-Drohne"
+    },
+    "Heavy LRM Turret": {
+      "bel": "цяжкая турэль LRM",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Тяжёлая РБД-турель",
+      "de": "Schwerer LSR-Geschützturm"
+    },
+    "Light LRM Turret": {
+      "bel": "лёгкая турэль LRM",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Лёгкая РБД-турель",
+      "de": "Leichter LSR-Geschützturm"
+    },
+    "Standard LRM Turret": {
+      "bel": "стандартная турэль LRM",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Стандартная РБД-турель",
+      "de": "Standard-LSR-Geschützturm"
+    },
+    "Heavy Laser Turret": {
+      "bel": "цяжкая лазерная турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Тяжёлая лазерная турель",
+      "de": "Schwerer Laser-Geschützturm"
+    },
+    "Medium Laser Turret": {
+      "bel": "сярэдняя лазерная турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Средняя лазерная турель",
+      "de": "Mittlerer Laser-Geschützturm"
+    },
+    "Light Laser Turret": {
+      "bel": "лёгкая лазерная турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Лёгкая лазерная турель",
+      "de": "Leichter Laser-Geschützturm"
+    },
+    "Heavy Sniper Turret": {
+      "bel": "цяжкая снайперская турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Тяжёлая снайперская турель",
+      "de": "Schwerer Scharfschützen-Geschützturm"
+    },
+    "Light Sniper Turret": {
+      "bel": "лёгкая снайперская турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Лёгкая снайперская турель",
+      "de": "Leichter Scharfschützen-Geschützturm"
+    },
+    "Standard Sniper Turret": {
+      "bel": "стандартная снайперская турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Стандартная снайперская турель",
+      "de": "Standard-Scharfschützen-Geschützturm"
+    },
+    "Heavy Shredder Turret": {
+      "bel": "цяжкая шрэдэр-турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Тяжёлая дезинтегрирующая турель",
+      "de": "Schwerer Schredder-Geschützturm"
+    },
+    "Light Shredder Turret": {
+      "bel": "лёгкая шрэдэр-турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Лёгкая дезинтегрирующая турель",
+      "de": "Leichter Schredder-Geschützturm"
+    },
+    "Standard Shredder Turret": {
+      "bel": "стандартная шрэдэр-турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Стандартная дезинтегрирующая турель",
+      "de": "Standard-Schredder-Geschützturm"
+    },
+    "Light Standard Turret": {
+      "bel": "лёгкая стандартная турэль",
+      "gender": "ж",
+      "note": "?: агульная назва (праверыць у гульні)",
+      "ru": "Лёгкая стандартная турель",
+      "de": "Leichter Standard-Geschützturm"
+    }
+  }
 }
