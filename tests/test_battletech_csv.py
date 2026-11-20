@@ -139,9 +139,13 @@ class BattleTechTest(unittest.TestCase):
         none = next(r for r in src if r["key"] == norm.hashed_key("nothing here"))
         self.assertEqual(none["src_lang"], "")
         self.assertEqual(tables.effective_text(self.loc, none), "")
-        # key-like англійская пазначана ў ctx (наша заўвага, не тэкст гульні)
+        # key-like англійская пазначана ў ctx (наша заўвага, не тэкст гульні);
+        # ctx — машыначытальныя ключы для пачак: at=, use=, q=, len=
         keylike = next(r for r in src if r["en"] == "onlykeylike")
-        self.assertIn("en:keylike", keylike["ctx"])
+        self.assertIn("q=keylike", keylike["ctx"])
+        self.assertIn("use=en", keylike["ctx"])
+        self.assertIn("len=11", keylike["ctx"])
+        self.assertIn("прабелы страчаныя", keylike["ctx"])
 
     def test_apply_and_escape(self):
         self.set_bel("start the engine", "Завесці мотор")

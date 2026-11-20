@@ -101,13 +101,26 @@ def extract(loc: Loc, out: str | None = None):
     for h in target:
         rec = found.get(h)
         use = "en" if rec else ("de" if de.get(h) else ("ru" if last.get(h) else ""))
-        if rec and rec["q"] == "keylike":
-            ctx[h] = "en:keylike — прабелы страчаныя"
-        elif not use:
-            ctx[h] = "няма крыніцы — патрэбна ru"
         if rec:
             prov[h] = {"src": rec["src"], "at": rec["at"], "q": rec["q"], "hits": rec["hits"]}
         prov.setdefault(h, {})["use"] = use
+        # ctx: машыначытальныя ключы для пачак (at=, use=, q=) і чалавечы хвост.
+        # Гэта не тэкст гульні: толькі шляхі, коды і нашыя заўвагі. `at` — шлях
+        # крыніцы (json#/…, dll#us@…, resources.assets@…), `use` — адкуль радок.
+        parts = []
+        if rec:
+            parts.append(f"at={rec['at']}")
+        parts.append(f"use={use}")
+        if rec:
+            parts.append(f"q={rec['q']}")
+        text = rec["en"] if rec else (de.get(h) or last.get(h) or "")
+        parts.append(f"len={len(text)}")
+        line = "; ".join(parts)
+        if rec and rec["q"] == "keylike":
+            line += " — прабелы страчаныя"
+        elif not use:
+            line += " — няма крыніцы, патрэбна ru"
+        ctx[h] = line
     _write_json(os.path.join(out, "context.json"), {TABLE: ctx} if ctx else {})
     _write_json(os.path.join(out, "provenance.json"), {TABLE: prov})
     _write_json(os.path.join(out, "rows.json"), {TABLE: row_index})
