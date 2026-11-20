@@ -15,6 +15,9 @@
   tables — рэгулярны выраз па імені табліцы (re.search) замест table: {"tables": "^101/(?!Line$)"}.
   slice — [ад, да] па нумары радка ў табліцы (як у Python, да — не ўключна; null — да канца):
   вялікую сцэну без чытэльных ключоў (ключ — лічбавы ID) дзеліць на кавалкі па парадку.
+  order — "hash": перад slice радкі табліцы ўпарадкоўваюцца па ключы (у BATTLETECH ключ —
+  хэш); так `slice: [0, 300]` дае выпадковы зрэз корпуса (проба), а не першыя радкі CSV,
+  дзе спачатку ўсе EN, потым DE (гл. tables.sync).
   Радок належыць ПЕРШАЙ пачцы (у парадку файла), якая яго ўзяла, — так
   «рэшта табліцы» апісваецца проста апошнім правілам без match.
 
@@ -114,7 +117,10 @@ def assign(loc: Loc, repeats: dict | None = None, data: dict | None = None
             nt = tables.regex(rule["note"], name) if rule.get("note") else None
             lo, hi = rule.get("slice") or [None, None]
             for table in names:
-                for r in data[table][lo:hi]:
+                rows_in = data[table]
+                if rule.get("order") == "hash":
+                    rows_in = sorted(rows_in, key=lambda r: r["key"])
+                for r in rows_in[lo:hi]:
                     k = (table, r["key"])
                     if (k in claimed or (m and not m.search(r["key"])) or (x and x.search(r["key"]))
                             or (nt and not nt.search(r["note"]))):

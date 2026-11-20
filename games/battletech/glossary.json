@@ -121,6 +121,162 @@
       "note": "скарочаная форма; гл. Yang Virtanen",
       "ru": "Ян",
       "de": "Yang"
+    },
+    "Iron Sparrow": {
+      "bel": "Жалезны Верабей",
+      "gender": "м",
+      "note": "мянушка пірата (HBS BATTLETECH); у тэксце Iron Sparrow’s — прыналежны",
+      "ru": "Железный Воробей",
+      "de": "Iron Sparrow"
+    },
+    "Yoshito Okada": {
+      "bel": "Ёсіта Акада",
+      "gender": "м",
+      "note": "HBS BATTLETECH; пілот",
+      "ru": "Ёсито Окада",
+      "de": "Yoshito Okada"
+    },
+    "Okada": {
+      "bel": "Акада",
+      "gender": "м",
+      "note": "прозвішча; гл. Yoshito Okada",
+      "ru": "Окада",
+      "de": "Okada"
+    },
+    "Bront Shivraj": {
+      "bel": "Бронт Шыўрадж",
+      "gender": "м",
+      "note": "HBS BATTLETECH; у даных гульні lastName — «Shiv RAJ», ru — Шиврай (падказка)",
+      "ru": "Бронт Шиврай",
+      "de": "Bront Shivraj"
+    },
+    "Shivraj": {
+      "bel": "Шыўрадж",
+      "gender": "м",
+      "note": "прозвішча; гл. Bront Shivraj",
+      "ru": "Шиврай",
+      "de": "Shivraj"
+    },
+    "Murdoch Dhawan": {
+      "bel": "Мёрдак Дхаван",
+      "gender": "м",
+      "note": "HBS BATTLETECH; ru — Мёрдок (падказка)",
+      "ru": "Мёрдок Дхаван",
+      "de": "Murdoch Dhawan"
+    },
+    "Dhawan": {
+      "bel": "Дхаван",
+      "gender": "м",
+      "note": "прозвішча; гл. Murdoch Dhawan",
+      "ru": "Дхаван",
+      "de": "Dhawan"
+    },
+    "Basil Lees": {
+      "bel": "Базіль Ліс",
+      "gender": "м",
+      "note": "HBS BATTLETECH; у тэксце — Colonel Lees",
+      "ru": "Полковник Базиль Лис",
+      "de": "Basil Lees"
+    },
+    "Lees": {
+      "bel": "Ліс",
+      "gender": "м",
+      "note": "прозвішча; гл. Basil Lees",
+      "ru": "Лис",
+      "de": "Lees"
+    },
+    "Gallas": {
+      "bel": "Галас",
+      "note": "прозвішча; гл. Samantha Gallas",
+      "ru": "Галлас",
+      "de": "Gallas"
+    },
+    "Arano": {
+      "bel": "Арана",
+      "note": "прозвішча роду; гл. Kamea Arano, Tamati Arano II",
+      "ru": "Арано",
+      "de": "Arano"
+    },
+    "Centrella": {
+      "bel": "Сэнтрэла",
+      "note": "прозвішча; гл. Ana Maria Centrella",
+      "ru": "Сентрелла",
+      "de": "Centrella"
+    },
+    "Arslan": {
+      "bel": "Арслан",
+      "gender": "м",
+      "note": "імя; гл. Arslan’s Janissaries",
+      "ru": "Арслан",
+      "de": "Arslan"
+    },
+    "Tempest": {
+      "bel": "Бура",
+      "gender": "ж",
+      "note": "пазыўны (HBS BATTLETECH); не мех Tempest",
+      "ru": "Буря",
+      "de": "Tempest"
+    },
+    "Megan": {
+      "bel": "Меган",
+      "gender": "ж",
+      "note": "HBS BATTLETECH",
+      "ru": "Меган",
+      "de": "Megan"
+    },
+    "Elena Marisol-Chaplin": {
+      "bel": "Алена Марысоль-Чаплін",
+      "gender": "ж",
+      "note": "HBS BATTLETECH; Таўрыянскі Канкардат",
+      "ru": "Елена Марисоль-Чаплин",
+      "de": "Elena Marisol-Chaplin"
+    },
+    "Marisol-Chaplin": {
+      "bel": "Марысоль-Чаплін",
+      "note": "прозвішча; гл. Elena Marisol-Chaplin",
+      "ru": "Марисоль-Чаплин",
+      "de": "Marisol-Chaplin"
+    },
+    "Alban Stieglitz-Bradford": {
+      "bel": "Албан Штыгліц-Брэдфард",
+      "gender": "м",
+      "note": "HBS BATTLETECH; Ліранскі Альянс; ням. Stieglitz → Штыгліц",
+      "ru": "Албан Стиглиц-Брэдфорд",
+      "de": "Alban Stieglitz-Bradford"
+    },
+    "Stieglitz-Bradford": {
+      "bel": "Штыгліц-Брэдфард",
+      "note": "прозвішча; гл. Alban Stieglitz-Bradford",
+      "ru": "Стиглиц-Брэдфорд",
+      "de": "Stieglitz-Bradford"
+    },
+    "Aivars Balodis": {
+      "bel": "Айварс Балодзіс",
+      "gender": "м",
+      "note": "HBS BATTLETECH; Ліга Вольных Светаў",
+      "ru": "Айвар Балодис",
+      "de": "Aivars Balodis"
+    },
+    "Aivars": {
+      "bel": "Айварс",
+      "gender": "м",
+      "note": "імя; гл. Aivars Balodis",
+      "ru": "Айвар",
+      "de": "Aivars"
+    },
+    "Gaku Hironaka": {
+      "bel": "Гаку Хіранака",
+      "gender": "м",
+      "note": "HBS BATTLETECH; чын чу-і",
+      "ru": "Гаку Хиронака",
+      "de": "Gaku Hironaka"
+    },
+    "Hironaka": {
+      "bel": "Хіранака",
+      "gender": "м",
+      "note": "прозвішча; гл. Gaku Hironaka",
+      "ru": "Хиронака",
+      "de": "Hironaka"
     }
   },
   "places": {
@@ -1884,6 +2040,13 @@
       "note": "агульная пазнака",
       "ru": "неизвестно",
       "de": "UNBEKANNT"
+    },
+    "Arslan's Janissaries": {
+      "bel": "Arslan's Janissaries",
+      "gender": "мн",
+      "note": "наёмнае падраздзяленне (HBS BATTLETECH)",
+      "ru": "Янычары Арслана",
+      "de": "Arslans Janissaries"
     }
   },
   "mechs": {
@@ -3184,6 +3347,27 @@
       "note": "?: агульная назва (праверыць у гульні)",
       "ru": "Лёгкая стандартная турель",
       "de": "Leichter Standard-Geschützturm"
+    },
+    "Concordat": {
+      "bel": "Канкардат",
+      "gender": "м",
+      "note": "скарочаная назва; гл. Taurian Concordat",
+      "ru": "Конкордат",
+      "de": "Konkordat"
+    },
+    "FedRat": {
+      "bel": "федэраст",
+      "gender": "м",
+      "note": "зняважлівае для жыхароў Федэратыўных Сонцаў; RU Федосол",
+      "ru": "Федосол",
+      "de": "Davie"
+    },
+    "Firmir": {
+      "bel": "Firmir",
+      "gender": "м",
+      "note": "брэнд зброі; лацінкай",
+      "ru": "Фирмир",
+      "de": "Firmir"
     }
   }
 }

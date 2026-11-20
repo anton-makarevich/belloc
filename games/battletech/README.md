@@ -5,15 +5,15 @@
 [STYLE.md](STYLE.md); ацэнка, фарматы і план — [RESEARCH.md](RESEARCH.md); назвы —
 [glossary.json](glossary.json).
 
-**Стан на 2026-11-19: пераклад пачаты.** Стратэгія крыніцы — C (гібрыд:
+**Стан на 2026-11-20: падыход да першай хвалі.** Стратэгія крыніцы — C (гібрыд:
 англійская дзе знойдзеная, нямецкая дзе не, руская — для спрэчных выпадкаў).
 Рухавік `battletech-csv` напісаны (extract/apply), `source/` перачытаны, а
 `translation/strings.csv` (21 505 ключоў) сабраны; 16 подпісаў інтэрфейсу ўжо
-перакладзеныя.
-Гласарый запоўнены: G1, G2a, усе 219 планет (G2b) і G2c (фракцыі і зброя) —
-536 запісаў; чарнавыя спісы застаюцца ў `local/battletech/build/` для зверкі,
-G3 дапаўняецца па пачках. Наступны крок — `batches.json` і першая хваля
-«тэрміны, інтэрфейс, назвы». Спайк у гульні прайшоў: гульня прымае зменены
+перакладзеныя. Гласарый запоўнены: G1, G2a, усе 219 планет (G2b) і G2c
+(фракцыі і зброя) — 536 запісаў; G3 (персанажы HBS BATTLETECH) дададзены па
+вычытцы пробы — усяго 563 запісы, 0 памылак. `batches.json` ёсць,
+`ctx:` у працоўных файлах мае `at=/use=/q=/len=`, key-like радкі разбітыя або
+пазначаныя `?: re-space`. Спайк у гульні прайшоў: гульня прымае зменены
 `strings_ru-RU.csv`, а шрыфты TMP 1.x папраўленыя (усе 9 кірылічных) і
 `І і Ў ў` бачныя ў гульні (RESEARCH.md, «Спайк у гульні»). Праўкі шрыфтоў у
 рухавіку яшчэ няма. Рэліза і `CHANGELOG.md` пакуль няма.
@@ -69,7 +69,7 @@ G3 дапаўняецца па пачках. Наступны крок — `batc
 python -X utf8 -m belloc extract battletech          # ~3–4 хвіліны: табліцы + англійская крыніца
 python -X utf8 -m belloc sync battletech             # → translation/strings.csv
 python -X utf8 -m belloc glossary battletech         # гласарый → build/glossary.md
-python -X utf8 -m belloc batch status battletech     # пачкі (batches.json яшчэ няма)
+python -X utf8 -m belloc batch status battletech     # пачкі (batches.json)
 python -X utf8 -m belloc lint battletech
 python -X utf8 -m belloc patch battletech --out local/battletech/build/patch
 ```
@@ -79,8 +79,11 @@ python -X utf8 -m belloc patch battletech --out local/battletech/build/patch
 пачкі; `src_hash` у рэпазіторыі — ад эфектыўнай крыніцы (EN, DE або рускай,
 калі яна пазначаная). Асяроддзе: Python 3.12 і `.venv` у корані рэпазіторыя.
 
-Наступны крок — завесці `batches.json` і экспартаваць першую хвалю
-«тэрміны, інтэрфейс, назвы»; пасля кожнай пачкі — `belloc batch lint`.
+`batches.json` ёсць: 94 пачкі ў 8 хвалях (разам з пробай), пакрыццё 100 % (па
+адным радку ў пачцы, без прапушчаных). Генератар —
+лакальны `local/battletech/tools/make_batches.py`, рукамі файл не правім.
+Key-like радкі (2 962) разбітыя на словы або пазначаныя `?: re-space`;
+падрабязнасці і парадак каманд — у `local/battletech/tools/README.md`.
 
 Першыя 16 подпісаў інтэрфейсу (галоўнае меню, пауза) ужо перакладзеныя як
 праверка ланцуга; `patch --out` сабраў правільны файл, але ў гульні гэтыя радкі
