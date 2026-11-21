@@ -420,6 +420,34 @@
       "bel": "Ракам",
       "gender": "м",
       "note": "?: пірацкі камандзір"
+    },
+    "Carlyle": {
+      "bel": "Карлайл",
+      "gender": "м",
+      "ru": "Карлайл",
+      "de": "Carlyle",
+      "note": "?: contracts-11; Грэйсан Карлайл, Gray Death Legion"
+    },
+    "Grayson Carlyle": {
+      "bel": "Грэйсан Карлайл",
+      "gender": "м",
+      "ru": "Грейсон Карлайл",
+      "de": "Grayson Carlyle",
+      "note": "?: contracts-11; камандзір Gray Death Legion"
+    },
+    "Artemis": {
+      "bel": "Артэміда",
+      "gender": "ж",
+      "ru": "Артемида",
+      "de": "Artemis",
+      "note": "?: contracts-11; катэна на Argo, у гонар багіні палявання; не «Артэміс»"
+    },
+    "Dekker": {
+      "bel": "Дэкер",
+      "gender": "м",
+      "ru": "Деккер",
+      "de": "Dekker",
+      "note": "?: contracts-12; пілот"
     }
   },
   "places": {
@@ -1564,6 +1592,13 @@
       "bel": "Спіка",
       "gender": "ж",
       "note": "?: планета"
+    },
+    "Schwartz": {
+      "bel": "Шварц",
+      "gender": "ж",
+      "ru": "Шварц",
+      "de": "Schwartz",
+      "note": "?: contracts-11; сістэма"
     }
   },
   "factions": {
@@ -3089,8 +3124,8 @@
       "de": "Standard-Sprungdüse (St)"
     },
     "Dalban": {
-        "bel": "Dalban",
-        "note": "брэнд; лацінкай;"
+      "bel": "Dalban",
+      "note": "брэнд; лацінкай;"
     },
     "Victory Industries": {
       "bel": "Victory Industries",
@@ -3671,7 +3706,11 @@
     },
     "Scrap": {
       "bel": "разабраць",
-      "alt": ["разборка", "разборкі", "разабраны"],
+      "alt": [
+        "разборка",
+        "разборкі",
+        "разабраны"
+      ],
       "note": "?: дзеянне — 'разабраць', назоўнік — 'разборка'"
     },
     "Scrap Value": {
@@ -4116,6 +4155,53 @@
     "Loathed by": {
       "bel": "агіда",
       "note": "?: лесвіца рэпутацыі 05"
+    },
+    "Barracks": {
+      "bel": "казармы",
+      "gender": "мн",
+      "ru": "Казармы",
+      "de": "Kaserne",
+      "note": "?: 03/06/ui-03; памяшканне Argo; у тэксце магчымы адзіночны склон «казарма»"
+    },
+    "Navigation": {
+      "bel": "навігацыйная рубка",
+      "gender": "ж",
+      "note": "?: contracts-10; памяшканне Argo; не «навігацыя» і не «штурманская»"
+    },
+    "Arcade": {
+      "bel": "гульнявая зала",
+      "gender": "ж",
+      "ru": "Игровой зал",
+      "de": "Spielhalle",
+      "note": "?: ui-03; contracts-10"
+    },
+    "Command Center": {
+      "bel": "камандны цэнтр",
+      "gender": "м",
+      "ru": "Командный центр",
+      "de": "Kommandozentrale",
+      "note": "?: 03/06/08/10/12; не «цэнтр кіравання» (у 03 гэта дыспетчарская шатлаў)"
+    },
+    "Klutz": {
+      "bel": "Няўклюднасць",
+      "gender": "ж",
+      "ru": "Неуклюжесть",
+      "de": "Tollpatsch",
+      "note": "?: contracts-11; рыса мехварыёра"
+    },
+    "Dependable": {
+      "bel": "Надзейнасць",
+      "gender": "ж",
+      "ru": "Надёжность",
+      "de": "Zuverlässig",
+      "note": "?: contracts-10/11; рыса мехварыёра"
+    },
+    "Bookish": {
+      "bel": "Кніжнасць",
+      "gender": "ж",
+      "ru": "Книжный червь",
+      "de": "Bücherwurm",
+      "note": "?: contracts-12; рыса мехварыёра"
     }
   }
 }
