@@ -380,6 +380,46 @@
       "bel": "Тэст-9",
       "gender": "м",
       "note": "?: пазыўны"
+    },
+    "Morgan Kell": {
+      "bel": "Морган Кел",
+      "gender": "м",
+      "note": "?: заснавальнік Kell Hounds; падвоеная l — адна"
+    },
+    "Rance": {
+      "bel": "Рэнс",
+      "gender": "м",
+      "note": "?: целаахоўнік, антаганіст thePast_Betrayed"
+    },
+    "Vasquez": {
+      "bel": "Васкес",
+      "gender": "м",
+      "note": "?: стары вайсковы сябар гульца"
+    },
+    "Valravn": {
+      "bel": "Валраўн",
+      "gender": "ж",
+      "note": "?: камандзір наёмнай каманды"
+    },
+    "Scythia": {
+      "bel": "Скіфія",
+      "gender": "ж",
+      "note": "?: камандзір наёмнай каманды"
+    },
+    "Douglass": {
+      "bel": "Дуглас",
+      "gender": "м",
+      "note": "?: стары сябар гульца"
+    },
+    "Taranquil": {
+      "bel": "Таранквіл",
+      "gender": "ж",
+      "note": "?: камандзір наёмнай каманды; qu -> кв па STYLE"
+    },
+    "Rackam": {
+      "bel": "Ракам",
+      "gender": "м",
+      "note": "?: пірацкі камандзір"
     }
   },
   "places": {
@@ -3174,7 +3214,7 @@
       "de": "Auriga-Sektor"
     },
     "Mercenary Review Board": {
-      "bel": "Рада праверкі наёмнікаў",
+      "bel": "Рада праверкі наймітаў",
       "gender": "ж",
       "ru": "Ревизионная комиссия наёмников",
       "de": "Söldnerprüfungskommission"
@@ -4026,6 +4066,56 @@
       "bel": "«Іржавы кішэчнік»",
       "gender": "м",
       "note": "?: самагон Яна"
+    },
+    "Review Board": {
+      "bel": "Рада праверкі",
+      "gender": "ж",
+      "ru": "Совет по найму",
+      "note": "?: MRB — РПН; Mercenary Review Board — Рада праверкі наймітаў"
+    },
+    "Power Conduits": {
+      "bel": "энергаканалы",
+      "gender": "мн",
+      "note": "?: ui-03"
+    },
+    "Power surge": {
+      "bel": "скачок напружання",
+      "gender": "м"
+    },
+    "Mess": {
+      "bel": "сталовая",
+      "gender": "ж",
+      "note": "?: contracts-06"
+    },
+    "Quarters": {
+      "bel": "каюты",
+      "gender": "мн",
+      "note": "?: contracts-06"
+    },
+    "Mech Tech Skill": {
+      "bel": "ачкі навыку мехтэхніка",
+      "gender": "мн"
+    },
+    "senior staff": {
+      "bel": "старшыя супрацоўнікі",
+      "gender": "мн",
+      "note": "?: 07/09"
+    },
+    "Liked by": {
+      "bel": "павага",
+      "note": "?: лесвіца рэпутацыі 05"
+    },
+    "Disliked by": {
+      "bel": "непрыязь",
+      "note": "?: лесвіца рэпутацыі 05"
+    },
+    "Hated by": {
+      "bel": "нянавісць",
+      "note": "?: лесвіца рэпутацыі 05"
+    },
+    "Loathed by": {
+      "bel": "агіда",
+      "note": "?: лесвіца рэпутацыі 05"
     }
   }
 }
