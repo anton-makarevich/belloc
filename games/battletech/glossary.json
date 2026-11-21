@@ -2934,6 +2934,29 @@
     "Victory Industries": {
       "bel": "Victory Industries",
       "note": "брэнд; лацінкай;"
+    },
+    "Heat Bank": {
+      "bel": "тэрмабанк",
+      "gender": "м",
+      "note": "?: не 'цеплавы банк'; кароткі подпіс 'тэрмабанк'"
+    },
+    "Thermal Exchanger": {
+      "bel": "цеплаабменнік",
+      "gender": "м",
+      "note": "?: розны з Heat Sink (цеплаадвод)"
+    },
+    "Coolant": {
+      "bel": "ахаладжальнік",
+      "gender": "м",
+      "note": "?: вадкасць; не цеплаадвод (Heat Sink)"
+    },
+    "Coolant Pool": {
+      "bel": "рэзервуар з ахаладжальнікам",
+      "gender": "м"
+    },
+    "Coolant Splash": {
+      "bel": "брызгі ахаладжальніка",
+      "gender": "мн"
     }
   },
   "terms": {
@@ -3507,10 +3530,6 @@
       "bel": "недабор вагі",
       "gender": "м"
     },
-    "Resolve": {
-      "bel": "ухваліць",
-      "note": "to resolve"
-    },
     "acc": {
       "bel": "дакл.",
       "note": "скарачэнне ад accuracy; кропка — абавязковая"
@@ -3523,6 +3542,75 @@
     "Marauders": {
       "bel": "Marauders",
       "note": "?: назва атрада; лацінкай"
+    },
+    "Fury": {
+      "bel": "лютасць",
+      "gender": "ж",
+      "note": "?: баявы рэсурс, як у ui-01"
+    },
+    "Vigilance": {
+      "bel": "пільнасць",
+      "gender": "ж"
+    },
+    "Precision Strike": {
+      "bel": "дакладны ўдар",
+      "gender": "м"
+    },
+    "Sensor Lock": {
+      "bel": "сэнсарны захват",
+      "gender": "м"
+    },
+    "Stealth": {
+      "bel": "скрытнасць",
+      "gender": "ж",
+      "note": "?: не 'маскіроўка'"
+    },
+    "Guarded": {
+      "bel": "абарона",
+      "gender": "ж",
+      "note": "?: стан; так ужо ў корпусе"
+    },
+    "Entrenched": {
+      "bel": "акапанне",
+      "gender": "н"
+    },
+    "Evasion": {
+      "bel": "ухіленне",
+      "gender": "н"
+    },
+    "Biome": {
+      "bel": "біём",
+      "gender": "м"
+    },
+    "Rough Terrain": {
+      "bel": "цяжкапраходная мясцовасць",
+      "gender": "ж"
+    },
+    "Heraldry": {
+      "bel": "геральдыка",
+      "gender": "ж"
+    },
+    "Ironman Mode": {
+      "bel": "рэжым «Жалезны чалавек»",
+      "gender": "м"
+    },
+    "Signature": {
+      "bel": "сігнатура",
+      "gender": "ж"
+    },
+    "Initiative": {
+      "bel": "ініцыятыва",
+      "gender": "ж"
+    },
+    "SLDF": {
+      "bel": "САЗЛ",
+      "gender": "м",
+      "note": "?: скарачэнне; ужо ў 'SLDF Heavy Drone'"
+    },
+    "DropPod": {
+      "bel": "дэсантная капсула",
+      "gender": "ж",
+      "note": "?: не 'дроппод'"
     }
   }
 }
