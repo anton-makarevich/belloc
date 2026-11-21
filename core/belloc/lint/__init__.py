@@ -213,7 +213,10 @@ def load_text(path: str) -> list[Segment]:
 
 
 def load_csv(path: str, column: str) -> list[Segment]:
-    """CSV перакладу: беларускі слупок — адзін, астатнія (ru, de) не чапаем."""
+    """CSV перакладу: беларускі слупок — адзін, астатнія (ru, de) не чапаем.
+
+    Ключ для даклада — са слупка `key`, інакш `en`, інакш нумар радка.
+    """
     segs = []
     with open(path, encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
@@ -223,7 +226,8 @@ def load_csv(path: str, column: str) -> list[Segment]:
         for i, row in enumerate(reader, 2):
             dst = row.get(column) or ""
             if dst.strip():
-                key = (row.get("en") or "").strip() or f"радок {i}"
+                key = ((row.get("key") or row.get("en") or "").strip()
+                       or f"радок {i}")
                 segs.append(Segment(path, key, None, dst))
     return segs
 

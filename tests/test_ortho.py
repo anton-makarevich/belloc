@@ -103,6 +103,19 @@ class CsvInputTest(unittest.TestCase):
         self.assertTrue(text_problems(segs[0].dst))
         self.assertEqual(text_problems(segs[1].dst), [])
 
+    def test_key_column_first(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "translation.csv"
+            path.write_text(
+                "key,src_hash,en,bel,note\n"
+                "357558878,abc,Corodiz,Кародіз,\n"
+                ",def,Antias,Анціас,\n"
+                ",ghi,,Анціас,\n",
+                encoding="utf-8", newline="\n")
+            segs = load_csv(str(path), "bel")
+        self.assertEqual([s.key for s in segs],
+                         ["357558878", "Antias", "радок 4"])
+
 
 if __name__ == "__main__":
     unittest.main()
