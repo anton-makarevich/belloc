@@ -324,6 +324,62 @@
       "bel": "Брок Армстронг",
       "gender": "м",
       "note": "?: хваля 2; зорка шоу «Найміты»"
+    },
+    "Mastiff": {
+      "bel": "Мастыф",
+      "gender": "м",
+      "note": "?: пазыўны Раджу Мантгомеры"
+    },
+    "Grim Sybil": {
+      "bel": "Грым Сібіл",
+      "gender": "ж",
+      "note": "?: правадырка піратаў"
+    },
+    "Haust": {
+      "bel": "Хаўст",
+      "gender": "м",
+      "note": "?: капітан Дырэктарата"
+    },
+    "Ghaddar": {
+      "bel": "Гадар",
+      "gender": "м"
+    },
+    "Dagon": {
+      "bel": "Дагон",
+      "gender": "м"
+    },
+    "Markham": {
+      "bel": "Маркхэм",
+      "gender": "м",
+      "note": "?: камандзір, настаўнік гульца; напісанне — адкрытае пытанне"
+    },
+    "Iron Beard": {
+      "bel": "Жалезная Барада",
+      "gender": "ж",
+      "note": "?: мянушка кампаніі ў Яна; жаночая згода па «барадзе»"
+    },
+    "Samuel Dannen": {
+      "bel": "Сэмюэл Дэнэн",
+      "gender": "м"
+    },
+    "Justin Allard": {
+      "bel": "Джасцін Алард",
+      "gender": "м"
+    },
+    "Sheridan Courtney": {
+      "bel": "Шэрыдан Кортні",
+      "gender": "м",
+      "note": "?: генерал"
+    },
+    "Archangel": {
+      "bel": "Архангел",
+      "gender": "м",
+      "note": "?: пазыўны"
+    },
+    "Test9": {
+      "bel": "Тэст-9",
+      "gender": "м",
+      "note": "?: пазыўны"
     }
   },
   "places": {
@@ -1439,6 +1495,35 @@
       "gender": "мн",
       "ru": "Высоты Нассау",
       "note": "?: хваля 2; Нассау — па ўзусе"
+    },
+    "Perdition": {
+      "bel": "Пердышэн",
+      "gender": "м",
+      "note": "?: планета"
+    },
+    "Axylus": {
+      "bel": "Аксілус",
+      "gender": "м",
+      "note": "?: планета"
+    },
+    "Icebox": {
+      "bel": "Лядоўня",
+      "gender": "ж",
+      "note": "?: мянушка турмы; альтэрнатывы «Халадзільня», «Айсбокс»"
+    },
+    "Rotorua": {
+      "bel": "Раторуа",
+      "gender": "н",
+      "note": "?: мястэчка"
+    },
+    "Sakhara Academy": {
+      "bel": "акадэмія Сахара",
+      "gender": "ж"
+    },
+    "Spica": {
+      "bel": "Спіка",
+      "gender": "ж",
+      "note": "?: планета"
     }
   },
   "factions": {
@@ -2262,6 +2347,10 @@
     "Raven": {
       "bel": "Raven",
       "note": "лацінкай; не скланяецца;"
+    },
+    "Urbie": {
+      "bel": "Urbie",
+      "note": "?: мянушка UrbanMech; лацінкай"
     }
   },
   "vehicles": {
@@ -2358,6 +2447,22 @@
       "bel": "Dobrev",
       "gender": "н",
       "note": "лацінкай;"
+    },
+    "Newgrange": {
+      "bel": "Newgrange",
+      "note": "?: лацінкай"
+    },
+    "Iberia": {
+      "bel": "Iberia",
+      "note": "?: лацінкай"
+    },
+    "Delfinas": {
+      "bel": "Delfinas",
+      "note": "?: лацінкай"
+    },
+    "Four-Headed Dragon": {
+      "bel": "Four-Headed Dragon",
+      "note": "?: лацінкай"
     }
   },
   "items": {
@@ -3108,7 +3213,7 @@
       "de": "Kernspeicher"
     },
     "Hiring Hall": {
-      "bel": "біржа наёмнікаў",
+      "bel": "біржа наймітаў",
       "gender": "ж",
       "ru": "Биржа труда",
       "de": "Rekrutierungshalle"
@@ -3896,6 +4001,31 @@
       "gender": "ж",
       "ru": "отряд наёмников",
       "note": "?: Company — «група»"
+    },
+    "Locura": {
+      "bel": "Локура",
+      "gender": "ж",
+      "note": "?: вірус; склон «Локуру»"
+    },
+    "Periphery Pox": {
+      "bel": "перыферыйная воспа",
+      "gender": "ж",
+      "note": "?: хвароба"
+    },
+    "Stronghold": {
+      "bel": "крэпасць",
+      "gender": "ж",
+      "note": "?: Castle Nautilus — крэпасць Nautilus"
+    },
+    "Spotter": {
+      "bel": "наводчык",
+      "gender": "м",
+      "note": "?: артылерыйскі тэрмін"
+    },
+    "Engine Room Rustgut": {
+      "bel": "«Іржавы кішэчнік»",
+      "gender": "м",
+      "note": "?: самагон Яна"
     }
   }
 }
