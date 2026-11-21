@@ -277,6 +277,43 @@
       "note": "прозвішча; гл. Gaku Hironaka",
       "ru": "Хиронака",
       "de": "Hironaka"
+    },
+    "Daksis Rand": {
+      "bel": "Даксіс Рэнд",
+      "gender": "м",
+      "note": "транслітарацыя; у тэксце сустракаецца «Рэнд»;"
+    },
+    "Daksis": {
+      "bel": "Даксіс",
+      "gender": "м",
+      "note": "імя; гл. Daksis Rand;"
+    },
+    "Mencius": {
+      "bel": "Менцый",
+      "gender": "м",
+      "note": "транслітарацыя;"
+    },
+    "Oliveira": {
+      "bel": "Алівейра",
+      "note": "прозвішча; гл. Darius Oliveira;"
+    },
+    "Espinosa": {
+      "bel": "Эспіноза",
+      "note": "прозвішча; гл. Santiago Espinosa;"
+    },
+    "Helen Khulan": {
+      "bel": "Хелен Хулан",
+      "gender": "ж",
+      "note": "транслітарацыя;"
+    },
+    "Angus Khulan": {
+      "bel": "Ангус Хулан",
+      "gender": "м",
+      "note": "транслітарацыя;"
+    },
+    "Yuetu": {
+      "bel": "Юэту",
+      "note": "?: род і поўнае імя невядомыя;"
     }
   },
   "places": {
@@ -1374,6 +1411,18 @@
       "bel": "Ур-Круін",
       "ru": "Ур-Круинн",
       "de": "Úr Cruinne"
+    },
+    "Parata": {
+      "bel": "Парата",
+      "note": "транслітарацыя;"
+    },
+    "Solaris": {
+      "bel": "Салярыс",
+      "note": "транслітарацыя;"
+    },
+    "Lopt": {
+      "bel": "Лопт",
+      "note": "транслітарацыя;"
     }
   },
   "factions": {
@@ -2193,6 +2242,10 @@
       "note": "лацінкай; не скланяецца",
       "ru": "Zeus",
       "de": "Zeus"
+    },
+    "Raven": {
+      "bel": "Raven",
+      "note": "лацінкай; не скланяецца;"
     }
   },
   "vehicles": {
@@ -2284,6 +2337,11 @@
       "note": "лацінкай",
       "ru": "«Леопард»",
       "de": "Leopard"
+    },
+    "Dobrev": {
+      "bel": "Dobrev",
+      "gender": "н",
+      "note": "лацінкай;"
     }
   },
   "items": {
@@ -2868,6 +2926,14 @@
       "note": "лацінкай",
       "ru": "Стандартный прыжковый двигатель (С)",
       "de": "Standard-Sprungdüse (St)"
+    },
+    "Dalban": {
+        "bel": "Dalban",
+        "note": "брэнд; лацінкай;"
+    },
+    "Victory Industries": {
+      "bel": "Victory Industries",
+      "note": "брэнд; лацінкай;"
     }
   },
   "terms": {
@@ -3368,6 +3434,11 @@
       "note": "брэнд зброі; лацінкай",
       "ru": "Фирмир",
       "de": "Firmir"
+    },
+    "Flashpoint": {
+      "bel": "Флэшпоінт",
+      "gender": "м",
+      "note": "?: напісанне;"
     }
   }
 }
