@@ -687,6 +687,54 @@
       "bel": "Каламар Гігантэ",
       "gender": "м",
       "note": "хваля 6 (02)"
+    },
+    "Janos Marik": {
+      "bel": "Янаш Марык",
+      "gender": "м",
+      "note": "капітан-генерал Лігі Свабодных Светаў"
+    },
+    "Julian Tiepolo": {
+      "bel": "Джуліян Т’епола",
+      "gender": "м",
+      "note": "прымус ComStar"
+    },
+    "Phil Burdock": {
+      "bel": "Філ Бёрдак",
+      "gender": "м"
+    },
+    "Thomas Calderon": {
+      "bel": "Томас Кальдэрон",
+      "gender": "м",
+      "note": "пратэктар Таўрыянскага Канкардата"
+    },
+    "Katrina Steiner": {
+      "bel": "Катрына Штайнер",
+      "gender": "ж",
+      "note": "архонт Ліранскай Садружнасці"
+    },
+    "Zin Ala": {
+      "bel": "Зін Ала",
+      "gender": "м"
+    },
+    "Reginald von Kaas": {
+      "bel": "Рэджыналд фон Каас",
+      "gender": "м"
+    },
+    "James Bixby": {
+      "bel": "Джэймс Біксбі",
+      "gender": "м"
+    },
+    "Brett Finnegan Bozeman": {
+      "bel": "Брэт Фінеган Боўзмен",
+      "gender": "м"
+    },
+    "Andaelas": {
+      "bel": "Андаэлас",
+      "gender": "м"
+    },
+    "Peter Chang": {
+      "bel": "Пітэр Чанг",
+      "gender": "м"
     }
   },
   "places": {
@@ -1932,6 +1980,181 @@
       "bel": "Трэлван",
       "gender": "м",
       "note": "хваля 6"
+    },
+    "Rasalhague": {
+      "bel": "Расалхаг",
+      "gender": "м",
+      "note": "планета/рэгіён; хваля 7"
+    },
+    "Regulus": {
+      "bel": "Рэгулус",
+      "gender": "м",
+      "note": "планета; прыметнік — рэгуланскі; хваля 7"
+    },
+    "New Jakobstad": {
+      "bel": "Нью-Якабстад",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "New Vulci": {
+      "bel": "Нью-Вульчы",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "New Walland Marsh": {
+      "bel": "Нью-Уоландскае балота",
+      "gender": "н",
+      "note": "балотная мясцовасць на планеце New Walland (месца сустрэчы), не планета; хваля 7"
+    },
+    "Joramander": {
+      "bel": "Джарамандэр",
+      "gender": "м",
+      "note": "газавы гігант; хваля 7"
+    },
+    "Rodigo": {
+      "bel": "Радыга",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Shaul Khala": {
+      "bel": "Шаўл Хала",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Ljugarn": {
+      "bel": "Л’югарн",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "St. Loris": {
+      "bel": "Сент-Лорыс",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "New Syrtis": {
+      "bel": "Нью-Сіртыс",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Yorii": {
+      "bel": "Ёрыі",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Mallory's World": {
+      "bel": "свет Мэлары",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Red Roost": {
+      "bel": "Чырванае гняздо",
+      "gender": "н",
+      "note": "крэпасць Дома Хуланаў; «гняздо» (рашэнне ўласніка); хваля 7"
+    },
+    "St. Marinus House": {
+      "bel": "Дом Святога Марынуса",
+      "gender": "м",
+      "note": "абіцель на Заніі; хваля 7"
+    },
+    "New Samarkand": {
+      "bel": "Нью-Самарканд",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Trell": {
+      "bel": "Трэл",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Shantia Province": {
+      "bel": "Правінцыя Шантыя",
+      "gender": "ж"
+    },
+    "Anvelt": {
+      "bel": "Анвельт",
+      "gender": "м",
+      "ru": "АНВЕЛЬТ",
+      "de": "ANVELT",
+      "note": "планета"
+    },
+    "Arc-Royal": {
+      "bel": "Арк-Роял",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Gulkana": {
+      "bel": "Гулкана",
+      "gender": "ж",
+      "note": "планета"
+    },
+    "Meacham": {
+      "bel": "Мічам",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Tharkad": {
+      "bel": "Таркад",
+      "gender": "м",
+      "note": "сталічная планета Ліранскай Садружнасці"
+    },
+    "Hahnsak": {
+      "bel": "Хансак",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Old Kentucky": {
+      "bel": "Олд-Кентукі",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Somerset": {
+      "bel": "Сомерсет",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Albion": {
+      "bel": "Альбіён",
+      "gender": "м",
+      "note": "планета і вайсковая акадэмія Дэвіянаў"
+    },
+    "Hesperus": {
+      "bel": "Гесперус",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Bellevue": {
+      "bel": "Бельвю",
+      "note": "планета"
+    },
+    "Praxton": {
+      "bel": "Праксан",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Weingarten": {
+      "bel": "Вайнгартэн",
+      "gender": "м",
+      "note": "планета"
+    },
+    "The Edge": {
+      "bel": "Эдж",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Hardisey's Haven": {
+      "bel": "Хардзісейс Хавен",
+      "gender": "м",
+      "note": "планета"
+    },
+    "New Hessen": {
+      "bel": "Нью-Гесэн",
+      "gender": "м",
+      "note": "планета"
+    },
+    "Thule": {
+      "bel": "Туле",
+      "gender": "м",
+      "note": "планета"
     }
   },
   "factions": {
@@ -2630,6 +2853,44 @@
       "bel": "Дамы воінаў",
       "gender": "мн",
       "note": "Капеланская Канфедэрацыя; хваля 6"
+    },
+    "Wolf's Dragoons": {
+      "bel": "Wolf's Dragoons",
+      "gender": "мн",
+      "note": "лацінкай; група наймітаў"
+    },
+    "Jackals": {
+      "bel": "Jackals",
+      "gender": "мн",
+      "note": "лацінкай; кароткая форма ад Flak Jackals"
+    },
+    "Outworld Alliance": {
+      "bel": "Альянс Знешніх Светаў",
+      "gender": "м",
+      "note": "апісальная назва: пераклад"
+    },
+    "Circinus Federation": {
+      "bel": "Федэрацыя Цырцынус",
+      "gender": "ж",
+      "note": "апісальная назва: пераклад"
+    },
+    "Alliance Grenadiers": {
+      "bel": "Грэнадзёры Альянса",
+      "gender": "мн"
+    },
+    "Black Warriors": {
+      "bel": "Чорныя воіны",
+      "gender": "мн"
+    },
+    "Arm of the Dragon": {
+      "bel": "Рука Дракона",
+      "gender": "ж",
+      "note": "фармаванне Аб’яднання Дракона"
+    },
+    "Sons of Grace": {
+      "bel": "Сыны Грэйс",
+      "gender": "мн",
+      "note": "?: Grace — імя ці «ласка»; рашэнне ўласніка"
     }
   },
   "mechs": {
@@ -2900,6 +3161,13 @@
     "Coronach": {
       "bel": "Coronach",
       "note": "лацінкай; ADV Coronach"
+    },
+    "Union": {
+      "bel": "Union",
+      "gender": "м",
+      "ru": "«Юнион»",
+      "de": "Union",
+      "note": "клас шатла; лацінкай"
     }
   },
   "items": {
@@ -3545,6 +3813,40 @@
       "bel": "крывавы талон",
       "gender": "м",
       "note": "ComStar; хваля 6 (02)"
+    },
+    "Pulse Laser": {
+      "bel": "імпульсны лазер",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Gyro": {
+      "bel": "гіраскап",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "TTS": {
+      "bel": "СНС",
+      "gender": "ж",
+      "note": "сістэма навядзення і сачэння; хваля 7"
+    },
+    "Rangefinder": {
+      "bel": "далёкамер",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Drive Train": {
+      "bel": "хадавая частка",
+      "gender": "ж",
+      "note": "хваля 7"
+    },
+    "neurohelmet": {
+      "bel": "нейрашлем",
+      "gender": "м"
+    },
+    "myomer": {
+      "bel": "міямер",
+      "gender": "м",
+      "note": "тэрмін BattleTech"
     }
   },
   "terms": {
@@ -4803,6 +5105,88 @@
       "bel": "добрасумленнасць",
       "gender": "ж",
       "note": "тып кантракта; хваля 6 (02)"
+    },
+    "Hardpoint": {
+      "bel": "пункт мацавання",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Unfieldable": {
+      "bel": "небаяздольны",
+      "note": "хваля 7"
+    },
+    "Yardship": {
+      "bel": "карабель-верф",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Misjump": {
+      "bel": "збой скачку",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Critical": {
+      "bel": "крытычнае трапленне",
+      "gender": "н",
+      "note": "хваля 7"
+    },
+    "Long-Range Missiles": {
+      "bel": "ракеты далёкага бою",
+      "gender": "мн",
+      "note": "рашэнне ўласніка 2026-11-22"
+    },
+    "Short-Range Missiles": {
+      "bel": "ракеты блізкага бою",
+      "gender": "мн",
+      "note": "рашэнне ўласніка 2026-11-22"
+    },
+    "Operation Liberation": {
+      "bel": "Аперацыя «Вызваленне»",
+      "gender": "ж",
+      "note": "хваля 7"
+    },
+    "Age of War": {
+      "bel": "Эпоха Вайны",
+      "gender": "ж",
+      "note": "хваля 7"
+    },
+    "Reunification War": {
+      "bel": "Вайна за ўз’яднанне",
+      "gender": "ж",
+      "note": "хваля 7"
+    },
+    "Sarna Mandate": {
+      "bel": "Сарнскі мандат",
+      "gender": "м",
+      "note": "хваля 7"
+    },
+    "Stasis Tube": {
+      "bel": "стазісная капсула",
+      "gender": "ж",
+      "note": "хваля 7"
+    },
+    "Rumble Seat": {
+      "bel": "дадатковае сядзенне",
+      "gender": "н",
+      "note": "хваля 7"
+    },
+    "janissary": {
+      "bel": "янычар",
+      "gender": "м"
+    },
+    "Archon": {
+      "bel": "архонт",
+      "gender": "м",
+      "note": "тытул кіраўніка Ліранскай Садружнасці"
+    },
+    "Captain-General": {
+      "bel": "капітан-генерал",
+      "gender": "м",
+      "note": "тытул кіраўніка Лігі Свабодных Светаў"
+    },
+    "Korvin Doctrine": {
+      "bel": "Дактрына Корвіна",
+      "gender": "ж"
     }
   }
 }
