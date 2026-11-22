@@ -448,6 +448,55 @@
       "ru": "Деккер",
       "de": "Dekker",
       "note": "?: contracts-12; пілот"
+    },
+    "Gray Norton": {
+      "bel": "Грэй Нортан",
+      "gender": "м",
+      "ru": "Грей Нортон",
+      "de": "Gray Norton",
+      "note": "?: contracts-18; гулец Solaris"
+    },
+    "Clausewitz": {
+      "bel": "Клаўзевіц",
+      "gender": "м",
+      "ru": "Клаузевиц",
+      "de": "Clausewitz",
+      "note": "?: contracts-18; Карл фон Клаўзевіц"
+    },
+    "Patton": {
+      "bel": "Патан",
+      "gender": "м",
+      "ru": "Паттон",
+      "de": "Patton",
+      "note": "?: contracts-18; Джордж С. Патан"
+    },
+    "Kerensky": {
+      "bel": "Керанскі",
+      "gender": "м",
+      "ru": "Керенский",
+      "de": "Kerensky",
+      "note": "?: contracts-18; Aleksandr Kerensky — выдуманы генерал BattleTech (Sarna), не расійскі палітык Аляксандр Керанскі"
+    },
+    "Behemoth": {
+      "bel": "Бегемот",
+      "gender": "ж",
+      "ru": "Тяжеловес",
+      "de": "Behemoth",
+      "note": "?: contracts-18; пазыўны пілота"
+    },
+    "Glitch": {
+      "bel": "Глітч",
+      "gender": "ж",
+      "ru": "Глюк",
+      "de": "Glitch",
+      "note": "?: contracts-18; пазыўны пілота"
+    },
+    "Medusa": {
+      "bel": "Медуза",
+      "gender": "м",
+      "ru": "Медуза",
+      "de": "Medusa",
+      "note": "?: contracts-19; пазыўны пілота"
     }
   },
   "places": {
@@ -3153,6 +3202,21 @@
     "Coolant Splash": {
       "bel": "брызгі ахаладжальніка",
       "gender": "мн"
+    },
+    "Medipatch": {
+      "bel": "медыпластыр",
+      "gender": "м",
+      "note": "?: contracts-20"
+    },
+    "gyroslug rifle": {
+      "bel": "гіраскапічная вінтоўка",
+      "gender": "ж",
+      "note": "?: contracts-19"
+    },
+    "Alrakis Tigerfalcon": {
+      "bel": "алракійскі тыграсокал",
+      "gender": "м",
+      "note": "?: contracts-13; экзатычная птушка, не мех"
     }
   },
   "terms": {
@@ -4202,6 +4266,71 @@
       "ru": "Книжный червь",
       "de": "Bücherwurm",
       "note": "?: contracts-12; рыса мехварыёра"
+    },
+    "Memorial Wall": {
+      "bel": "Сцяна памяці",
+      "gender": "ж",
+      "note": "?: contracts-15; сцяна на Argo"
+    },
+    "observation deck": {
+      "bel": "назіральная палуба",
+      "gender": "ж",
+      "note": "?: contracts-15; памяшканне Argo"
+    },
+    "all-terrain vehicle": {
+      "bel": "пазадарожнік",
+      "gender": "м",
+      "note": "?: contracts-15"
+    },
+    "Agriculture World": {
+      "bel": "аграрны свет",
+      "gender": "м",
+      "note": "?: contracts-19; тып планеты"
+    },
+    "Manufacturing World": {
+      "bel": "прамысловы свет",
+      "gender": "м",
+      "note": "?: 09/10; тып планеты"
+    },
+    "brig": {
+      "bel": "карцар",
+      "gender": "м",
+      "note": "?: contracts-19"
+    },
+    "Power Interlock": {
+      "bel": "блакіроўка сілкавання",
+      "gender": "ж",
+      "note": "?: contracts-18"
+    },
+    "bioscanner": {
+      "bel": "біясканар",
+      "gender": "м",
+      "note": "?: contracts-18"
+    },
+    "voiceprint": {
+      "bel": "адбітак голасу",
+      "gender": "м",
+      "note": "?: contracts-18"
+    },
+    "shuttle bay": {
+      "bel": "ангар шатла",
+      "gender": "м",
+      "note": "?: contracts-20"
+    },
+    "grand-matriarch": {
+      "bel": "матрыярх",
+      "gender": "м",
+      "note": "?: contracts-20"
+    },
+    "Dishonest": {
+      "bel": "Няшчырасць",
+      "gender": "ж",
+      "note": "?: 13/16/17; рыса мехварыёра"
+    },
+    "Drunk": {
+      "bel": "П’янства",
+      "gender": "н",
+      "note": "?: 13/15; рыса/стан"
     }
   }
 }

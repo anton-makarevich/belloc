@@ -103,6 +103,16 @@
    "note": "",
    "checked": "2026-11-11"
   },
+  "en:Carl von Clausewitz": {
+   "be": "Карл фон Клаўзевіц",
+   "ru": "Клаузевиц, Карл фон",
+   "desc": "Prussian military theorist (1780–1831)",
+   "qid": "Q76430",
+   "type": "human",
+   "sex": "м",
+   "note": "",
+   "checked": "2026-11-22"
+  },
   "en:Casina Pio IV": {
    "be": null,
    "ru": "Вилла Пия",
@@ -258,6 +268,16 @@
    "type": "garden",
    "note": "",
    "checked": "2026-11-11"
+  },
+  "en:George S. Patton": {
+   "be": "Джордж Сміт Патан",
+   "ru": "Паттон, Джордж Смит",
+   "desc": "United States Army general (1885–1945)",
+   "qid": "Q186492",
+   "type": "human",
+   "sex": "м",
+   "note": "",
+   "checked": "2026-11-22"
   },
   "en:Giza": {
    "be": "Гіза",
