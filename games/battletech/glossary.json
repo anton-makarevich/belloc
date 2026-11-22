@@ -496,6 +496,26 @@
       "ru": "Медуза",
       "de": "Medusa",
       "note": "?: contracts-19; пазыўны пілота"
+    },
+    "Karen Andris": {
+      "bel": "Карэн Андрыс",
+      "gender": "ж",
+      "ru": "Карен Андрис",
+      "note": "лейтэнант Дома Дэцымісаў; dialogue-01/04"
+    },
+    "Andris": {
+      "bel": "Андрыс",
+      "note": "прозвішча; гл. Karen Andris"
+    },
+    "Pontoon": {
+      "bel": "Пантон",
+      "gender": "ж",
+      "note": "пазыўны; dialogue-03"
+    },
+    "Guano": {
+      "bel": "Гуано",
+      "gender": "м",
+      "note": "пазыўны; dialogue-01/03"
     }
   },
   "places": {
@@ -2586,6 +2606,10 @@
     "Four-Headed Dragon": {
       "bel": "Four-Headed Dragon",
       "note": "?: лацінкай"
+    },
+    "Coronach": {
+      "bel": "Coronach",
+      "note": "лацінкай; ADV Coronach"
     }
   },
   "items": {
@@ -4330,6 +4354,11 @@
       "bel": "П’янства",
       "gender": "н",
       "note": "?: 13/15; рыса/стан"
+    },
+    "hazard pay": {
+      "bel": "надбаўка за рызыку",
+      "gender": "ж",
+      "note": "dialogue-03"
     }
   }
 }
