@@ -82,10 +82,11 @@
       "de": "Dame Catherine Humphreys"
     },
     "Tamati Arano II": {
-      "bel": "лорд Тамаці Арана II",
+      "bel": "вярхоўны лорд Тамаці Арана II",
       "gender": "м",
       "ru": "Верховный лорд Тамати Арано II",
-      "de": "High Lord Tamati Arano II."
+      "de": "High Lord Tamati Arano II.",
+      "note": "тытул High Lord — вярхоўны лорд (хваля 5b)"
     },
     "Darius": {
       "bel": "Дарыус",
@@ -556,6 +557,136 @@
       "bel": "Гарылак",
       "gender": "м",
       "note": "dialogue-08"
+    },
+    "Hanse Davion": {
+      "bel": "Ханс Дэвіян",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Maximilian Liao": {
+      "bel": "Максіміліян Ляо",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Tormax Liao": {
+      "bel": "Тормакс Ляо",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Hassid Ricol": {
+      "bel": "Хасід Рыкол",
+      "gender": "м",
+      "note": "Чырвоны герцаг; хваля 6 (03)"
+    },
+    "Royden Bisset": {
+      "bel": "Ройдэн Бісет",
+      "gender": "м",
+      "note": "Дом Бісет; хваля 6 (03)"
+    },
+    "Branca Madeira": {
+      "bel": "Бранка Мадэйра",
+      "gender": "ж",
+      "note": "Дом Мадэйраў; хваля 6 (03)"
+    },
+    "Henare Parata": {
+      "bel": "Хенарэ Парата",
+      "gender": "м",
+      "note": "Дом Паратаў; хваля 6 (03)"
+    },
+    "Sara Arano": {
+      "bel": "Сара Арана",
+      "gender": "ж",
+      "note": "жонка Тамаці Арана II; хваля 6 (03)"
+    },
+    "Samantha Calderon": {
+      "bel": "Саманта Кальдэрон",
+      "gender": "ж",
+      "note": "заснавальніца Таўрыянскага Канкардата; хваля 6 (03)"
+    },
+    "Kossandra Centrella": {
+      "bel": "Касандра Сэнтрэла",
+      "gender": "ж",
+      "note": "заснавальніца Магістрата Канопуса; хваля 6 (03)"
+    },
+    "Kyalla Centrella": {
+      "bel": "К’яла Сэнтрэла",
+      "gender": "ж",
+      "note": "магістрыса; хваля 6 (03)"
+    },
+    "Paula Trevaline": {
+      "bel": "Паула Трэвалін",
+      "gender": "ж",
+      "note": "Лэдзі Смерць; хваля 6 (03)"
+    },
+    "Nokter Baumann": {
+      "bel": "Ноктэр Бауман",
+      "gender": "м",
+      "note": "у 02 крыніца — Notker; хваля 6"
+    },
+    "Alana Korvin Devall": {
+      "bel": "Алана Корвін Дэвал",
+      "gender": "ж",
+      "note": "хваля 6 (03)"
+    },
+    "Normann Aris": {
+      "bel": "Норман Арыс",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Gaku Magorian": {
+      "bel": "Гаку Магорыян",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Jerome Blake": {
+      "bel": "Джэром Блэйк",
+      "gender": "м",
+      "note": "заснавальнік ComStar; хваля 6 (03)"
+    },
+    "Minoru Kurita": {
+      "bel": "Мінору Курыта",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Shiro Kurita": {
+      "bel": "Сіро Курыта",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Takashi Kurita": {
+      "bel": "Такасі Курыта",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Yorinaga Kurita": {
+      "bel": "Ёрынага Курыта",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Serena Toussaint": {
+      "bel": "Серэна Тусант",
+      "gender": "ж",
+      "note": "хваля 6 (03)"
+    },
+    "Ademar Sadat": {
+      "bel": "Адэмар Садат",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Samantha Vincent": {
+      "bel": "Саманта Вінцэнт",
+      "gender": "ж",
+      "note": "хваля 6 (03)"
+    },
+    "Harrison Trimaldi": {
+      "bel": "Харысан Трымальдзі",
+      "gender": "м",
+      "note": "хваля 6 (03)"
+    },
+    "Calamar Gigante": {
+      "bel": "Каламар Гігантэ",
+      "gender": "м",
+      "note": "хваля 6 (02)"
     }
   },
   "places": {
@@ -1711,6 +1842,96 @@
     "Cordia City": {
       "bel": "Кордыя",
       "note": "сталіца Аўрыганскага Краю; dialogue-05/06"
+    },
+    "Terra": {
+      "bel": "Тэра",
+      "gender": "ж",
+      "note": "планета Зямля; не «Зямля» ў назве планеты (хваля 6)"
+    },
+    "St. Ives": {
+      "bel": "Сент-Айвз",
+      "gender": "м",
+      "note": "планета і полк; хваля 6"
+    },
+    "New Avalon": {
+      "bel": "Нью-Авалон",
+      "gender": "м",
+      "note": "хваля 6"
+    },
+    "Luthien": {
+      "bel": "Лутыен",
+      "gender": "м",
+      "note": "сталіца Аб’яднання Дракона; хваля 6"
+    },
+    "Kittery": {
+      "bel": "Кітэры",
+      "gender": "м",
+      "note": "хваля 6"
+    },
+    "Leamington": {
+      "bel": "Лемінгтан",
+      "gender": "м",
+      "note": "хваля 6"
+    },
+    "Bryant": {
+      "bel": "Браянт",
+      "gender": "м",
+      "note": "хваля 6"
+    },
+    "Kosciusko": {
+      "bel": "Касцюшка",
+      "gender": "м",
+      "note": "хваля 6"
+    },
+    "Demeter": {
+      "bel": "Дэметра",
+      "gender": "ж",
+      "note": "хваля 6"
+    },
+    "Zaniah": {
+      "bel": "Занія",
+      "gender": "ж",
+      "note": "хваля 6"
+    },
+    "Verthandi": {
+      "bel": "Верзандзі",
+      "gender": "м",
+      "note": "хваля 6"
+    },
+    "Capella": {
+      "bel": "Капела",
+      "gender": "ж",
+      "note": "ад яе — Capellan/капеланскі; хваля 6"
+    },
+    "Pleiades": {
+      "bel": "Плеяды",
+      "gender": "мн",
+      "note": "зорнае скопішча; хваля 6"
+    },
+    "Shibukawa": {
+      "bel": "Сібукава",
+      "gender": "ж",
+      "note": "хваля 6"
+    },
+    "New Durban": {
+      "bel": "Нью-Дурбан",
+      "gender": "м",
+      "note": "хваля 6"
+    },
+    "Imperial City": {
+      "bel": "Імператарскі горад",
+      "gender": "м",
+      "note": "хваля 6"
+    },
+    "Tortuga Dominions": {
+      "bel": "Дамініёны Тартугі",
+      "gender": "мн",
+      "note": "пірацкае каралеўства; хваля 6"
+    },
+    "Trellwan": {
+      "bel": "Трэлван",
+      "gender": "м",
+      "note": "хваля 6"
     }
   },
   "factions": {
@@ -2389,6 +2610,26 @@
       "bel": "Дом Бісет",
       "gender": "м",
       "note": "імя роду; dialogue-08"
+    },
+    "Federated Commonwealth": {
+      "bel": "Федэратыўная Садружнасць",
+      "gender": "ж",
+      "note": "апісальная назва: пераклад; хваля 6"
+    },
+    "Rim Worlds Republic": {
+      "bel": "Рэспубліка Ускраінных Светаў",
+      "gender": "ж",
+      "note": "апісальная назва: пераклад; не «Рымская»; хваля 6"
+    },
+    "Great Houses": {
+      "bel": "Вялікія Дамы",
+      "gender": "мн",
+      "note": "кіруючыя дамы Унутранай Сферы; хваля 6"
+    },
+    "Warrior Houses": {
+      "bel": "Дамы воінаў",
+      "gender": "мн",
+      "note": "Капеланская Канфедэрацыя; хваля 6"
     }
   },
   "mechs": {
@@ -3289,6 +3530,21 @@
       "bel": "алракійскі тыграсокал",
       "gender": "м",
       "note": "?: contracts-13; экзатычная птушка, не мех"
+    },
+    "Ammo Bin": {
+      "bel": "скрыня з боепрыпасамі",
+      "gender": "ж",
+      "note": "не «складанка»; хваля 6 (01)"
+    },
+    "Ambergrist Vermouth": {
+      "bel": "вермут «Амбергрыст»",
+      "gender": "м",
+      "note": "напой; хваля 6 (02)"
+    },
+    "Blood Chit": {
+      "bel": "крывавы талон",
+      "gender": "м",
+      "note": "ComStar; хваля 6 (02)"
     }
   },
   "terms": {
@@ -4418,6 +4674,135 @@
       "bel": "вярхоўная лэдзі",
       "gender": "ж",
       "note": "тытул; dialogue-01/04/05"
+    },
+    "HPG": {
+      "bel": "ГПГ",
+      "gender": "м",
+      "note": "гіперпульсавы генератар; скарачэнне — кірыліцай"
+    },
+    "Precentor": {
+      "bel": "прэцэнтар",
+      "gender": "м",
+      "note": "ComStar; хваля 6"
+    },
+    "Magestrix": {
+      "bel": "магістрыса",
+      "gender": "ж",
+      "note": "Магістрат Канопуса; хваля 6"
+    },
+    "Founding Council": {
+      "bel": "Савет Домаў-заснавальнікаў",
+      "gender": "м",
+      "note": "Аўрыганская Кааліцыя; хваля 6"
+    },
+    "Concord of Kapteyn": {
+      "bel": "Каптэйнскае пагадненне",
+      "gender": "н",
+      "note": "дагавор 3024; хваля 6"
+    },
+    "Ares Conventions": {
+      "bel": "Арэскія канвенцыі",
+      "gender": "мн",
+      "note": "хваля 6"
+    },
+    "Kearny-Fuchida drive": {
+      "bel": "рухавік Керні-Фушыды",
+      "gender": "м",
+      "note": "скарочана KF-рухавік; хваля 6"
+    },
+    "Project Triage": {
+      "bel": "праект Triage",
+      "gender": "м",
+      "note": "?: triage — сартаванне, не перакладаць"
+    },
+    "Heat Generation": {
+      "bel": "цеплавыдзяленне",
+      "gender": "н",
+      "note": "хваля 6 (02)"
+    },
+    "Heat Capacity": {
+      "bel": "ёмістасць нагрэву",
+      "gender": "ж",
+      "note": "хваля 6 (02)"
+    },
+    "Heat Sinking": {
+      "bel": "адвод нагрэву",
+      "gender": "м",
+      "note": "здольнасць; не прадмет Heat Sink; хваля 6 (02)"
+    },
+    "Stability Damage": {
+      "bel": "шкода ўстойлівасці",
+      "gender": "ж",
+      "note": "хваля 6 (02)"
+    },
+    "Stability Defense": {
+      "bel": "абарона ўстойлівасці",
+      "gender": "ж",
+      "note": "хваля 6 (02)"
+    },
+    "Hit Defense": {
+      "bel": "абарона ад траплення",
+      "gender": "ж",
+      "note": "хваля 6 (01/02); не блытаць з Evasion — ухіленне"
+    },
+    "Base Weapon Hit": {
+      "bel": "базавая дакладнасць стральбы",
+      "gender": "ж",
+      "note": "статыстычны подпіс; хваля 6 (01)"
+    },
+    "Base Melee Hit": {
+      "bel": "базавая дакладнасць у блізкім баі",
+      "gender": "ж",
+      "note": "статыстычны подпіс; хваля 6 (01)"
+    },
+    "Indirect Fire": {
+      "bel": "непрамы агонь",
+      "gender": "м",
+      "note": "хваля 6 (01)"
+    },
+    "Multi-target": {
+      "bel": "некалькі цэляў",
+      "note": "здольнасць; хваля 6 (01)"
+    },
+    "Operating Costs": {
+      "bel": "выдаткі на ўтрыманне",
+      "gender": "мн",
+      "note": "хваля 6 (02)"
+    },
+    "Expense Level": {
+      "bel": "узровень выдаткаў",
+      "gender": "м",
+      "note": "хваля 6 (02)"
+    },
+    "Financial Review": {
+      "bel": "фінансавы агляд",
+      "gender": "м",
+      "note": "назва экрана; хваля 6 (02)"
+    },
+    "Ship Upgrades": {
+      "bel": "паляпшэнні карабля",
+      "gender": "мн",
+      "note": "хваля 6 (02)"
+    },
+    "Career Rank": {
+      "bel": "ранг кар’еры",
+      "gender": "м",
+      "note": "хваля 6 (02)"
+    },
+    "Score modifier": {
+      "bel": "мадыфікатар ачкоў",
+      "gender": "м",
+      "note": "хваля 6 (02)"
+    },
+    "Bad Faith": {
+      "bel": "нядобрасумленнасць",
+      "gender": "ж",
+      "note": "тып кантракта; хваля 6 (02)"
+    },
+    "Good Faith": {
+      "bel": "добрасумленнасць",
+      "gender": "ж",
+      "note": "тып кантракта; хваля 6 (02)"
     }
   }
 }
