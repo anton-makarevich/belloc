@@ -516,6 +516,46 @@
       "bel": "Гуано",
       "gender": "м",
       "note": "пазыўны; dialogue-01/03"
+    },
+    "Marina Liao": {
+      "bel": "Марына Ляо",
+      "gender": "ж",
+      "note": "сувязная Капеланскай Канфедэрацыі; dialogue-08"
+    },
+    "Persephone Volkov": {
+      "bel": "Персефона Волкава",
+      "gender": "ж",
+      "note": "прапаведніца волкавітаў; dialogue-08"
+    },
+    "Davinder Singh": {
+      "bel": "Давіндэр Сінгх",
+      "gender": "м",
+      "note": "сувязны Лігі Свабодных Светаў; dialogue-08"
+    },
+    "Boris Tianyu": {
+      "bel": "Барыс Цянью",
+      "gender": "м",
+      "note": "падкамандзір; dialogue-08"
+    },
+    "Alexandria Cunningham": {
+      "bel": "Аляксандрыя Канінгэм",
+      "gender": "ж",
+      "note": "сувязная Федэратыўных Сонцаў; dialogue-08"
+    },
+    "Miguel Zapata": {
+      "bel": "Мігель Сапата",
+      "gender": "м",
+      "note": "правадыр уцекачоў; dialogue-08"
+    },
+    "Jesper": {
+      "bel": "Джэспер",
+      "gender": "м",
+      "note": "лорд Дома Бісет; dialogue-08"
+    },
+    "Garrilac": {
+      "bel": "Гарылак",
+      "gender": "м",
+      "note": "dialogue-08"
     }
   },
   "places": {
@@ -1667,6 +1707,10 @@
       "ru": "Шварц",
       "de": "Schwartz",
       "note": "?: contracts-11; сістэма"
+    },
+    "Cordia City": {
+      "bel": "Кордыя",
+      "note": "сталіца Аўрыганскага Краю; dialogue-05/06"
     }
   },
   "factions": {
@@ -2340,6 +2384,11 @@
       "note": "наёмнае падраздзяленне (HBS BATTLETECH)",
       "ru": "Янычары Арслана",
       "de": "Arslans Janissaries"
+    },
+    "House Bisset": {
+      "bel": "Дом Бісет",
+      "gender": "м",
+      "note": "імя роду; dialogue-08"
     }
   },
   "mechs": {
@@ -4359,6 +4408,16 @@
       "bel": "надбаўка за рызыку",
       "gender": "ж",
       "note": "dialogue-03"
+    },
+    "High Lord": {
+      "bel": "вярхоўны лорд",
+      "gender": "м",
+      "note": "тытул; dialogue-05"
+    },
+    "High Lady": {
+      "bel": "вярхоўная лэдзі",
+      "gender": "ж",
+      "note": "тытул; dialogue-01/04/05"
     }
   }
 }
