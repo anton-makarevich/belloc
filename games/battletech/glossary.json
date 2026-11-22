@@ -826,6 +826,61 @@
       "bel": "Ірыс Штайнер",
       "gender": "ж",
       "note": "герцагіня, маркграф тэатра Кавана"
+    },
+    "Luthendorff": {
+      "bel": "Лютэндорф",
+      "gender": "ж",
+      "de": "Luthendorff",
+      "note": "прозвішча; ж, не скланяецца (Карына Лютэндорф)"
+    },
+    "Corina": {
+      "bel": "Карына",
+      "gender": "ж",
+      "de": "Corina"
+    },
+    "Damestroir": {
+      "bel": "Дамэструар",
+      "de": "Damestroir",
+      "note": "прозвішча; не скланяецца"
+    },
+    "Wallo": {
+      "bel": "Уола",
+      "gender": "м",
+      "de": "Wallo",
+      "note": "прозвішча; род па здагадцы"
+    },
+    "Modge": {
+      "bel": "Модж",
+      "gender": "м",
+      "de": "Modge"
+    },
+    "Binton": {
+      "bel": "Бінтан",
+      "gender": "м",
+      "de": "Binton"
+    },
+    "Matis": {
+      "bel": "Маціс",
+      "gender": "м",
+      "de": "Matis"
+    },
+    "Dianthe": {
+      "bel": "Дыянта",
+      "gender": "ж",
+      "de": "Dianthe"
+    },
+    "Crenshaw": {
+      "bel": "Крэншоў",
+      "gender": "м",
+      "de": "Crenshaw"
+    },
+    "Aganos": {
+      "bel": "Аганас",
+      "de": "Aganos"
+    },
+    "Onovo": {
+      "bel": "Аново",
+      "de": "Onovo"
     }
   },
   "places": {
