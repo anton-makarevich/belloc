@@ -735,6 +735,72 @@
     "Peter Chang": {
       "bel": "Пітэр Чанг",
       "gender": "м"
+    },
+    "Yumi": {
+      "bel": "Юмі",
+      "gender": "ж",
+      "ru": "Yumi",
+      "de": "Yumi",
+      "note": "пілот; кандыдат хвалі 10"
+    },
+    "Ayasha Hadley": {
+      "bel": "Аіша Хэдлі",
+      "gender": "ж",
+      "note": "кандыдат хвалі 10"
+    },
+    "Hadley": {
+      "bel": "Хэдлі",
+      "gender": "ж",
+      "note": "прозвішча асобна"
+    },
+    "Tetsuhara": {
+      "bel": "Тэцухара",
+      "gender": "м",
+      "note": "звяртаецца як «чу-і Тэцухара»"
+    },
+    "Jawad": {
+      "bel": "Джавад",
+      "gender": "м",
+      "note": "кандыдат хвалі 10"
+    },
+    "Rhee": {
+      "bel": "Ры",
+      "note": "род невядомы"
+    },
+    "Chestine": {
+      "bel": "Чэсцін",
+      "gender": "м",
+      "note": "кандыдат хвалі 10"
+    },
+    "Gurung": {
+      "bel": "Гурунг",
+      "gender": "м",
+      "note": "лорд Гурунг"
+    },
+    "Nephrite": {
+      "bel": "Нефрыт",
+      "gender": "м",
+      "note": "пазыўны/імя асобы"
+    },
+    "Victor Joss": {
+      "bel": "Віктар Джос",
+      "gender": "м",
+      "note": "генерал, маркграф тэатра Уаят"
+    },
+    "Bogdan Tubbs": {
+      "bel": "Багдан Табс",
+      "gender": "м",
+      "note": "кандыдат хвалі 10"
+    },
+    "Dominik Whistler Zhao": {
+      "bel": "Дамінік Уістлер Жао",
+      "gender": "м",
+      "note": "кандыдат хвалі 10"
+    },
+    "Orchid Thresher Zhao": {
+      "bel": "Архідэя Трэшэр Жао",
+      "gender": "ж",
+      "note": "кандыдат хвалі 10"
     }
   },
   "places": {
@@ -5277,6 +5343,55 @@
     "Korvin Doctrine": {
       "bel": "Дактрына Корвіна",
       "gender": "ж"
+    },
+    "Subcommander": {
+      "bel": "намеснік камандзіра",
+      "gender": "м",
+      "note": "unknown context"
+    },
+    "chu-i": {
+      "bel": "чу-і",
+      "gender": "м",
+      "note": "ранг; лацінкай у крыніцы"
+    },
+    "Tech Sample": {
+      "bel": "тэхнічны ўзор",
+      "gender": "м",
+      "note": "місійны аб'ект"
+    },
+    "Evac Zone": {
+      "bel": "зона эвакуацыі",
+      "gender": "ж",
+      "note": "устойліва ва ўсім корпусе"
+    },
+    "Reinforcement Wave": {
+      "bel": "хваля падмацавання",
+      "gender": "ж",
+      "note": "місійная падзея"
+    },
+    "Checkpoint": {
+      "bel": "кантрольная кропка",
+      "gender": "ж",
+      "note": "устойліва ва ўсім корпусе"
+    },
+    "margrave": {
+      "bel": "маркграф",
+      "gender": "м",
+      "note": "тытул"
+    },
+    "Extravagant": {
+      "bel": "Марнатраўства",
+      "gender": "н",
+      "ru": "Богато",
+      "de": "Extravagant",
+      "note": "рыса/ўзровень выдаткаў"
+    },
+    "Disgruntled": {
+      "bel": "Незадаволенасць",
+      "gender": "ж",
+      "ru": "Недовольство",
+      "de": "Verärgert",
+      "note": "рыса/стан"
     }
   }
 }
