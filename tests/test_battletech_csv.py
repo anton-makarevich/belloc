@@ -34,6 +34,7 @@ ROWS = [
     ("ru only row", "Толькі руская"),
     ("no source at all", "Зусім без крыніцы"),
     ("nothing here", ""),
+    ("say it", "Скажы \"так\""),
 ]
 DE = {
     "start the engine": "Motor starten",
@@ -176,18 +177,22 @@ class BattleTechTest(unittest.TestCase):
         self.set_bel("start the engine", "Завесці мотор")
         self.set_bel("text^ with comma", "Тэкст, з коскай")
         self.set_bel("only german", "Толькі нямецкая")
+        self.set_bel("say it", "Скажы \"так\"")
         self.patch()
         with open(self.out_csv(), "rb") as f:
             raw = f.read()
         self.assertTrue(raw.startswith(b"KEY,ru-RU\n"))
         self.assertIn("Тэкст\x1f з коскай".encode("utf-8"), raw)      # коска → U+001F
         self.assertIn("Толькі нямецкая".encode("utf-8"), raw)
+        self.assertIn(b'\xd0\xa1\xd0\xba\xd0\xb0\xd0\xb6\xd1\x8b ""'
+                      b'\xd1\x82\xd0\xb0\xd0\xba""', raw)             # двукоссі → ""
         self.assertTrue(raw.endswith(b"\n"))
         header, rows, bad = table.read_rows(self.out_csv())
         self.assertEqual(header, "KEY,ru-RU")
         self.assertEqual([k for _, k, _ in rows], [k for k, _ in ROWS])
         self.assertEqual(rows[0][2], "")                              # пусты радок на месцы
         self.assertEqual(rows[3][2], "Тэкст, з коскай")
+        self.assertEqual(rows[-1][2], "Скажы \"\"так\"\"")            # як у файле гульні
         self.assertEqual(bad, 0)
 
     def test_stale_german_source(self):
