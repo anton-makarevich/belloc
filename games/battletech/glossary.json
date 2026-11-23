@@ -614,7 +614,7 @@
       "note": "магістрыса; хваля 6 (03)"
     },
     "Paula Trevaline": {
-      "bel": "Паула Трэвалін",
+      "bel": "Паўла Трэвалін",
       "gender": "ж",
       "note": "Лэдзі Смерць; хваля 6 (03)"
     },
@@ -893,6 +893,36 @@
       "gender": "ж",
       "de": "Janis Song",
       "note": "падпалкоўніца CCAF; хваля 15"
+    },
+    "Jeremy McLain": {
+      "bel": "Джэрэмі Маклэйн",
+      "de": "Jeremy McLain",
+      "note": "генерал-маёр САЗЛ, 19-я армія; хваля 17"
+    },
+    "Evren Yavuz": {
+      "bel": "Эўрэн Явуз",
+      "de": "Evren Yavuz",
+      "note": "сё-са, камандзір атрада DEST; хваля 17"
+    },
+    "Atepa Sweeney": {
+      "bel": "Атэпа Свіні",
+      "de": "Atepa Sweeney",
+      "note": "мянушка Аішы Хэдлі; хваля 17"
+    },
+    "Alistair Dobrescu": {
+      "bel": "Алістэр Добрэску",
+      "de": "Alistair Dobrescu",
+      "note": "капітан-генерал Ліранскай Садружнасці; хваля 17"
+    },
+    "Dobrescu": {
+      "bel": "Добрэску",
+      "de": "Dobrescu",
+      "note": "прозвішча; гл. Alistair Dobrescu; хваля 17"
+    },
+    "Sweeney": {
+      "bel": "Свіні",
+      "de": "Sweeney",
+      "note": "прозвішча; мянушка Аішы Хэдлі; хваля 17"
     }
   },
   "places": {
@@ -2403,6 +2433,31 @@
       "bel": "тэатр Кавана",
       "de": "Cavanaugh Theater",
       "note": "адміністрацыйная акруга; у корпусе — «маркграф тэатра Кавана»; хваля 15"
+    },
+    "New Rennes": {
+      "bel": "Нью-Рэн",
+      "de": "New Rennes",
+      "note": "планета; хваля 17"
+    },
+    "Lompoc": {
+      "bel": "Ломпак",
+      "de": "Lompoc",
+      "note": "планета; хваля 17"
+    },
+    "Pomme De Terre": {
+      "bel": "Пом-дэ-Тэр",
+      "de": "Pomme De Terre",
+      "note": "аграрны свет; хваля 17"
+    },
+    "New Macao": {
+      "bel": "Нью-Макаа",
+      "de": "New Macao",
+      "note": "планета; хваля 17"
+    },
+    "Dar-es-Salaam": {
+      "bel": "Дар-эс-Салам",
+      "de": "Dar-es-Salaam",
+      "note": "планета; хваля 17"
     }
   },
   "factions": {
@@ -2748,9 +2803,8 @@
     },
     "Canopian": {
       "bel": "канопскі",
-      "note": "дэманім ад Magistracy of Canopus",
-      "ru": "Магистрат Канопуса",
-      "de": "Canopus"
+      "note": "дэманім ад Magistracy of Canopus; не блытаць з назвай Канопус",
+      "de": "canopisch"
     },
     "Capellan": {
       "bel": "капеланскі",
@@ -3328,6 +3382,11 @@
       "bel": "King Crab",
       "de": "King Crab",
       "note": "мех; лацінкай; не скланяецца; хваля 16"
+    },
+    "Bull Shark": {
+      "bel": "Bull Shark",
+      "de": "Bull Shark",
+      "note": "мех; лацінкай; не скланяецца; хваля 17"
     }
   },
   "vehicles": {
@@ -5541,6 +5600,16 @@
       "bel": "Франкенмех",
       "de": "FrankenMech",
       "note": "сабраны з разнастайных частак мех; хваля 16"
+    },
+    "Kommandant-General": {
+      "bel": "камандант-генерал",
+      "de": "Kommandant-General",
+      "note": "чын Ліранскай Садружнасці (так і ў англійскім тэксце); не блытаць з Captain-General → капітан-генерал (кіраўнік Лігі Свабодных Светаў)"
+    },
+    "Hauptmann-General": {
+      "bel": "гаўптман-генерал",
+      "de": "Hauptmann-General",
+      "note": "чын Ліранскай Садружнасці; у англійскім тэксце — Hauptmann-General; не «капітан-генерал» — гэта тытул кіраўніка Лігі Свабодных Светаў (Captain-General); хваля 17"
     }
   }
 }
