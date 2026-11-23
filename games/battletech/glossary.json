@@ -3154,6 +3154,11 @@
       "bel": "канопцы",
       "de": "Canopier",
       "note": "дэманім-назоўнік ад Magistracy of Canopus; прыметнік — Canopian → канопскі; хваля 15"
+    },
+    "Oberon Confederation": {
+      "bel": "Канфедэрацыя Оберон",
+      "de": "Oberon-Konföderation",
+      "note": "дзяржава Пераферыі; хваля 16"
     }
   },
   "mechs": {
@@ -3313,6 +3318,16 @@
       "bel": "Yojimbo",
       "de": "Yojimbo",
       "note": "мех; лацінкай; не скланяецца; хваля 15"
+    },
+    "Hatchetman": {
+      "bel": "Hatchetman",
+      "de": "Hatchetman",
+      "note": "мех; лацінкай; не скланяецца; хваля 16"
+    },
+    "King Crab": {
+      "bel": "King Crab",
+      "de": "King Crab",
+      "note": "мех; лацінкай; не скланяецца; хваля 16"
     }
   },
   "vehicles": {
@@ -5521,6 +5536,11 @@
       "bel": "тай-і",
       "de": "Tai-i",
       "note": "ранг; у сярэдзіне сказа малымі; хваля 15"
+    },
+    "FrankenMech": {
+      "bel": "Франкенмех",
+      "de": "FrankenMech",
+      "note": "сабраны з разнастайных частак мех; хваля 16"
     }
   }
 }
