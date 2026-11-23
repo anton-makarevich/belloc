@@ -1,7 +1,7 @@
 {
  "name": "BATTLETECH",
  "engine": "battletech-csv",
- "_about": "Unity 2018.4.2f1 (Mono), уласны пласт лакалізацыі HBS: тэкст — CSV у StreamingAssets/data/localization/strings_<культура>.csv. Беларуская — на месцы рускай (ru-RU). Крыніца па радку: англійская, дзе знойдзеная (source_lang), інакш нямецкая (fallback_lang); руская (hint_lang) — толькі для спрэчных выпадкаў. Ключ у CSV — гэта англійскі радок у нармалізаваным выглядзе, таму ў рэпазіторыі ключ — хэш. Ацэнка і доследы — RESEARCH.md.",
+ "_about": "Unity 2018.4.2f1 (Mono), уласны пласт лакалізацыі HBS: тэкст — CSV у StreamingAssets/data/localization/strings_<культура>.csv. Беларуская — на месцы рускай (ru-RU). Субтытры відэа — StreamingAssets/Video/Subtitles/<відэа>-Russian.srt (тая ж руская культура); пераклад захоўваецца ў рэпазіторыі ў subtitles.csv (file, idx, bel, note), а patch збірае .srt з таймінгаў гульні, са сваімі .orig/.bel. Крыніца па радку: англійская, дзе знойдзеная (source_lang), інакш нямецкая (fallback_lang); руская (hint_lang) — толькі для спрэчных выпадкаў. Ключ у CSV — гэта англійскі радок у нармалізаваным выглядзе, таму ў рэпазіторыі ключ — хэш. Ацэнка і доследы — RESEARCH.md.",
  "steam_appid": 637090,
  "source_lang": "en",
  "fallback_lang": "de",
@@ -17,6 +17,8 @@
   "target": "ru",
   "other_langs": ["de", "fr"],
   "subtitles": "BattleTech_Data/StreamingAssets/Video/Subtitles",
+  "subtitle_table": "subtitles.csv",
+  "subtitle_lang": "Russian",
   "font_assets": ["resources.assets", "sharedassets0.assets"]
  }
 }

@@ -6,6 +6,14 @@
 чапаюцца. Ключ — англійскі радок пасля `_NormalizeString` (norm.py), таму ў
 рэпазіторыі ключ — хэш `sha256(normalize(key))[:16]`.
 
+Субтытры відэа — `<subtitles>/<відэа>-<Strings.GetCultureNameEnglish(культура)>.srt`
+(BinkMediaPlayer); для `ru-RU` гэта `<відэа>-Russian.srt`. Пераклад жыве ў
+рэпазіторыі: `subtitle_table` (`subtitles.csv`, слупкі `file, idx, bel, note`),
+а `subtitle_lang` — англійская назва культуры (`Russian`). Payload нясе толькі
+наш тэкст па рэпліках; нумары і час бяруцца з файла гульні, таму абнаўленне
+таймінгаў не ламае пераклад, пакуль колькасць рэплік тая самая. Запіс — з
+сваімі `.orig`/`.bel` (subtitles.py).
+
 Секцыя "battletech_csv" у game.json:
   data_dir      "BattleTech_Data"          — дзе .assets і Managed
   csv_dir       "BattleTech_Data/StreamingAssets/data/localization"
@@ -13,6 +21,8 @@
   target        "ru"                       — мова гэтага файла
   other_langs   ["de", "fr"]               — што яшчэ выцягваць (de-DE, fr-FR)
   subtitles     "…/StreamingAssets/Video/Subtitles" — англійскія .srt
+  subtitle_table "subtitles.csv"           — наш пераклад субтытраў у games/<гульня>/
+  subtitle_lang "Russian"                  — англійская назва культуры для імя .srt
   scan          {"json", "srt", "dll", "assets", "levels": bool} — што сканаваць
                                                (па змаўчанні ўсё; выключаецца
                                                праз local.json, каб паўтарыць
@@ -37,7 +47,7 @@
   meta.json      версія гульні, buildid Steam, колькасці, час
   report.md      тыя ж колькасці тэкстам
 
-apply піша толькі наш `bel` ў калонку `locale`: коскі — `U+001F`, сапраўдныя
+apply піша наш `bel` ў калонку `locale` (і субтытры — вышэй): коскі — `U+001F`, сапраўдныя
 пераносы — `\\n`, парадак і колькасць радкоў захоўваюцца. Радок, чый арыгінал у
 гульні змяніўся пасля перакладу (src_hash у payload не супадае ні з адной моўнай
 табліцай), застаецца як у гульні — патрэбны `extract` і `sync`.

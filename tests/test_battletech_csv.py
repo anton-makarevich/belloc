@@ -3,6 +3,7 @@
 
     python -X utf8 -m unittest discover -s tests
 """
+import csv
 import io
 import json
 import os
@@ -16,11 +17,12 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "core"))
 
 from belloc import config, tables  # noqa: E402
 from belloc.engines import base, battletech_csv  # noqa: E402
-from belloc.engines.battletech_csv import norm, table  # noqa: E402
+from belloc.engines.battletech_csv import norm, table, subtitles  # noqa: E402
 
 DATA = "BattleTech_Data"
 LOC = "StreamingAssets/data/localization"
 CSV_DIR = f"{DATA}/{LOC}"
+SUB_DIR = f"{DATA}/StreamingAssets/Video/Subtitles"
 
 ROWS = [
     ("", ""),                                       # пусты радок у пачатку
@@ -56,6 +58,22 @@ def write_json(path, data):
         json.dump(data, f, ensure_ascii=False)
 
 
+def write_srt(path, cues):
+    """Cues: [(нумар, час, тэкст)] → UTF-8 BOM + CRLF, як у файлах гульні."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    blocks = [f"{n}\r\n{t}\r\n{x.replace(chr(10), chr(13) + chr(10))}" for n, t, x in cues]
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write("\ufeff" + "\r\n\r\n".join(blocks) + "\r\n\r\n")
+
+
+def write_subtitles(path, rows):
+    """Табліца перакладу субтытраў: file, idx, bel, note."""
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f, lineterminator="\n")
+        w.writerow(["file", "idx", "bel", "note"])
+        w.writerows(rows)
+
+
 class BattleTechTest(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.mkdtemp()
@@ -79,11 +97,18 @@ class BattleTechTest(unittest.TestCase):
                         "data_dir": DATA, "csv_dir": CSV_DIR, "locale": "ru-RU",
                         "target": "ru", "other_langs": ["de", "fr"],
                         "subtitles": f"{DATA}/StreamingAssets/Video/Subtitles",
+                        "subtitle_table": "subtitles.csv", "subtitle_lang": "Russian",
                         "scan": {"assets": False, "levels": False}}})
         os.environ["BELLOC_LOCAL"] = os.path.join(self.tmp, "local")
         os.makedirs(os.path.join(self.tmp, "local", "demo"))
         write_json(os.path.join(self.tmp, "local", "demo", "local.json"),
                    {"game_dir": self.game})
+        write_srt(os.path.join(self.game, SUB_DIR, "demo-Russian.srt"),
+                  [("1", "00:00:01,000 --> 00:00:02,000", "Оригинал"),
+                   ("2", "00:00:03,000 --> 00:00:04,000", "Оригинал\nвторая строка")])
+        write_subtitles(os.path.join(game_dir, "subtitles.csv"),
+                        [("demo", "1", "Пераклад", ""),
+                         ("demo", "2", "Пераклад\nдругі радок", "")])
         self.loc = config.load(game_dir)
         with redirect_stdout(io.StringIO()):
             battletech_csv.extract(self.loc)
@@ -188,6 +213,40 @@ class BattleTechTest(unittest.TestCase):
         self.assertIn("крыніца: ru", repo[key]["note"])
         row = next(r for r in tables.load_all(self.loc)["strings"] if r["key"] == key)
         self.assertEqual(row["src_lang"], "ru")
+
+    def test_subtitles(self):
+        p = base.build_payload(self.loc, battletech_csv)
+        self.assertEqual(p["subtitles"]["demo"],
+                         ["Пераклад", "Пераклад\nдругі радок"])
+        # --out: наш .srt побач з табліцай, гульня не чапаецца
+        self.patch()
+        out = os.path.join(self.tmp, "out", "demo-Russian.srt")
+        self.assertTrue(os.path.exists(out))
+        out_cues = subtitles.parse(out)
+        self.assertEqual(out_cues[0][2], ["Пераклад"])
+        self.assertEqual(out_cues[1][2], ["Пераклад", "другі радок"])
+        self.assertFalse(os.path.exists(os.path.join(self.game, SUB_DIR,
+                                                     "demo-Russian.srt.orig")))
+        # у гульню: .orig/.bel, нумары і час з файла гульні, тэкст наш
+        with redirect_stdout(io.StringIO()) as log:
+            base.patch(self.loc, battletech_csv)
+        self.assertIn("субтытры: запісана 1 файлаў", log.getvalue())
+        self.assertTrue(battletech_csv.installed(self.loc.game_dir, p))
+        game_srt = os.path.join(self.game, SUB_DIR, "demo-Russian.srt")
+        self.assertTrue(os.path.exists(game_srt + ".orig"))
+        self.assertTrue(os.path.exists(game_srt + ".bel"))
+        cues = subtitles.parse(game_srt)
+        self.assertEqual(cues[0][1], "00:00:01,000 --> 00:00:02,000")
+        self.assertEqual(cues[0][2], ["Пераклад"])
+        self.assertEqual(cues[1][2], ["Пераклад", "другі радок"])
+        # restore: зноў рускі тэкст, .orig/.bel прыбраныя
+        with redirect_stdout(io.StringIO()):
+            base.restore(self.loc, battletech_csv)
+        cues = subtitles.parse(game_srt)
+        self.assertEqual(cues[0][2], ["Оригинал"])
+        self.assertEqual(cues[1][2], ["Оригинал", "вторая строка"])
+        self.assertFalse(os.path.exists(game_srt + ".orig"))
+        self.assertFalse(battletech_csv.installed(self.loc.game_dir, p))
 
     def test_restore(self):
         self.set_bel("quit", "Выхад")

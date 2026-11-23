@@ -1,4 +1,5 @@
-"""payload, apply, restore, installed: наш пераклад → strings_<культура>.csv."""
+"""payload, apply, restore, installed: наш пераклад → strings_<культура>.csv
+і субтытры `<відэа>-Russian.srt` (гл. subtitles.py)."""
 from __future__ import annotations
 
 import os
@@ -6,6 +7,7 @@ import os
 from ... import tables as ttables
 from ...config import Loc
 from ...install.target import Target
+from . import subtitles as subs
 from .common import SECTION, TABLE, csv_path, scanned_langs, target_path
 from .norm import key_hash, normalize
 from .table import escape, read_rows, write_rows
@@ -27,13 +29,17 @@ def payload(loc: Loc) -> dict:
         lang = r.get("src_lang") or loc.source_lang
         if lang != loc.source_lang:
             langs[r["key"]] = lang
-    p = {"battletech_csv": loc.section(SECTION), "source_lang": loc.source_lang}
+    s = loc.section(SECTION)
+    p = {"battletech_csv": s, "source_lang": loc.source_lang}
     if loc.fallback_lang:
         p["fallback_lang"] = loc.fallback_lang
     if hashes:
         p["src_hash"] = {TABLE: hashes}
     if langs:
         p["src_lang"] = {TABLE: langs}
+    sub = subs.payload(loc, s)
+    if sub:
+        p["subtitles"] = sub
     return p
 
 
@@ -108,14 +114,18 @@ def apply(game_dir: str, payload: dict, out: str | None = None, log=print) -> di
         log(f"  арыгінал змяніўся ў {stale} — `extract` і `sync`, радкі пакінутыя як у гульні")
     if unknown:
         log(f"  не праверыць крыніцу ў {unknown} — у гульні няма адпаведнай табліцы")
-    return {"strings": done, "stale": stale, "unknown": unknown}
+    res = {"strings": done, "stale": stale, "unknown": unknown}
+    res.update(subs.apply(game_dir, payload, out, log))
+    return res
 
 
 def restore(game_dir: str, payload: dict, log=print):
     path = target_path(game_dir, payload["battletech_csv"])
     if os.path.exists(path) or os.path.exists(path + ".orig"):
         log(f"  {os.path.basename(path)}: {Target(path).restore()}")
+    subs.restore(game_dir, payload, log)
 
 
 def installed(game_dir: str, payload: dict) -> bool:
-    return Target(target_path(game_dir, payload["battletech_csv"])).installed()
+    path = target_path(game_dir, payload["battletech_csv"])
+    return Target(path).installed() and subs.installed(game_dir, payload)
