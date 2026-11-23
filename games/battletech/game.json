@@ -7,7 +7,7 @@
  "fallback_lang": "de",
  "last_resort": "ru",
  "hint_lang": "ru",
- "credits": "Нейрапераклад: мадэль Claude (Anthropic). Кіраўнік праекта: Віталь Аляхновіч.",
+ "credits": "Нейрапераклад: мадэль DeepSeek 4.1. Кіраўнік праекта: Антон Макарэвіч",
  "battletech_csv": {
   "_about": "Палі рухавіка (дакументацыя — у docstring core/belloc/engines/battletech_csv/__init__.py). Шляхі — адносна папкі гульні. Маніфест правіць не трэба: для CSV у ім ёсць запіс strings_ru-RU без хэша і бандла. extract/apply напісаныя; праўка шрыфтоў TMP 1.x — наступны крок (пакуль лакальны прататып).",
   "data_dir": "BattleTech_Data",
