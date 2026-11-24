@@ -23,6 +23,11 @@
   subtitles     "…/StreamingAssets/Video/Subtitles" — англійскія .srt
   subtitle_table "subtitles.csv"           — наш пераклад субтытраў у games/<гульня>/
   subtitle_lang "Russian"                  — англійская назва культуры для імя .srt
+  font_assets   ["resources.assets", …]    — дзе кірылічныя TMP 1.x шрыфты
+  font_resS     {"resources.assets": "resources.assets.resS", …}
+                                           — атласы 512×512 Alpha8 (слайсы ў .resS)
+  fontmap       "fontmap.json"             — адносна games/<гульня>/: пары
+                                           FontLocTable (UnitedSans* → Kairos RU)
   scan          {"json", "srt", "dll", "assets", "levels": bool} — што сканаваць
                                                (па змаўчанні ўсё; выключаецца
                                                праз local.json, каб паўтарыць
@@ -52,14 +57,20 @@ apply піша наш `bel` ў калонку `locale` (і субтытры — 
 гульні змяніўся пасля перакладу (src_hash у payload не супадае ні з адной моўнай
 табліцай), застаецца як у гульні — патрэбны `extract` і `sync`.
 
-Шрыфты (TMP 1.x, `І і Ў ў` у дзевяці кірылічных шрыфтах) — наступны крок
-рухавіка; у гэтай версіі іх няма.
+Шрыфты (TMP 1.x, `І і Ў ў` у дзевяці кірылічных шрыфтах) — fonts.py: свой
+сыры кодэк (у MonoBehaviour няма тыпавога дрэва), складанне Ў/ў з у/У і брэвіса
+й/Й, запіс слайсаў 512×512 Alpha8 у `.resS`; там жа дапаўненне
+`RussianFontLocTable` (пункты меню UnitedSans* → Kairos RU). Усё — на месцы, з
+`.orig`/`.bel` праз install/target.py.
 """
+from __future__ import annotations
+
+from ..unity import PYINSTALLER as _UNITY
 from .common import NAME, SECTION  # noqa: F401
 from .extract import extract  # noqa: F401
-from .apply import payload, check_path, apply, restore, installed  # noqa: F401
+from .apply import payload, check_path, apply, restore, installed, fonts_report  # noqa: F401
 
-# усталёўшчык (release.py): рухавік на стандартнай бібліятэцы
-PYINSTALLER = ["--exclude-module", "UnityPy", "--exclude-module", "cv2",
-               "--exclude-module", "spylls", "--exclude-module", "fontTools",
-               "--exclude-module", "PIL", "--exclude-module", "numpy"]
+# усталёўшчык (release.py): шрыфты чытаюцца праз UnityPy/PIL/numpy — без іх exe
+# не запіша атласы; cv2/spylls/fontTools не патрэбныя
+PYINSTALLER = [*_UNITY, "--exclude-module", "cv2", "--exclude-module", "spylls",
+               "--exclude-module", "fontTools"]

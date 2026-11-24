@@ -9,7 +9,7 @@
  "hint_lang": "ru",
  "credits": "Нейрапераклад: мадэль DeepSeek 4.1. Кіраўнік праекта: Антон Макарэвіч",
  "battletech_csv": {
-  "_about": "Палі рухавіка (дакументацыя — у docstring core/belloc/engines/battletech_csv/__init__.py). Шляхі — адносна папкі гульні. Маніфест правіць не трэба: для CSV у ім ёсць запіс strings_ru-RU без хэша і бандла. extract/apply напісаныя; праўка шрыфтоў TMP 1.x — наступны крок (пакуль лакальны прататып).",
+  "_about": "Палі рухавіка (дакументацыя — у docstring core/belloc/engines/battletech_csv/__init__.py). Шляхі — адносна папкі гульні. Маніфест правіць не трэба: для CSV у ім ёсць запіс strings_ru-RU без хэша і бандла. extract/apply: CSV, субтытры і TMP 1.x шрыфты (І і Ў ў, FontLocTable).",
   "data_dir": "BattleTech_Data",
   "csv_dir": "BattleTech_Data/StreamingAssets/data/localization",
   "manifest": "BattleTech_Data/StreamingAssets/data/VersionManifest.csv",
@@ -19,6 +19,11 @@
   "subtitles": "BattleTech_Data/StreamingAssets/Video/Subtitles",
   "subtitle_table": "subtitles.csv",
   "subtitle_lang": "Russian",
-  "font_assets": ["resources.assets", "sharedassets0.assets"]
+  "font_assets": ["resources.assets", "sharedassets0.assets"],
+  "font_resS": {
+   "resources.assets": "resources.assets.resS",
+   "sharedassets0.assets": "sharedassets0.assets.resS"
+  },
+  "fontmap": "fontmap.json"
  }
 }

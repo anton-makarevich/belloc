@@ -15,8 +15,9 @@
 `ctx:` у працоўных файлах мае `at=/use=/q=/len=`, key-like радкі разбітыя або
 пазначаныя `?: re-space`. Спайк у гульні прайшоў: гульня прымае зменены
 `strings_ru-RU.csv`, а шрыфты TMP 1.x папраўленыя (усе 9 кірылічных) і
-`І і Ў ў` бачныя ў гульні (RESEARCH.md, «Спайк у гульні»). Праўкі шрыфтоў у
-рухавіку яшчэ няма. Рэліза і `CHANGELOG.md` пакуль няма.
+`І і Ў ў` бачныя ў гульні (RESEARCH.md, «Спайк у гульні»). З 2026-11-24 праўка
+шрыфтоў і `RussianFontLocTable` — у рухавіку (`belloc patch battletech`).
+Рэліза і `CHANGELOG.md` пакуль няма.
 
 ## Гульня
 
@@ -29,15 +30,15 @@
 | крыніца | англійская дзе знойдзеная (74 %), нямецкая дзе не (26–40 %), руская — толькі спрэчныя выпадкі (RESEARCH.md, «Стратэгіі крыніцы») |
 | мовы ў меню | зашытыя ў код: en, de, zh, es, fr, it, ru, pt-PT, pt-BR — новай мовы дадаць нельга, беларуская займае месца рускай |
 | шрыфты | TextMeshPro 1.x, атласы 512×512 (SDF) у `resources.assets.resS`; `І і Ў ў` праўленыя ва ўсіх 9 кірылічных шрыфтах і правераныя ў гульні |
-| рухавік у belloc | `battletech-csv` (extract/apply: CSV + 12 субтытраў; праўка шрыфтоў — яшчэ ў лакальным прататыпе) |
+| рухавік у belloc | `battletech-csv` (extract/apply: CSV + 12 субтытраў + TMP 1.x шрыфты і `RussianFontLocTable`) |
 
 **Шрыфты галоўнага меню.** Подпісы `CAMPAIGN`, `CAREER`, `SKIRMISH`, `CREDITS`
 у галоўным меню малююцца `UnitedSansReg-Medium` — гэты шрыфт ёсць у штатнай
 `RussianFontLocTable` і пераключаецца на Kairos RU. Асобныя экраны (напрыклад,
 тытры credits) выкарыстоўваюць `UnitedSansExt-*` без кірыліцы, якіх у штатнай
 табліцы няма. Пары «UnitedSansExt-* → Kairos RU» захоўваюцца ў
-[`fontmap.json`](fontmap.json); у гульню іх ставіць лакальны
-`local/battletech/tools/fontmap_patch.py` (пакуль не ў `belloc patch`).
+[`fontmap.json`](fontmap.json); `belloc patch` дапісвае іх у
+`RussianFontLocTable` разам са шрыфтамі (`battletech_csv/fonts.py`).
 
 ## Як уладкаваны пераклад
 

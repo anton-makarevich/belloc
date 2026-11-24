@@ -1,5 +1,5 @@
 {
- "_about": "Дадатковыя пары для RussianFontLocTable у BATTLETECH 1.9.1. Галоўнае меню (CAMPAIGN, CAREER, CREDITS) і частка інтэрфейсу выкарыстоўваюць шрыфты UnitedSans* без кірыліцы, якіх няма ў штатнай табліцы. Пары пераключаюць іх на Kairos RU, дзе ёсць І/і/Ў/ў. Гэта не тэкст гульні: толькі поўныя назвы шрыфтоў; pathID вызначаюцца з resources.assets пры патчы (local/battletech/tools/fontmap_patch.py).",
+ "_about": "Дадатковыя пары для RussianFontLocTable у BATTLETECH 1.9.1. Галоўнае меню (CAMPAIGN, CAREER, CREDITS) і частка інтэрфейсу выкарыстоўваюць шрыфты UnitedSans* без кірыліцы, якіх няма ў штатнай табліцы. Пары пераключаюць іх на Kairos RU, дзе ёсць І/і/Ў/ў. Гэта не тэкст гульні: толькі поўныя назвы шрыфтоў; pathID вызначаюцца з resources.assets пры патчы (belloc patch → battletech_csv/fonts.py; лакальны прататып — local/battletech/tools/fontmap_patch.py).",
  "table": "RussianFontLocTable",
  "culture": "ru-RU",
  "pairs": [
